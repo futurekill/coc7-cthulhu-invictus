@@ -1,0 +1,44 @@
+{
+  "_id": "a7pUnfE3QFWbkg8s",
+  "name": "Repair / Devise",
+  "type": "skill",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Repair mechanical and electrical devices, and devise solutions to problems.</p>",
+      "keeper": ""
+    },
+    "base": 20,
+    "value": null,
+    "skillName": "Repair / Devise",
+    "specialization": "",
+    "properties": {
+      "special": false,
+      "rpilobit": false,
+      "combat": false,
+      "push": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-new",
+      "replacesCoC7Skill": "Electrical Repair + Mechanical Repair"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "RWUXQR1iOg5OPctY",
+  "name": "Ship, Small Ocean",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Small sailing ship sturdy enough for open ocean</p>",
+      "keeper": ""
+    },
+    "cost": {
+      "value": 8000,
+      "unit": "sestertii"
+    },
+    "properties": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7700,
+  "flags": {
+    "coc7-cthulhu-invictus": {}
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

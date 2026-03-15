@@ -1,0 +1,108 @@
+{
+  "_id": "zAUguBuQqx9jR7Ee",
+  "name": "The Furies",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>unaffected by liquids, which vaporize before reaching them. A fury standing in the rain or immersed in water appears to be a cloud or bubble of steam </p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 65
+      },
+      "con": {
+        "value": 70
+      },
+      "siz": {
+        "value": 50
+      },
+      "dex": {
+        "value": 65
+      },
+      "int": {
+        "value": 65
+      },
+      "pow": {
+        "value": 50
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "mp": {
+        "value": 10,
+        "max": 10
+      },
+      "mov": {
+        "value": "9"
+      },
+      "db": {
+        "value": "+0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "1/1D8"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None, but attacks from non\u0002magical weapons do half damage.",
+      "attacks": [
+        "Fighting 45% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": [
+        "Climb 65%",
+        "Jump 60%",
+        "Track 90%."
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "The Furies",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

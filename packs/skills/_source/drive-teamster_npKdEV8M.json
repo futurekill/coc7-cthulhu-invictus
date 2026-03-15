@@ -1,0 +1,44 @@
+{
+  "_id": "ZPawmLAjL75hMGsF",
+  "name": "Drive / Teamster",
+  "type": "skill",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Operate vehicles and teams of animals for transportation purposes.</p>",
+      "keeper": ""
+    },
+    "base": 20,
+    "value": null,
+    "skillName": "Drive / Teamster",
+    "specialization": "",
+    "properties": {
+      "special": false,
+      "rpilobit": false,
+      "combat": false,
+      "push": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-new",
+      "replacesCoC7Skill": "Drive Auto"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

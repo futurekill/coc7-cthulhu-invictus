@@ -1,0 +1,45 @@
+{
+  "_id": "y2Yi6PFzf5ku5gqe",
+  "name": "Cavalry",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Elite mounted warrior armed with spear, sword, or bow; likely from province with horsemanship tradition; serves as scout, courier, or assault force.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + DEX x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Legionaries, centurions, auxiliaries, horse breeders and trainers"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "Light Horseman variant rides agile mount, wears no armor, uses bow and scimitar. Heavy Horseman variant rides powerful mount, wears heavy armor, uses long spear and sword."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

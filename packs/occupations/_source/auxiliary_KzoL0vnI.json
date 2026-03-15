@@ -1,0 +1,45 @@
+{
+  "_id": "i2UySntkvQXu4xDL",
+  "name": "Auxiliary",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Soldier serving alongside legions but with specialized skills like slinging or mounted archery, often stationed in native province.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + STR x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Legionaries, centurions, public officials, local suppliers to the military"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

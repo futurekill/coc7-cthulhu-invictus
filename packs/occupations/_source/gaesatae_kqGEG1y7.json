@@ -1,0 +1,45 @@
+{
+  "_id": "Mbo7uEWupdzIEBfy",
+  "name": "Gaesatae",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Gaulish spearman master of spear warfare (boar spear, long war spear, throwing spear) with shield or without; perfect warrior.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + (STR x 2 or DEX x 2)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Legionaries/centurions, auxiliaries, military contractors"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

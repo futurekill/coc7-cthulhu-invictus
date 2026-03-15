@@ -1,0 +1,104 @@
+{
+  "_id": "Zwez3VcBbD6e3uKB",
+  "name": "Pegasi",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>The most favored prey of pegasi is human, as they are plentiful and easy to catch (because most animals flee as soon as a shadow passes over them, whi</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 150
+      },
+      "con": {
+        "value": 80
+      },
+      "siz": {
+        "value": 175
+      },
+      "dex": {
+        "value": 65
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "12"
+      },
+      "db": {
+        "value": "+3D6"
+      },
+      "build": {
+        "value": 3
+      },
+      "san": {
+        "loss": "0/1D3"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "6 points of muscular hide.",
+      "attacks": [
+        "See Full Entry 50% \u2014 "
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Pegasi",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2100,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

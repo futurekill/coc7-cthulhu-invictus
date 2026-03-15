@@ -1,0 +1,36 @@
+{
+  "_id": "kMM9VThX0k9tgLb7",
+  "name": "Tool, Large",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Any large two-handed tool (shovel, etc.)</p>",
+      "keeper": ""
+    },
+    "cost": {
+      "value": 2,
+      "unit": "sestertii"
+    },
+    "properties": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3100,
+  "flags": {
+    "coc7-cthulhu-invictus": {}
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

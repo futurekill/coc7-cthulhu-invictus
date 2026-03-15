@@ -1,0 +1,36 @@
+{
+  "_id": "mjbcpEN2XeDA4OKm",
+  "name": "Perfume, 1 vial",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Aromatic scent to attract attention or mask odors</p>",
+      "keeper": ""
+    },
+    "cost": {
+      "value": 20,
+      "unit": "sestertii"
+    },
+    "properties": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "flags": {
+    "coc7-cthulhu-invictus": {}
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "wZqvr4MS4rJaH8mf",
+  "name": "Wine, Common, 1 Urna (3.5 gal)",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Common wine for everyday use</p>",
+      "keeper": ""
+    },
+    "cost": {
+      "value": 5,
+      "unit": "sestertii"
+    },
+    "properties": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 3800,
+  "flags": {
+    "coc7-cthulhu-invictus": {}
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

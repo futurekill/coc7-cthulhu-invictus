@@ -1,0 +1,45 @@
+{
+  "_id": "aUlf8z2JH7AgVOYO",
+  "name": "Prefect",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Government official or magistrate tasked with enforcement duties from supervising grain supply to governing province; ensure civilization continues.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 50,
+      "max": 80
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Legionaries/centurions, area officials, prominent merchants, patricians, senators"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

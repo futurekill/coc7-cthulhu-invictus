@@ -1,0 +1,45 @@
+{
+  "_id": "EA13HBYKfq51lxGn",
+  "name": "Magus/Saga",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Protect people from unseen threats and heal what medicine cannot through minor magic, charms, spells, and curses; technically illegal profession.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Scholars, merchants, priesthoods"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": "Recommended to grant 1D3 spells from Folk Magic category and 20% in pre-human language (Atlantean, Hyperborean, Oparian, or Stygian)."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

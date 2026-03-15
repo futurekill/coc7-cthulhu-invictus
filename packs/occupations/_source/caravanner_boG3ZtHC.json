@@ -1,0 +1,45 @@
+{
+  "_id": "56sbYUm8qTNcWaJg",
+  "name": "Caravanner",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Organize and lead caravans transporting goods across empire&#x27;s roads, negotiate prices, manage pack animals, and defend against bandits.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Merchants, craftsmen, farmers, publicans, guides, barbarians"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

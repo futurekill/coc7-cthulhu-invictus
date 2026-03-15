@@ -1,0 +1,45 @@
+{
+  "_id": "J4tvzMDY7SU5dDs5",
+  "name": "Writer",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Write poetry, politics, histories, fiction sold throughout empire; read publicly to generate interest; attract wealthy patrons for support.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 55
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Patrons, patricians, teachers, scholars, magi/sagae"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "+10 Art/Craft (Writing) or Art/Craft (Poetry), +20 EDU, -10 STR, -10 CON"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

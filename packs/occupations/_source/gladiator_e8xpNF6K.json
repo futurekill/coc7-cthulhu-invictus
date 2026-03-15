@@ -1,0 +1,45 @@
+{
+  "_id": "XauS602s0zaxjiGb",
+  "name": "Gladiator",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Killer and hero adored by thousands, facing death on arena sands; may be slave, POW, criminal, or voluntary pursuer of glory and fame.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + (STR x 2 for Scutarii/Heavy or DEX x 2 for Parmularii/Light)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Other gladiators, trainers, promoters, fans of the games (which could be anyone)"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": "Scutarii types include Provocator, Secutor, Murmillo. Parmularii types include Hoplomachus, Thracian, Retiarius."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

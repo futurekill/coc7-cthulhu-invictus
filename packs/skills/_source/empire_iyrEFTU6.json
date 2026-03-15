@@ -1,0 +1,44 @@
+{
+  "_id": "5NJpk14KWAw682A4",
+  "name": "Empire",
+  "type": "skill",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Understanding of Roman imperial politics, history, and structure. Roman citizens know 25%, non-citizens 15%, foreigners 1%.</p>",
+      "keeper": ""
+    },
+    "base": 25,
+    "value": null,
+    "skillName": "Empire",
+    "specialization": "",
+    "properties": {
+      "special": false,
+      "rpilobit": false,
+      "combat": false,
+      "push": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-new",
+      "replacesCoC7Skill": ""
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

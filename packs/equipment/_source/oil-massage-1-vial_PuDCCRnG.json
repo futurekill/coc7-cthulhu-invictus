@@ -1,0 +1,36 @@
+{
+  "_id": "PuDCCRnGEY59YVkQ",
+  "name": "Oil, Massage, 1 vial",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Medicinal oil for sore muscles or wrestling</p>",
+      "keeper": ""
+    },
+    "cost": {
+      "value": 2,
+      "unit": "sestertii"
+    },
+    "properties": {}
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1400,
+  "flags": {
+    "coc7-cthulhu-invictus": {}
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

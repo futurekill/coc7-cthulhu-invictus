@@ -1,0 +1,138 @@
+{{!-- Cthulhu Invictus — Character Sheet Tab Content --}}
+{{!-- Injected into the CoC7 character sheet as an additional "Invictus" tab --}}
+
+<div class="invictus-tab">
+
+  {{!-- ═══ Roman Name ═══ --}}
+  <section class="invictus-section invictus-roman-name">
+    <h3 class="invictus-section-title">{{localize "INVICTUS.RomanName.Title"}}</h3>
+    <div class="invictus-name-fields">
+      <div class="invictus-field">
+        <label>{{localize "INVICTUS.RomanName.Praenomen"}}</label>
+        <input type="text" name="invictus.romanName.praenomen"
+               value="{{invictus.romanName.praenomen}}"
+               placeholder="e.g. Marcus" {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+      <div class="invictus-field">
+        <label>{{localize "INVICTUS.RomanName.Nomen"}}</label>
+        <input type="text" name="invictus.romanName.nomen"
+               value="{{invictus.romanName.nomen}}"
+               placeholder="e.g. Tullius" {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+      <div class="invictus-field">
+        <label>{{localize "INVICTUS.RomanName.Cognomen"}}</label>
+        <input type="text" name="invictus.romanName.cognomen"
+               value="{{invictus.romanName.cognomen}}"
+               placeholder="e.g. Cicero" {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+    </div>
+  </section>
+
+  {{!-- ═══ Status & Wealth ═══ --}}
+  <section class="invictus-section invictus-status">
+    <h3 class="invictus-section-title">{{localize "INVICTUS.Status.Title"}}</h3>
+
+    <div class="invictus-status-row">
+      <div class="invictus-field invictus-status-score">
+        <label>{{localize "INVICTUS.Status.Label"}}</label>
+        <input type="number" name="invictus.status"
+               value="{{invictus.status}}" min="0" max="100" step="1"
+               {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+
+      <div class="invictus-field invictus-social-class">
+        <label>{{localize "INVICTUS.Status.SocialClass"}}</label>
+        <span class="invictus-derived">{{tierLabel}}</span>
+      </div>
+
+      <div class="invictus-field invictus-infamy">
+        <label>{{localize "INVICTUS.Status.Infamy"}}</label>
+        <input type="checkbox" name="invictus.infamy"
+               {{#if invictus.infamy}}checked{{/if}}
+               {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+    </div>
+
+    {{!-- Wealth Summary Table --}}
+    <table class="invictus-wealth-table">
+      <thead>
+        <tr>
+          <th>{{localize "INVICTUS.Wealth.StartingCoin"}}</th>
+          <th>{{localize "INVICTUS.Wealth.DailyExpense"}}</th>
+          <th>{{localize "INVICTUS.Wealth.Assets"}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{invictusFormatCoin wealth.startingCoin currencyUnit}}</td>
+          <td>{{invictusFormatCoin wealth.dailyExpense currencyUnit}}</td>
+          <td>{{invictusFormatCoin wealth.assets currencyUnit}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  {{!-- ═══ Religion / Philosophy ═══ --}}
+  <section class="invictus-section invictus-religion">
+    <h3 class="invictus-section-title">{{localize "INVICTUS.Religion.Title"}}</h3>
+    <div class="invictus-field">
+      <label>{{localize "INVICTUS.Religion.Label"}}</label>
+      <select name="invictus.religion" {{#unless isEditable}}disabled{{/unless}}>
+        <option value="">— {{localize "INVICTUS.Religion.None"}} —</option>
+        {{#each religions}}
+        <option value="{{this.key}}" {{#if this.selected}}selected{{/if}}>
+          {{this.label}}
+        </option>
+        {{/each}}
+      </select>
+    </div>
+  </section>
+
+  {{!-- ═══ Faith & Luck (conditional on optional rule) ═══ --}}
+  {{#if faithEnabled}}
+  <section class="invictus-section invictus-faith">
+    <h3 class="invictus-section-title">{{localize "INVICTUS.Faith.Title"}}</h3>
+    <div class="invictus-faith-row">
+      <div class="invictus-field">
+        <label>{{localize "INVICTUS.Faith.Current"}}</label>
+        <input type="number" name="invictus.faith.current"
+               value="{{invictus.faith.current}}" min="0" step="1"
+               {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+      <div class="invictus-field">
+        <label>{{localize "INVICTUS.Faith.Max"}}</label>
+        <input type="number" name="invictus.faith.max"
+               value="{{invictus.faith.max}}" min="0" step="1"
+               {{#unless isEditable}}disabled{{/unless}} />
+      </div>
+    </div>
+    <p class="invictus-hint">{{localize "INVICTUS.Faith.Hint"}}</p>
+  </section>
+  {{/if}}
+
+  {{!-- ═══ Quick Reference ═══ --}}
+  <section class="invictus-section invictus-reference">
+    <details>
+      <summary class="invictus-section-title">{{localize "INVICTUS.Reference.StatusTable"}}</summary>
+      <table class="invictus-reference-table">
+        <thead>
+          <tr>
+            <th>{{localize "INVICTUS.Reference.Range"}}</th>
+            <th>{{localize "INVICTUS.Reference.Class"}}</th>
+            <th>{{localize "INVICTUS.Wealth.DailyExpense"}}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>0</td><td>{{localize "INVICTUS.Status.Tier.Infamy"}}</td><td>0</td></tr>
+          <tr><td>01–19</td><td>{{localize "INVICTUS.Status.Tier.WorkingPoor"}}</td><td>50 ses.</td></tr>
+          <tr><td>20–39</td><td>{{localize "INVICTUS.Status.Tier.WorkingClass"}}</td><td>100 ses.</td></tr>
+          <tr><td>40–59</td><td>{{localize "INVICTUS.Status.Tier.MiddleClass"}}</td><td>500 ses.</td></tr>
+          <tr><td>60–79</td><td>{{localize "INVICTUS.Status.Tier.UpperMiddle"}}</td><td>1,500 ses.</td></tr>
+          <tr><td>80–99</td><td>{{localize "INVICTUS.Status.Tier.Senatorial"}}</td><td>3,500 ses.</td></tr>
+          <tr><td>100</td><td>{{localize "INVICTUS.Status.Tier.Imperial"}}</td><td>1,000,000 ses.</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </section>
+
+</div>

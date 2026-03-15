@@ -1,0 +1,44 @@
+{
+  "_id": "MeR3pzh84KpLMcNf",
+  "name": "Medium Helmet",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Metal construction</p>",
+      "keeper": ""
+    },
+    "armor": "+1D2",
+    "armorType": "helmet",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 50,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "helmet",
+      "burden": "Light",
+      "roundsToDon": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

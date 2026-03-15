@@ -1,0 +1,76 @@
+{
+  "_id": "UpkDyr7OSJoRu1XX",
+  "name": "Pilum (thrusted)",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Heavy weighted throwing spear that bends</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Spear",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D6",
+    "properties": {
+      "melee": true,
+      "rngd": false,
+      "thrown": true,
+      "impl": false,
+      "rare": false,
+      "ahdb": false,
+      "addb": false
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 45,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 700,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Long",
+      "specialNotes": "Heavy weighted throwing spear that bends",
+      "parry": "Yes (20 HP)"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

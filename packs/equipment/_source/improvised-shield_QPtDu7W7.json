@@ -1,0 +1,44 @@
+{
+  "_id": "QPtDu7W7eaDNKgeI",
+  "name": "Improvised Shield",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p></p>",
+      "keeper": ""
+    },
+    "armor": "1D2 to 1D3",
+    "armorType": "shield",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 0,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "shield",
+      "burden": "",
+      "roundsToDon": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_id": "74KPONu3OujCeECO",
+  "name": "Serpent People",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Degenerate descendants of the serpent folk of Valusia who can disguise themselves as human.</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 70
+      },
+      "con": {
+        "value": 55
+      },
+      "siz": {
+        "value": 60
+      },
+      "dex": {
+        "value": 80
+      },
+      "int": {
+        "value": 90
+      },
+      "pow": {
+        "value": 75
+      },
+      "app": {
+        "value": 50
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "mp": {
+        "value": 15,
+        "max": 15
+      },
+      "mov": {
+        "value": "8"
+      },
+      "db": {
+        "value": "0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": "<p>Disguise as human</p><p>Venom</p><p>Sorcery</p>"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "1 point scales",
+      "attacks": [
+        "Bite 50% \u2014 1D8+poison"
+      ],
+      "specialAbilities": [
+        "Disguise as human",
+        "Venom",
+        "Sorcery"
+      ],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Serpent People",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2700,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

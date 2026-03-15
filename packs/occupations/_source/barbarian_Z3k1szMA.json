@@ -1,0 +1,45 @@
+{
+  "_id": "oZod2fiKYsWsB2q1",
+  "name": "Barbarian",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>From lands beyond the empire, learning Roman culture and military tactics while harboring resentment for Roman oppression of your people.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 35
+    },
+    "occupationSkillPoints": "EDU x 2 + STR x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Nomads, bards, skops, druids, caravanners, hunters"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

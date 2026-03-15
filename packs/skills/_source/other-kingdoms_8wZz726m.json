@@ -1,0 +1,44 @@
+{
+  "_id": "e0BXAMpvqbHMxQXR",
+  "name": "Other Kingdoms",
+  "type": "skill",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Knowledge of kingdoms and nations beyond Rome&#x27;s borders.</p>",
+      "keeper": ""
+    },
+    "base": 1,
+    "value": null,
+    "skillName": "Other Kingdoms",
+    "specialization": "Specialization required (kingdom/region name)",
+    "properties": {
+      "special": false,
+      "rpilobit": false,
+      "combat": false,
+      "push": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-new",
+      "replacesCoC7Skill": ""
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

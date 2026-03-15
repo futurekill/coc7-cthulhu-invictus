@@ -1,0 +1,45 @@
+{
+  "_id": "VsF5gxEbkwXyPEZK",
+  "name": "Thief",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Steal from others using pickpocketing, purse-cutting, sneaking, or direct methods; get arrested if caught; more honest than many.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + DEX x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Vigiles, criminal collegium members, advocates"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

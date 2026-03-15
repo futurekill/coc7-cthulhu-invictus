@@ -1,0 +1,45 @@
+{
+  "_id": "Tb3p9x2OU8nRYXv1",
+  "name": "Hunter",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Catch animals for market, supply exotic pets, sell to arenas, lead wealthy clients on staged hunts; manage both wilderness and business.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 35
+    },
+    "occupationSkillPoints": "EDU x 2 + POW x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Merchants, barbarians, local guides, gladiatorial games promoters"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

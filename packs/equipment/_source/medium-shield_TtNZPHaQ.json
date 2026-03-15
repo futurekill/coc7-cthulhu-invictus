@@ -1,0 +1,44 @@
+{
+  "_id": "TtNZPHaQ0Jt7Qg84",
+  "name": "Medium Shield",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p></p>",
+      "keeper": ""
+    },
+    "armor": "1D4",
+    "armorType": "shield",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 60,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1100,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "shield",
+      "burden": "",
+      "roundsToDon": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

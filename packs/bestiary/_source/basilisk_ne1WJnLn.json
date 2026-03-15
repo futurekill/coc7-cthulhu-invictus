@@ -1,0 +1,105 @@
+{
+  "_id": "ne1WJnLn03ovXjY5",
+  "name": "Basilisk",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>are successfully treated with a successful Medicine roll and receive constant medical care, which includes force feeding the victims fluids to keep th</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 35
+      },
+      "con": {
+        "value": 50
+      },
+      "siz": {
+        "value": 15
+      },
+      "dex": {
+        "value": 65
+      },
+      "int": {
+        "value": 70
+      },
+      "pow": {
+        "value": 130
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 6,
+        "max": 6
+      },
+      "mp": {
+        "value": 26,
+        "max": 26
+      },
+      "mov": {
+        "value": "9"
+      },
+      "db": {
+        "value": "+0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "Non-magical weapons do only half damage because",
+      "attacks": [
+        "Fighting, Sharp Talons 35% \u2014 See Full Entry",
+        "Gaze 50% \u2014 Special"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Basilisk",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

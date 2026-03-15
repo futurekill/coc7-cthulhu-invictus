@@ -1,0 +1,45 @@
+{
+  "_id": "Sn8Gbt1tgmKfu8rU",
+  "name": "Senator",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Elite one of empire&#x27;s ruling body, speaking for people; may be incorruptible or corrupt selling favor to highest bidder.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 40,
+      "max": 70
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Wealthy constituents, patricians, publicans, lictors"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

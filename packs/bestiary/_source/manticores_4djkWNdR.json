@@ -1,0 +1,110 @@
+{
+  "_id": "4djkWNdRfrCQBFMC",
+  "name": "Manticores",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Immortal: Manticores are immortal unless slain, and heal 1 HP per hour. This power works even after death; the manticore returns to life after 24 hour</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 95
+      },
+      "con": {
+        "value": 65
+      },
+      "siz": {
+        "value": 80
+      },
+      "dex": {
+        "value": 95
+      },
+      "int": {
+        "value": 65
+      },
+      "pow": {
+        "value": 65
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "mp": {
+        "value": 13,
+        "max": 13
+      },
+      "mov": {
+        "value": "10"
+      },
+      "db": {
+        "value": "+1D6"
+      },
+      "build": {
+        "value": 2
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "Manticores take half damage from non\u0002magical weapons due to their enchanted hides.",
+      "attacks": [
+        "Fighting 50% \u2014 See Full Entry",
+        "Sting 40% \u2014 See Full Entry",
+        "Breath Weapon 25% \u2014 Special"
+      ],
+      "specialAbilities": [],
+      "skills": [
+        "Spot Hidden 45%",
+        "Stealth 40%",
+        "Track 40%"
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "Manticores",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1700,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

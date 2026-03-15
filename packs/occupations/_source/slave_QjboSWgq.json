@@ -1,0 +1,45 @@
+{
+  "_id": "N7BRBxnr0BsPUwJs",
+  "name": "Slave",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Life not your own, belonging to master or mistress; work their behalf dreaming of freedom; earn coin toward manumission if allowed.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 30
+    },
+    "occupationSkillPoints": "EDU x 2 + (STR x 2 or APP x 2)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Slavers, overseers, your master"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

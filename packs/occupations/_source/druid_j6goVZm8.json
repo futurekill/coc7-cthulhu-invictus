@@ -1,0 +1,45 @@
+{
+  "_id": "WC7by3yteOBcRsrs",
+  "name": "Druid",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Member of religious order of Celtic peoples; symbol of culture and identity; hunted by Romans; keep faith and people&#x27;s allegiance secret.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 30
+    },
+    "occupationSkillPoints": "EDU x 2 + POW x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Bards, barbarians, skops, soothsayers"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": "+20 to Status with Celtic peoples"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

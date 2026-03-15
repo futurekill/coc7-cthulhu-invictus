@@ -1,0 +1,45 @@
+{
+  "_id": "Wiuj2HN1yzLtoH7J",
+  "name": "Patrician",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Member of ruling class enjoying immense wealth, lavish parties, plays, games, and races; concern is status and gossip among noble families.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 71,
+      "max": 95
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Artists/craftsmen, slaves, senators, anyone who might be a client"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

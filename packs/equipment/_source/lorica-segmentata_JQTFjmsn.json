@@ -1,0 +1,44 @@
+{
+  "_id": "JQTFjmsn9dLVIdVu",
+  "name": "Lorica Segmentata",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Curved metal semicircular strips on leather straps</p>",
+      "keeper": ""
+    },
+    "armor": "1D8+2",
+    "armorType": "body",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 2000,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "body",
+      "burden": "Moderate",
+      "roundsToDon": 6
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

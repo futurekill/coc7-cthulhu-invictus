@@ -1,0 +1,104 @@
+{
+  "_id": "FT6Ce5fuMjeirNOL",
+  "name": "Chimera",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>\"Tail\" Attack: An attack from the rear head does 1D3 points of damage plus an additional 1D6 points of Moderate damage, as this head is always venomou</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 155
+      },
+      "con": {
+        "value": 120
+      },
+      "siz": {
+        "value": 165
+      },
+      "dex": {
+        "value": 80
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 95
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 28,
+        "max": 28
+      },
+      "mp": {
+        "value": 19,
+        "max": 19
+      },
+      "mov": {
+        "value": "9"
+      },
+      "db": {
+        "value": "+3D6"
+      },
+      "build": {
+        "value": 4
+      },
+      "san": {
+        "loss": "1D3/1D10"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "2 points of muscular hide and heals 1 HP",
+      "attacks": [
+        "Fighting 45% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Chimera",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

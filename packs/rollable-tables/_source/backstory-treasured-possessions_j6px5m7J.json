@@ -1,0 +1,134 @@
+{
+  "_id": "mzOydFe9f14ZCBdv",
+  "name": "Backstory: Treasured Possessions",
+  "formula": "1D10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "SNXwKJl1z2yBTlDB",
+      "range": [
+        1,
+        1
+      ],
+      "text": "The death mask of your most famous ancestor.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "jqC7UH0aIXSsacsf",
+      "range": [
+        2,
+        2
+      ],
+      "text": "An item essential to your profession (trusty shield, perfectly balanced smithy hammer, or most impressive formal toga).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "WDYY5bApnzLTw0OC",
+      "range": [
+        3,
+        3
+      ],
+      "text": "A memento from your childhood or a departed loved one.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "Jsh6wJTmUTwE06CO",
+      "range": [
+        4,
+        4
+      ],
+      "text": "A gift from someone you respect/admire.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "O4DtQpW1UQP1Bszk",
+      "range": [
+        5,
+        5
+      ],
+      "text": "A good luck charm or symbol of your religious devotion.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "EeFFO26HF7YPRM1H",
+      "range": [
+        6,
+        6
+      ],
+      "text": "A loyal pet, mount, or beast of burden.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "30ufayLrXd5ABh4Z",
+      "range": [
+        7,
+        7
+      ],
+      "text": "A small plot of fertile land in the outer provinces, which has been in your family for generations.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "FCH0mC66RFIS8yNt",
+      "range": [
+        8,
+        8
+      ],
+      "text": "A weapon (given to you by your father or mentor on a momentous occasion, which saved your life, or was specifically crafted for you).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "jTlMjTR2jT3wfWO2",
+      "range": [
+        9,
+        9
+      ],
+      "text": "A family heirloom which commemorated the greatest achievement of your most respected ancestor.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "9FiclpWllrwt10E5",
+      "range": [
+        10,
+        10
+      ],
+      "text": "Your family's collection of Lares statues (small figures that represent the deities, ancestors, and benevolent spirits which protect your family).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_id": "c6p231Z2ktr5zrBp",
+  "name": "Horse Breeder/Trainer",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Care for, breed, and train magnificent horses for racing, military, or labor; sell to customers based on matching person to perfect mount.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Nomads, merchants, cavalry, couriers"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "+20 to Ride or Animal Handling"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

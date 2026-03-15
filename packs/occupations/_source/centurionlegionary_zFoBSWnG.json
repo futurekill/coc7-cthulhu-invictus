@@ -1,0 +1,45 @@
+{
+  "_id": "fZyzZ3tFjEwM3P6P",
+  "name": "Centurion/Legionary",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Power and glory of Rome; well-trained soldier in legions drilling and guarding borders. Centurion commands ~100 men; Legionary is rank and file.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 0
+    },
+    "occupationSkillPoints": "EDU x 2 + STR x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Publicans, civilian suppliers, public officials, archers, cavalry, charioteers (military), slingers"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "Investigators should review Chapter Ten: The Roman Legions. May start with Fighting (Siege Bows) 0% or Fighting (Siege Launchers) 0% with Keeper permission."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_id": "ddLEG62Hkd9Gf2le",
+  "name": "Light Helmet",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Leather, quilting, and padding construction</p>",
+      "keeper": ""
+    },
+    "armor": "+1",
+    "armorType": "helmet",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 10,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 600,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "helmet",
+      "burden": "Light",
+      "roundsToDon": 0
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_id": "sMtwgKGnjQEo2gw2",
+  "name": "Griffons",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>World, a feat never duplicated since. However, after six days in the Waking World, all parts of a griffon fade into unreality, a fact which has severe</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 130
+      },
+      "con": {
+        "value": 90
+      },
+      "siz": {
+        "value": 165
+      },
+      "dex": {
+        "value": 95
+      },
+      "int": {
+        "value": 35
+      },
+      "pow": {
+        "value": 65
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 25,
+        "max": 25
+      },
+      "mp": {
+        "value": 13,
+        "max": 13
+      },
+      "mov": {
+        "value": "6"
+      },
+      "db": {
+        "value": "+2D6"
+      },
+      "build": {
+        "value": 3
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "Because of their mix of Dreamlands",
+      "attacks": [
+        "Fighting 60% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Griffons",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1200,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

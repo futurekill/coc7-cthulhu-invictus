@@ -1,0 +1,76 @@
+{
+  "_id": "GprQFnIiU74KKEpY",
+  "name": "Sling",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Cloth/leather for propelling stones or lead shot</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Brawl",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D4 (stone) / 1D4+1 (bullet)",
+    "properties": {
+      "melee": false,
+      "rngd": true,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": false,
+      "addb": false
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 5,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Medium",
+      "specialNotes": "Cloth/leather for propelling stones or lead shot",
+      "parry": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

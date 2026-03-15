@@ -1,0 +1,134 @@
+{
+  "_id": "XMnqaUburnZazjG4",
+  "name": "Backstory: Traits",
+  "formula": "1D10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "Afz4IrKYq8CgKB4n",
+      "range": [
+        1,
+        1
+      ],
+      "text": "Generous: You enjoy paying for others' drinks, giving gifts, supplying food, etc.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "yNvGDehU3qYzEWHN",
+      "range": [
+        2,
+        2
+      ],
+      "text": "Stoic: You endure what life sends your way because to complain about it changes nothing. Best to live as best you can on the course the fates chose for you.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "S4Qqt5gxoEMy9Nax",
+      "range": [
+        3,
+        3
+      ],
+      "text": "Thinker: You enjoy contemplating the complexities of nature, man, the gods, and all the mysteries of the universe.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "PaaoyNQVxrf8mwgd",
+      "range": [
+        4,
+        4
+      ],
+      "text": "Risk Taker: Fortune favors the bold, you only live once, make it count, seize the day.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "ysxmq6PGY9zIBel4",
+      "range": [
+        5,
+        5
+      ],
+      "text": "Hedonist: The world is filled with good food, sweet wine, and the smiling faces of willing lovers. Sample the pleasures of life because, in the end, what else matters?",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "s1EWK1UTkJfiYOc6",
+      "range": [
+        6,
+        6
+      ],
+      "text": "Ambitious: The only pursuit in life worth striving for is the betterment of one's position, so your descendants have it easier, or wield more power than you do now.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "PO519S3X2x3F1FG5",
+      "range": [
+        7,
+        7
+      ],
+      "text": "Virtuous: In the end, we are judged by the gods, history, and those who remember us by how we lead our lives. Best to lead an honorable life of which one can be proud.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "ZwOzPz1JTN7j2dwE",
+      "range": [
+        8,
+        8
+      ],
+      "text": "Fatalistic: All that happens is fated by the gods; our victories, defeats, and the day of our passing are all established on the day of our birth. There is no use in worrying about it.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "AqFL6vrOPyOEXkyG",
+      "range": [
+        9,
+        9
+      ],
+      "text": "Refined: Life is too short to drink bad wine, eat sour cheese or stale bread, or wear itchy clothing or ill-fitting sandals. It's the best you can afford, or better, or nothing at all.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "MAW0qEI1BtlZKf71",
+      "range": [
+        10,
+        10
+      ],
+      "text": "Crass: You speak your mind, laugh with all of your heart, and love with wild abandon. Those who judge you be damned; this is your life and you'll live it as you choose.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

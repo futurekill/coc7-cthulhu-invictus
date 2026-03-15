@@ -1,0 +1,45 @@
+{
+  "_id": "0Z07s6KBiab8qmyi",
+  "name": "Archer",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Skilled with a bow for hire to guard caravans, defend merchant ships, or perform mercenary work with poisoned or flaming arrows.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + DEX x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Military contractors, legionaries, auxiliaries"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

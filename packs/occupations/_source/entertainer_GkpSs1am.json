@@ -1,0 +1,45 @@
+{
+  "_id": "sYhXYNkx5a9gAt82",
+  "name": "Entertainer",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Make people forget their lives through performance as actor, musician, juggler, comedian, singer, dancer, storyteller, or street magician.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + (APP x 2 or DEX x 2)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Courtesans, patricians, patrons, fans"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

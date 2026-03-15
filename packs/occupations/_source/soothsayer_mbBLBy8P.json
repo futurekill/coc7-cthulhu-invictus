@@ -1,0 +1,45 @@
+{
+  "_id": "r8J8G9pjsxM6l6nF",
+  "name": "Soothsayer",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Scythian conduit between people and gods through strange divination; make dead ready for afterlife; practice frowned on by Romans.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 35
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Barbarians, resistance leaders, bards, skop, druids"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": "Begin play with spell Augury plus 1 or 2 spells of choice from Communication, Folk, or Protection."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

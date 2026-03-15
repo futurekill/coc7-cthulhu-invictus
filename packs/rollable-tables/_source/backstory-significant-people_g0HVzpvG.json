@@ -1,0 +1,134 @@
+{
+  "_id": "cYTVc6ZbzQ9JSzkY",
+  "name": "Backstory: Significant People",
+  "formula": "1D10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "OfsqyI7Bi63b006r",
+      "range": [
+        1,
+        1
+      ],
+      "text": "Parent, stepparent, patron, former master (freedmen only)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "tzcSwOTNHarodFk7",
+      "range": [
+        2,
+        2
+      ],
+      "text": "Sibling or extended family member (cousins, aunts/uncles, or grandparents)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "VMEWTppT9x0hAzIq",
+      "range": [
+        3,
+        3
+      ],
+      "text": "Child (son or daughter)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "Vb4bbck2dJT3ljOV",
+      "range": [
+        4,
+        4
+      ],
+      "text": "Partner (spouse or lover)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "vi3Eu3kLivJ9yJAu",
+      "range": [
+        5,
+        5
+      ],
+      "text": "Favored slave (a personal confidant, possibly known since childhood)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "DadO0rtvx6mv24de",
+      "range": [
+        6,
+        6
+      ],
+      "text": "Close friend (childhood friend, fellow veteran, slave, freedmen, neighbor)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "1rIovwpkkN0UmCM1",
+      "range": [
+        7,
+        7
+      ],
+      "text": "Fellow investigator (player's choice)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "xI5WeLDsyTGqqo26",
+      "range": [
+        8,
+        8
+      ],
+      "text": "A famous person whom you idolize and hope one day to meet in person (an actor, author, chariot racer, gladiator, general, or political figure)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "6NHvpwFC2AhioM0Y",
+      "range": [
+        9,
+        9
+      ],
+      "text": "A mentor or teacher (possibly drill sergeant, trade guild master, or private tutor)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "u86Co3y7zLYwOOut",
+      "range": [
+        10,
+        10
+      ],
+      "text": "A non-player character in the game (Keeper's choice)",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

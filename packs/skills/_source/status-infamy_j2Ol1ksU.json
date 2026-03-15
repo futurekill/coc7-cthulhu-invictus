@@ -1,0 +1,44 @@
+{
+  "_id": "wTerPmwoLitix059",
+  "name": "Status / Infamy",
+  "type": "skill",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your standing and reputation within Roman society or notoriety for misdeeds.</p>",
+      "keeper": ""
+    },
+    "base": 0,
+    "value": null,
+    "skillName": "Status / Infamy",
+    "specialization": "",
+    "properties": {
+      "special": false,
+      "rpilobit": false,
+      "combat": false,
+      "push": true
+    }
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-new",
+      "replacesCoC7Skill": ""
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "_id": "Ali3Aj5r8SoVSn0z",
+  "name": "Backstory: Meaningful Locations",
+  "formula": "1D10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "srbKXgHXaIeMiq96",
+      "range": [
+        1,
+        1
+      ],
+      "text": "Your home city, town, or village.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "hKujZgRNabHboXHN",
+      "range": [
+        2,
+        2
+      ],
+      "text": "The place you met your first true love.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "KmQi9yxyrMmIzHfu",
+      "range": [
+        3,
+        3
+      ],
+      "text": "The local bathhouse.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "7aSMCZySqg6V6cpH",
+      "range": [
+        4,
+        4
+      ],
+      "text": "The grave of a departed loved one.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "VHww4pxNmMReLGz3",
+      "range": [
+        5,
+        5
+      ],
+      "text": "The temple or shrine dedicated to a higher power you worship.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "xdOguk5EWKoKhYld",
+      "range": [
+        6,
+        6
+      ],
+      "text": "The home you grew up in or now live in, or a vacation home.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "84VnxSZkHt2E7end",
+      "range": [
+        7,
+        7
+      ],
+      "text": "A place of entertainment (local hippodrome, gladiatorial arena, theater).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "hYTTl28EmjifSf1q",
+      "range": [
+        8,
+        8
+      ],
+      "text": "The place where you practice your trade.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "5X76cNty9NxXScVt",
+      "range": [
+        9,
+        9
+      ],
+      "text": "The place where you enjoyed your happiest moment.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "DhNy5LZBuQ2GI1yd",
+      "range": [
+        10,
+        10
+      ],
+      "text": "The place where you suffered your greatest loss.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

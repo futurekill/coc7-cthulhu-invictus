@@ -1,0 +1,76 @@
+{
+  "_id": "kDa9U4UqGWlG6g3O",
+  "name": "Sword, khopesh",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Egyptian blade with sharp curve</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Sword",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D8+DB",
+    "properties": {
+      "melee": true,
+      "rngd": false,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": true,
+      "addb": true
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 175,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1300,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Medium",
+      "specialNotes": "Egyptian blade with sharp curve",
+      "parry": "Yes (15 HP)"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_id": "tVvovXkeGOhHGm5X",
+  "name": "Striges",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>formidable opponents, for their alien metallic feathers grant them immunity to non-magical attacks. These feathers are greatly prized by alchemists, w</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 45
+      },
+      "con": {
+        "value": 70
+      },
+      "siz": {
+        "value": 40
+      },
+      "dex": {
+        "value": 70
+      },
+      "int": {
+        "value": 55
+      },
+      "pow": {
+        "value": 65
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 11,
+        "max": 11
+      },
+      "mp": {
+        "value": 13,
+        "max": 13
+      },
+      "mov": {
+        "value": "3"
+      },
+      "db": {
+        "value": "+0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D4"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None, but striges are immune to non\u0002magical attacks unless attacked with an",
+      "attacks": [
+        "Bite or Talons\nFighting 45% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Striges",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2400,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

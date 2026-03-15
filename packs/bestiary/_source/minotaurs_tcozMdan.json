@@ -1,0 +1,104 @@
+{
+  "_id": "tcozMdant8nXiWqs",
+  "name": "Minotaurs",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>oddities are usually killed, but if allowed to live, they are often res\u0002cued by their father, a wild minotaur, once he hears them bleating for help. Y</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 110
+      },
+      "con": {
+        "value": 130
+      },
+      "siz": {
+        "value": 100
+      },
+      "dex": {
+        "value": 70
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 23,
+        "max": 23
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "10"
+      },
+      "db": {
+        "value": "+2D6"
+      },
+      "build": {
+        "value": 3
+      },
+      "san": {
+        "loss": "1/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "6 points of thick hide and muscle. In addition, about",
+      "attacks": [
+        "Fighting 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Minotaurs",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1900,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

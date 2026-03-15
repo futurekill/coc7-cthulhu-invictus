@@ -1,0 +1,108 @@
+{
+  "_id": "WWPel8XOFDWKWLCR",
+  "name": "Mi-Go",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fungoid crustacean beings from Yuggoth that mine rare minerals and use brain cylinders.</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 55
+      },
+      "con": {
+        "value": 65
+      },
+      "siz": {
+        "value": 50
+      },
+      "dex": {
+        "value": 80
+      },
+      "int": {
+        "value": 85
+      },
+      "pow": {
+        "value": 65
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "mp": {
+        "value": 13,
+        "max": 13
+      },
+      "mov": {
+        "value": "8/9 fly"
+      },
+      "db": {
+        "value": "0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": "<p>Flight</p><p>Brain cylinders</p><p>Advanced technology</p>"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None",
+      "attacks": [
+        "Nippers 40% \u2014 1D6"
+      ],
+      "specialAbilities": [
+        "Flight",
+        "Brain cylinders",
+        "Advanced technology"
+      ],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Mi-Go",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2600,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

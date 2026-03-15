@@ -1,0 +1,104 @@
+{
+  "_id": "ArnWGhwBhsRRLFHQ",
+  "name": "Mermaids",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Breathe Underwater: Mermaids can breathe perfectly well underwater, and can breathe on dry land for up for three hours before needing to return to the</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 80
+      },
+      "con": {
+        "value": 55
+      },
+      "siz": {
+        "value": 90
+      },
+      "dex": {
+        "value": 60
+      },
+      "int": {
+        "value": 65
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 80
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 14,
+        "max": 14
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "3"
+      },
+      "db": {
+        "value": "1D6"
+      },
+      "build": {
+        "value": 2
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "2 points of leathery hide",
+      "attacks": [
+        "Fighting 45% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Mermaids",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1800,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

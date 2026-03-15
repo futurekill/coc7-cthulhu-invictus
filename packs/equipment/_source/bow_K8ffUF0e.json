@@ -1,0 +1,76 @@
+{
+  "_id": "K8ffUF0eWIXiiQE8",
+  "name": "Bow",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Standard bow, arrows break 65% of the time</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Bow",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D8",
+    "properties": {
+      "melee": false,
+      "rngd": true,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": false,
+      "addb": false
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 60,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1600,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Medium",
+      "specialNotes": "Standard bow, arrows break 65% of the time",
+      "parry": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

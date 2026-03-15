@@ -1,0 +1,107 @@
+{
+  "_id": "PJbM7Q1SrblrSWt6",
+  "name": "Hydrae",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>the rate of 1 HP per combat round, so long as it is living. It can heal from any sort of damage, including wounds suffered from fire, acid, or poison.</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 110
+      },
+      "con": {
+        "value": 120
+      },
+      "siz": {
+        "value": 185
+      },
+      "dex": {
+        "value": 50
+      },
+      "int": {
+        "value": 15
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 30,
+        "max": 30
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "7"
+      },
+      "db": {
+        "value": "+3D6"
+      },
+      "build": {
+        "value": 4
+      },
+      "san": {
+        "loss": "1/1D8"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "5 points of very thick scaly hide. Also, while",
+      "attacks": [
+        "Fighting, bite 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": [
+        "Listen 85%",
+        "Stealth 50%"
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "Hydrae",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1400,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

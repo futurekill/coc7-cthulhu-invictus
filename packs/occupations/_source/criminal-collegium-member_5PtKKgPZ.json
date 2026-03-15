@@ -1,0 +1,45 @@
+{
+  "_id": "ASjyf9sZSQPrmab8",
+  "name": "Criminal Collegium Member",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Member of criminal club controlling territory or industry, providing loans and solutions authorities won&#x27;t, collecting protection fees.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + STR x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Vigiles, public officials, advocates, merchants, other collegium members"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

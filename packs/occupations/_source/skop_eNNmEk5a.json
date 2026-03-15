@@ -1,0 +1,45 @@
+{
+  "_id": "gECkRIIWH1iaXhWq",
+  "name": "Skop",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Germanic tribe&#x27;s keeper of lore and legends, remembering every ancestor&#x27;s achievement, defeat, victory; wisdom keeps people safe.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 10,
+      "max": 20
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Barbarians, resistance leaders, bards, druids"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

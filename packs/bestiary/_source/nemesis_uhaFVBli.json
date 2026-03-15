@@ -1,0 +1,104 @@
+{
+  "_id": "uhaFVBliyIToGJ1Q",
+  "name": "Nemesis",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>mortal followers of Nemesis whose consciousness journeyed to the Dreamlands after their death in the Waking World. Divine Judgment: Nemesis can always</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 240
+      },
+      "con": {
+        "value": 150
+      },
+      "siz": {
+        "value": 70
+      },
+      "dex": {
+        "value": 180
+      },
+      "int": {
+        "value": 150
+      },
+      "pow": {
+        "value": 180
+      },
+      "app": {
+        "value": 99
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 22,
+        "max": 22
+      },
+      "mp": {
+        "value": 36,
+        "max": 36
+      },
+      "mov": {
+        "value": "18"
+      },
+      "db": {
+        "value": "+3D6"
+      },
+      "build": {
+        "value": 4
+      },
+      "san": {
+        "loss": "0/1D4"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "4 points of lightning fast evasion. Also,",
+      "attacks": [
+        "Fighting 100% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Nemesis",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2000,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

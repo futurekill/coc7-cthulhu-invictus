@@ -1,0 +1,104 @@
+{
+  "_id": "wYYpLublqdiVAHhV",
+  "name": "Centaurs",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>wheeled vehicles. The centaurs who remain are descendants of escaped slaves from the Izdonar Empire. Most are unaware of their race\u2019s origins, and eac</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 140
+      },
+      "con": {
+        "value": 65
+      },
+      "siz": {
+        "value": 165
+      },
+      "dex": {
+        "value": 60
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 50
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 23,
+        "max": 23
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "12"
+      },
+      "db": {
+        "value": "+3D6"
+      },
+      "build": {
+        "value": 4
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "1 point of hide, but may be enhanced with",
+      "attacks": [
+        "Fighting 40% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Centaurs",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_id": "HnyADvkxtUuX8KMf",
+  "name": "Lamias",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>for examples.) Lamias who know 5 or fewer spells always have weapons and often (50%) wear some form of armor. (Typically, the fewer spells a lamia kno</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 70
+      },
+      "con": {
+        "value": 90
+      },
+      "siz": {
+        "value": 100
+      },
+      "dex": {
+        "value": 70
+      },
+      "int": {
+        "value": 120
+      },
+      "pow": {
+        "value": 70
+      },
+      "app": {
+        "value": 90
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 19,
+        "max": 19
+      },
+      "mp": {
+        "value": 14,
+        "max": 14
+      },
+      "mov": {
+        "value": "9"
+      },
+      "db": {
+        "value": "+1D6"
+      },
+      "build": {
+        "value": 2
+      },
+      "san": {
+        "loss": "1/1D8"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "2 points of scaly hide and immune to",
+      "attacks": [
+        "Fighting 60% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Lamias",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1600,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

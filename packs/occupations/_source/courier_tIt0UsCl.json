@@ -1,0 +1,45 @@
+{
+  "_id": "eRBPp5jdYajBqqRH",
+  "name": "Courier",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Deliver messages across empire on horseback, covering 40-65 miles per day using relay stations, with proper license (diploma) or skilled forgery.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 4",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Public officials, patrons, stationes employees"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "Unlicensed couriers must make Luck roll when using stationes. Investigator begins play with a horse."
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

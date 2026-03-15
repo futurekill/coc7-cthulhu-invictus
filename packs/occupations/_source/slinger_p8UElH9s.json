@@ -1,0 +1,45 @@
+{
+  "_id": "bG6e5mYueyYoyVc6",
+  "name": "Slinger",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Kill at bow ranges using bit of cloth and leather with bag of stones or clay bullets; from empire&#x27;s regions with slinger tradition.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 40
+    },
+    "occupationSkillPoints": "EDU x 2 + DEX x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Legionaries/centurions, auxiliaries, military contractors"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

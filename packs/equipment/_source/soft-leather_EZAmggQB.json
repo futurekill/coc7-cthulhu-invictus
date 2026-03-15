@@ -1,0 +1,44 @@
+{
+  "_id": "EZAmggQBwBAD3UdR",
+  "name": "Soft Leather",
+  "type": "armor",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Supple leather covering torso, shoulders, arms, waist</p>",
+      "keeper": ""
+    },
+    "armor": "1D3",
+    "armorType": "body",
+    "localization": 0,
+    "properties": {},
+    "cost": {
+      "value": 50,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "subType": "body",
+      "burden": "Light",
+      "roundsToDon": 2
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

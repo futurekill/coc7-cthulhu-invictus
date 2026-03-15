@@ -1,0 +1,45 @@
+{
+  "_id": "fXDldGYGQsdB2hdy",
+  "name": "Bodyguard/Lictor",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Shadow wealthy clients to prevent robbery, kidnapping, and murder, or as lictor, serve as sacred guardian escorting high officials.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 0,
+      "max": 0
+    },
+    "occupationSkillPoints": "EDU x 2 + STR x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Merchants, patricians, bankers, diplomats, anyone with enemies. Lictor only: government employees, senators, prefects"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

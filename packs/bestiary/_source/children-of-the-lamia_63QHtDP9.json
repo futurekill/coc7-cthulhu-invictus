@@ -1,0 +1,105 @@
+{
+  "_id": "63QHtDP9bdE2zBRg",
+  "name": "Children of the Lamia",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>others flock to the cult of sun gods, such as Ra and Apollo. Invulnerability: Children of the Lamia are immune to non-magical attacks. Spells: 80% cha</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 70
+      },
+      "con": {
+        "value": 70
+      },
+      "siz": {
+        "value": 65
+      },
+      "dex": {
+        "value": 60
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 70
+      },
+      "app": {
+        "value": 75
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 13,
+        "max": 13
+      },
+      "mp": {
+        "value": 14,
+        "max": 14
+      },
+      "mov": {
+        "value": "8"
+      },
+      "db": {
+        "value": "+1D4"
+      },
+      "build": {
+        "value": 1
+      },
+      "san": {
+        "loss": "1/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None, but immune to non-magical attacks.",
+      "attacks": [
+        "Fighting 45% \u2014 See Full Entry",
+        "Breath Weapon 25% \u2014 Special"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Children of the Lamia",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 500,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

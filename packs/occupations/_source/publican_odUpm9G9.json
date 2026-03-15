@@ -1,0 +1,45 @@
+{
+  "_id": "qqQ7SXx7QUBRh0LK",
+  "name": "Publican",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Oversee public works or military logistics, collect taxes by bidding on contracts; balance collecting taxes without over-taxing people.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 35,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + POW x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Prefects, senators, merchants, caravanners, farmers, artists/craftmen"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": "+10% to Accounting"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

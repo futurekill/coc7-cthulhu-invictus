@@ -1,0 +1,76 @@
+{
+  "_id": "JkqH3MB9n7IWUSmT",
+  "name": "Bow, Eastern Recurve",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bone/leather reinforced, improved range and penetration</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Bow",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D8+1",
+    "properties": {
+      "melee": false,
+      "rngd": true,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": false,
+      "addb": false
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 120,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1700,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Medium",
+      "specialNotes": "Bone/leather reinforced, improved range and penetration",
+      "parry": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

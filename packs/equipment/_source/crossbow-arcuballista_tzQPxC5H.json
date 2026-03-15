@@ -1,0 +1,76 @@
+{
+  "_id": "tzQPxC5HChpoevbL",
+  "name": "Crossbow (Arcuballista)",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Mechanical weapon, bolts break/lost 80%</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Crossbow",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D4+1",
+    "properties": {
+      "melee": false,
+      "rngd": true,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": false,
+      "addb": false
+    },
+    "usesPerRound": 1,
+    "hands": 1,
+    "cost": {
+      "value": 100,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1800,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Medium",
+      "specialNotes": "Mechanical weapon, bolts break/lost 80%",
+      "parry": ""
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

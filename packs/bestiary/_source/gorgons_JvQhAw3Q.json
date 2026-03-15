@@ -1,0 +1,110 @@
+{
+  "_id": "JvQhAw3Q8WB36Ud9",
+  "name": "Gorgons",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>from the gorgon\u2019s gaze attack. As little as a few drops of a gorgon\u2019s sticky black drool is enough to permit a First Aid or Medicine check on a calcif</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 70
+      },
+      "con": {
+        "value": 90
+      },
+      "siz": {
+        "value": 110
+      },
+      "dex": {
+        "value": 60
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 90
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 20,
+        "max": 20
+      },
+      "mp": {
+        "value": 19,
+        "max": 19
+      },
+      "mov": {
+        "value": "7"
+      },
+      "db": {
+        "value": "+1D6"
+      },
+      "build": {
+        "value": 2
+      },
+      "san": {
+        "loss": "1D3/1D10"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "4 points of thick rubbery hide. In addition, some",
+      "attacks": [
+        "Fighting, Claws 35% \u2014 See Full Entry",
+        "DB\nFighting, Tail 35% \u2014 See Full Entry",
+        "DB\nWeapon Attacks 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": [
+        "Track (50%",
+        "human flesh by scent",
+        ""
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "Gorgons",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1100,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

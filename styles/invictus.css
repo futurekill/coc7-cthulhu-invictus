@@ -1,0 +1,219 @@
+/**
+ * Cthulhu Invictus — Module Stylesheet
+ *
+ * Styles for the Invictus character sheet tab and any module UI.
+ * Uses a Roman-inspired colour palette that complements the CoC7 sheet
+ * without clashing with its existing design.
+ */
+
+/* ═══ Variables ══════════════════════════════════════════════════════════ */
+:root {
+  --invictus-gold:        #8B6914;
+  --invictus-gold-light:  #C4A035;
+  --invictus-red:         #8B1A1A;
+  --invictus-red-light:   #A0522D;
+  --invictus-parchment:   #F5F0E1;
+  --invictus-ink:         #2C1810;
+  --invictus-border:      #C4A035;
+  --invictus-bg-section:  rgba(245, 240, 225, 0.6);
+  --invictus-font-serif:  'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+}
+
+/* ═══ Tab Container ═════════════════════════════════════════════════════ */
+.invictus-tab {
+  padding: 8px 12px;
+  font-family: var(--invictus-font-serif);
+  color: var(--invictus-ink);
+}
+
+/* ═══ Sections ══════════════════════════════════════════════════════════ */
+.invictus-section {
+  background: var(--invictus-bg-section);
+  border: 1px solid var(--invictus-border);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+}
+
+.invictus-section-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--invictus-red);
+  margin: 0 0 8px 0;
+  padding-bottom: 4px;
+  border-bottom: 2px solid var(--invictus-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ═══ Fields ════════════════════════════════════════════════════════════ */
+.invictus-field {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 16px;
+  margin-bottom: 6px;
+}
+
+.invictus-field label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--invictus-gold);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: 2px;
+}
+
+.invictus-field input[type="text"],
+.invictus-field input[type="number"],
+.invictus-field select {
+  border: 1px solid var(--invictus-border);
+  border-radius: 3px;
+  padding: 4px 6px;
+  font-family: var(--invictus-font-serif);
+  font-size: 13px;
+  color: var(--invictus-ink);
+  background: #FFFEF8;
+}
+
+.invictus-field input[type="text"]:focus,
+.invictus-field input[type="number"]:focus,
+.invictus-field select:focus {
+  outline: none;
+  border-color: var(--invictus-red);
+  box-shadow: 0 0 3px rgba(139, 26, 26, 0.3);
+}
+
+.invictus-field input[type="number"] {
+  width: 60px;
+  text-align: center;
+}
+
+.invictus-field input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--invictus-red);
+}
+
+.invictus-derived {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--invictus-ink);
+  padding: 4px 0;
+}
+
+/* ═══ Roman Name Row ═══════════════════════════════════════════════════ */
+.invictus-name-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.invictus-name-fields .invictus-field {
+  flex: 1;
+  min-width: 120px;
+  margin-right: 0;
+}
+
+.invictus-name-fields input[type="text"] {
+  width: 100%;
+}
+
+/* ═══ Status Row ═══════════════════════════════════════════════════════ */
+.invictus-status-row {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.invictus-status-score input[type="number"] {
+  width: 55px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--invictus-red);
+  text-align: center;
+}
+
+/* ═══ Wealth Table ═════════════════════════════════════════════════════ */
+.invictus-wealth-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.invictus-wealth-table th {
+  background: var(--invictus-gold);
+  color: #FFF;
+  padding: 4px 8px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.invictus-wealth-table td {
+  padding: 4px 8px;
+  border-bottom: 1px solid rgba(196, 160, 53, 0.3);
+}
+
+/* ═══ Faith Row ════════════════════════════════════════════════════════ */
+.invictus-faith-row {
+  display: flex;
+  gap: 12px;
+}
+
+.invictus-hint {
+  font-size: 11px;
+  font-style: italic;
+  color: #666;
+  margin: 6px 0 0 0;
+}
+
+/* ═══ Reference Table (collapsible) ═══════════════════════════════════ */
+.invictus-reference details {
+  cursor: pointer;
+}
+
+.invictus-reference details summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+.invictus-reference-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin-top: 6px;
+}
+
+.invictus-reference-table th {
+  background: var(--invictus-red);
+  color: #FFF;
+  padding: 3px 6px;
+  text-align: left;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.invictus-reference-table td {
+  padding: 3px 6px;
+  border-bottom: 1px solid rgba(196, 160, 53, 0.2);
+}
+
+.invictus-reference-table tr:nth-child(even) {
+  background: rgba(245, 240, 225, 0.5);
+}
+
+/* ═══ Responsive ══════════════════════════════════════════════════════ */
+@media (max-width: 500px) {
+  .invictus-status-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .invictus-name-fields {
+    flex-direction: column;
+  }
+}

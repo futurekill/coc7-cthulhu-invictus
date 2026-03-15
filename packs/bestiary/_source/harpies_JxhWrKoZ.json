@@ -1,0 +1,104 @@
+{
+  "_id": "JxhWrKoZB2JX0NNR",
+  "name": "Harpies",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>coos, whistles, and blood-chilling screams. No human has ever learned their language as they have never attempted to commu\u0002nicate with other species. </p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 60
+      },
+      "con": {
+        "value": 80
+      },
+      "siz": {
+        "value": 80
+      },
+      "dex": {
+        "value": 60
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 50
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 16,
+        "max": 16
+      },
+      "mp": {
+        "value": 10,
+        "max": 10
+      },
+      "mov": {
+        "value": "6"
+      },
+      "db": {
+        "value": "+1D4"
+      },
+      "build": {
+        "value": 1
+      },
+      "san": {
+        "loss": "1/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "2 points of thick hide and filthy feathers.",
+      "attacks": [
+        "Fighting 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Harpies",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1300,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

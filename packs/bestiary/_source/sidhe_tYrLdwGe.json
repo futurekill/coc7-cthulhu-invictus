@@ -1,0 +1,108 @@
+{
+  "_id": "tYrLdwGetDCcdx1s",
+  "name": "Sidhe",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Fey beings from the Dreamlands, beautiful and dangerous, with glamour that enchants mortals.</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 60
+      },
+      "con": {
+        "value": 65
+      },
+      "siz": {
+        "value": 55
+      },
+      "dex": {
+        "value": 90
+      },
+      "int": {
+        "value": 80
+      },
+      "pow": {
+        "value": 85
+      },
+      "app": {
+        "value": 95
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 16,
+        "max": 16
+      },
+      "mp": {
+        "value": 17,
+        "max": 17
+      },
+      "mov": {
+        "value": "10/14 fly"
+      },
+      "db": {
+        "value": "0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D8"
+      }
+    },
+    "special": {
+      "value": "<p>Glamour</p><p>Iron vulnerability</p><p>Flight</p>"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None (iron vulnerability)",
+      "attacks": [
+        "Sidhe Blade 60% \u2014 1D8+1"
+      ],
+      "specialAbilities": [
+        "Glamour",
+        "Iron vulnerability",
+        "Flight"
+      ],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Sidhe",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 2800,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

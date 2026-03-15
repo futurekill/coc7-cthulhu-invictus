@@ -1,0 +1,76 @@
+{
+  "_id": "nPFz46PDjqipVJIq",
+  "name": "Spear, long (hasta)",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Longer heavier spear for two hands</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Spear",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D10+DB",
+    "properties": {
+      "melee": true,
+      "rngd": false,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": true,
+      "addb": true
+    },
+    "usesPerRound": 1,
+    "hands": 2,
+    "cost": {
+      "value": 50,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 900,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Long",
+      "specialNotes": "Longer heavier spear for two hands",
+      "parry": "No (15 HP)"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

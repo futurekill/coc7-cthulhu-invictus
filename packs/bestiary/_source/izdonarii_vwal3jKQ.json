@@ -1,0 +1,107 @@
+{
+  "_id": "vwal3jKQzejVObfV",
+  "name": "Izdonarii",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>while sorcerers and priests/priestesses know on average 8\u201314 (1D8+6) spells. Izdonarii favor spells that kill opponents horribly, cloud the mind of se</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 70
+      },
+      "con": {
+        "value": 80
+      },
+      "siz": {
+        "value": 70
+      },
+      "dex": {
+        "value": 65
+      },
+      "int": {
+        "value": 80
+      },
+      "pow": {
+        "value": 110
+      },
+      "app": {
+        "value": 50
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 15,
+        "max": 15
+      },
+      "mp": {
+        "value": 22,
+        "max": 22
+      },
+      "mov": {
+        "value": "8"
+      },
+      "db": {
+        "value": "+1D4"
+      },
+      "build": {
+        "value": 1
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None",
+      "attacks": [
+        "Fighting 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": [
+        "Sciences: (Biology) 60%",
+        "(Chemistry)"
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "Izdonarii",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 1500,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

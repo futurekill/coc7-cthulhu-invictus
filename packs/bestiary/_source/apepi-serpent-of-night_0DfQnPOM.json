@@ -1,0 +1,106 @@
+{
+  "_id": "0DfQnPOMbdYvpiYK",
+  "name": "Apepi, Serpent of Night",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>twitches, swishing about, and cracking loudly like a whip. Cult: This avatar of Yig is worshipped across the ancient world under various different nam</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 150
+      },
+      "con": {
+        "value": 600
+      },
+      "siz": {
+        "value": 500
+      },
+      "dex": {
+        "value": 80
+      },
+      "int": {
+        "value": 900
+      },
+      "pow": {
+        "value": 140
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 110,
+        "max": 110
+      },
+      "mp": {
+        "value": 28,
+        "max": 28
+      },
+      "mov": {
+        "value": "8"
+      },
+      "db": {
+        "value": "+7D6"
+      },
+      "build": {
+        "value": 8
+      },
+      "san": {
+        "loss": "1D3/1D20"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "6-point scales.",
+      "attacks": [
+        "Fighting 85% \u2014 See Full Entry",
+        "Venom Spit 100% \u2014 See Full Entry",
+        "Gaze 50% \u2014 Special"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Apepi, Serpent of Night",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

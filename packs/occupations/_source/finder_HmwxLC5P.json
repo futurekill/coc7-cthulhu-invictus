@@ -1,0 +1,45 @@
+{
+  "_id": "RklEslpvpH2bbcKl",
+  "name": "Finder",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Street smart investigator uncover secrets people pay to learn, find runaways, dig dirt on senators, recover valuables; walk thin line of justice.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 15,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + POW x 2",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Vigiles, patricians, thieves, criminal collegium members"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": false,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

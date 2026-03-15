@@ -1,0 +1,45 @@
+{
+  "_id": "wnxfGapDoVVoXuxf",
+  "name": "Bard",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Celtic priesthood member and keeper of your people&#x27;s history and lineage, trained from childhood with perfect memory to preserve oral traditions.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 20,
+      "max": 60
+    },
+    "occupationSkillPoints": "EDU x 2 + (APP x 2 or POW x 2)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Druids, barbarian, resistance leaders, skops"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": "+15 Status towards other Celtic peoples, +10 APP, possess perfect memory"
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

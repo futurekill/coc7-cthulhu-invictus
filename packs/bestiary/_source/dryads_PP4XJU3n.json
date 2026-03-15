@@ -1,0 +1,104 @@
+{
+  "_id": "PP4XJU3nBC4oAv0D",
+  "name": "Dryads",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>and have perfect memories; these can offer secrets to the investi\u0002gators in return for their lives. or be forced to embrace the dryad\u2019s simulacrum. Th</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 50
+      },
+      "con": {
+        "value": 70
+      },
+      "siz": {
+        "value": 55
+      },
+      "dex": {
+        "value": 70
+      },
+      "int": {
+        "value": 50
+      },
+      "pow": {
+        "value": 60
+      },
+      "app": {
+        "value": 0
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "mp": {
+        "value": 12,
+        "max": 12
+      },
+      "mov": {
+        "value": "10"
+      },
+      "db": {
+        "value": "+0"
+      },
+      "build": {
+        "value": 0
+      },
+      "san": {
+        "loss": "0/1D6"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "None.",
+      "attacks": [
+        "Fighting 25% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Dryads",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 800,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

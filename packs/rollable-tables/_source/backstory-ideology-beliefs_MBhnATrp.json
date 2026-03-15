@@ -1,0 +1,134 @@
+{
+  "_id": "DPOjDZ0OX1x5TTyw",
+  "name": "Backstory: Ideology / Beliefs",
+  "formula": "1D10",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "uM1KpIAph81wLPWB",
+      "range": [
+        1,
+        1
+      ],
+      "text": "The gods see all, guide all, and can be cruel when displeased. One must not only lead a good life, but also pay tribute to them in order to lead a secure life.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "Vxwg77HtlajQO2aC",
+      "range": [
+        2,
+        2
+      ],
+      "text": "A single god reigns supreme, and all other gods are merely aspects of the one true god.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "vJDywevir9RSXX8w",
+      "range": [
+        3,
+        3
+      ],
+      "text": "If the gods exist, they care little for the affairs of men, which is why a person must lead a life according to the rules of the philosophy that best suits their nature.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "yKPzuE4srIK6t2WF",
+      "range": [
+        4,
+        4
+      ],
+      "text": "All happens according to the will of the gods; all transpires as it is fated to.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "Vm6WY9BHxfHT9T6j",
+      "range": [
+        5,
+        5
+      ],
+      "text": "You are a member of an organization (trade guild, racing fan club, community group).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "7P8QyFV9cr1oZhBO",
+      "range": [
+        6,
+        6
+      ],
+      "text": "Immoral behavior is the reason why there is suffering in the world. If people led virtuous lives, the gods would protect mankind from every misfortune.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "V5QTShMZbDWceXmS",
+      "range": [
+        7,
+        7
+      ],
+      "text": "Astrologers, seers, and augurs should be consulted before every major undertaking to ensure the greatest possibility for success.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "4mCciIWs9Kv16B4Z",
+      "range": [
+        8,
+        8
+      ],
+      "text": "You have strong political feelings (in support of/against) concerning the current emperor, sitting senators, or local governor.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "nhHzZTYp5s7Sq4sx",
+      "range": [
+        9,
+        9
+      ],
+      "text": "Life is too short to let coins slip through your fingers. They must be gathered with vigor for they are the only true power in this world.",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    },
+    {
+      "_id": "80P31YxTIrqtAVV3",
+      "range": [
+        10,
+        10
+      ],
+      "text": "You argue for and support an underrepresented group in the empire (slaves, foreigners, persecuted religious groups, women).",
+      "type": 0,
+      "weight": 1,
+      "drawn": false
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "BcbfnoGMbJmTPSIA",
+  "name": "Great Axe",
+  "type": "weapon",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Massive war axe for elite barbarian warriors</p>",
+      "keeper": ""
+    },
+    "skill": {
+      "main": {
+        "name": "Fighting: Axe",
+        "id": ""
+      },
+      "alternativ": {
+        "name": "",
+        "id": ""
+      }
+    },
+    "range": {
+      "normal": {
+        "value": 0,
+        "units": ""
+      },
+      "long": {
+        "value": 0,
+        "units": ""
+      },
+      "extreme": {
+        "value": 0,
+        "units": ""
+      }
+    },
+    "damage": "1D10+DB",
+    "properties": {
+      "melee": true,
+      "rngd": false,
+      "thrown": false,
+      "impl": false,
+      "rare": false,
+      "ahdb": true,
+      "addb": true
+    },
+    "usesPerRound": 1,
+    "hands": 2,
+    "cost": {
+      "value": 100,
+      "unit": "sestertii"
+    },
+    "isEquipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "length": "Short",
+      "specialNotes": "Massive war axe for elite barbarian warriors",
+      "parry": "Yes (25 HP)"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

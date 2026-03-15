@@ -1,0 +1,45 @@
+{
+  "_id": "4P2v2UIpZeregnWy",
+  "name": "Resistance Leader",
+  "type": "occupation",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>Dream of throwing off empire&#x27;s oppression and leading people to freedom; bandit chieftain or political leader working in secret.</p>",
+      "keeper": ""
+    },
+    "creditRating": {
+      "min": 1,
+      "max": 35
+    },
+    "occupationSkillPoints": "EDU x 2 + (STR x 2 or POW x 2)",
+    "skills": [],
+    "groups": [],
+    "contacts": {
+      "value": "Barbarians, criminals, bards, druids, skops"
+    },
+    "personalSkillPoints": 0
+  },
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "infamy": true,
+      "specialNotes": null
+    }
+  },
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

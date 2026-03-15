@@ -1,0 +1,105 @@
+{
+  "_id": "Mar2jiIqZlhQ3bia",
+  "name": "Bouda",
+  "type": "creature",
+  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "system": {
+    "description": {
+      "value": "<p>(Woodcarving), Craft (Carpentry), Craft (Charcoal) (i.e., making charcoal out of wood)), again with some individual of family variation Spells: 50% ch</p>",
+      "keeper": ""
+    },
+    "characteristics": {
+      "str": {
+        "value": 80
+      },
+      "con": {
+        "value": 65
+      },
+      "siz": {
+        "value": 60
+      },
+      "dex": {
+        "value": 65
+      },
+      "int": {
+        "value": 70
+      },
+      "pow": {
+        "value": 70
+      },
+      "app": {
+        "value": 50
+      }
+    },
+    "attribs": {
+      "hp": {
+        "value": 12,
+        "max": 12
+      },
+      "mp": {
+        "value": 14,
+        "max": 14
+      },
+      "mov": {
+        "value": "9"
+      },
+      "db": {
+        "value": "+1D4"
+      },
+      "build": {
+        "value": 1
+      },
+      "san": {
+        "loss": "0/1D4"
+      }
+    },
+    "special": {
+      "value": ""
+    }
+  },
+  "items": [],
+  "effects": [],
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "source": "invictus-bestiary",
+      "armorValue": "May wear any armor in human form (often chain",
+      "attacks": [
+        "Bouda have the usual range of unarmed \nattacks open to humanoids and may use any weapon \nin human form, and bite when in hyena form\nFighting (as Human) 50% \u2014 See Full Entry",
+        "Fighting (as Hyena) 50% \u2014 See Full Entry"
+      ],
+      "specialAbilities": [],
+      "skills": []
+    }
+  },
+  "prototypeToken": {
+    "name": "Bouda",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp"
+    },
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attribs.hp"
+    },
+    "bar2": {
+      "attribute": "attribs.mp"
+    }
+  },
+  "folder": null,
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}
