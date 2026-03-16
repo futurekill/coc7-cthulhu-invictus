@@ -1,52 +1,650 @@
 /**
- * Cthulhu Invictus — Module Stylesheet
+ * CoC7 Cthulhu Invictus - Roman Empire Themed Foundry VTT UI Reskin
+ * Comprehensive theming for the entire Foundry interface with classical Roman aesthetics
  *
- * Styles for the Invictus character sheet tab and any module UI.
- * Uses a Roman-inspired colour palette that complements the CoC7 sheet
- * without clashing with its existing design.
+ * Palette: Parchment backgrounds, gold & deep red accents, serif fonts, marble/stone textures
  */
 
-/* ═══ Variables ══════════════════════════════════════════════════════════ */
+/* ═══ CSS VARIABLES: Roman Palette ══════════════════════════════════════ */
 :root {
-  --invictus-gold:        #8B6914;
-  --invictus-gold-light:  #C4A035;
-  --invictus-red:         #8B1A1A;
-  --invictus-red-light:   #A0522D;
-  --invictus-parchment:   #F5F0E1;
-  --invictus-ink:         #2C1810;
-  --invictus-border:      #C4A035;
-  --invictus-bg-section:  rgba(245, 240, 225, 0.6);
-  --invictus-font-serif:  'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  /* Primary Colors */
+  --inv-parchment: #F4EFE0;
+  --inv-parchment-dark: #E8E0D0;
+  --inv-ink-dark: #2C2416;
+  --inv-ink-light: #4A4035;
+
+  /* Gold Accents */
+  --inv-gold-light: #C4A035;
+  --inv-gold-primary: #A68F3C;
+  --inv-gold-dark: #8B6914;
+
+  /* Deep Red Accents */
+  --inv-red-primary: #8B1A1A;
+  --inv-red-dark: #6B0F0F;
+  --inv-red-accent: #A52A2A;
+
+  /* Stone & Marble */
+  --inv-stone-light: #D3D3D3;
+  --inv-stone-mid: #A9A9A9;
+  --inv-stone-dark: #5C5C5C;
+  --inv-marble-white: #F5F5F5;
+
+  /* Fonts */
+  --inv-serif: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, 'Times New Roman', serif;
+  --inv-sans: Arial, Helvetica, sans-serif;
+
+  /* Effects */
+  --inv-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.15);
+  --inv-shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --inv-shadow-heavy: 0 8px 16px rgba(0, 0, 0, 0.4);
+
+  /* Legacy Invictus Variables (for backward compatibility) */
+  --invictus-gold: #8B6914;
+  --invictus-gold-light: #C4A035;
+  --invictus-red: #8B1A1A;
+  --invictus-red-light: #A0522D;
+  --invictus-parchment: #F5F0E1;
+  --invictus-ink: #2C1810;
+  --invictus-border: #C4A035;
+  --invictus-bg-section: rgba(245, 240, 225, 0.6);
+  --invictus-font-serif: var(--inv-serif);
 }
 
-/* ═══ Tab Container ═════════════════════════════════════════════════════ */
-.invictus-tab {
+/* ═══ GLOBAL THEME APPLICATION ═════════════════════════════════════════ */
+body {
+  background-color: var(--inv-parchment);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+}
+
+body.coc7-cthulhu-invictus-active {
+  --primary-color: var(--inv-gold-primary);
+  --secondary-color: var(--inv-red-primary);
+}
+
+/* ═══ SIDEBAR STYLING ══════════════════════════════════════════════════ */
+#sidebar {
+  background-color: var(--inv-parchment);
+  border-left: 8px solid var(--inv-red-primary);
+  box-shadow: inset 2px 0 0 rgba(196, 160, 53, 0.3);
+}
+
+#sidebar-tabs {
+  border-bottom: 3px solid var(--inv-gold-dark);
+  background: linear-gradient(to bottom, var(--inv-parchment), var(--inv-parchment-dark));
+}
+
+#sidebar-tabs .item {
+  color: var(--inv-ink-dark);
+  border: none;
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   padding: 8px 12px;
-  font-family: var(--invictus-font-serif);
-  color: var(--invictus-ink);
+  transition: all 0.2s ease;
 }
 
-/* ═══ Sections ══════════════════════════════════════════════════════════ */
-.invictus-section {
-  background: var(--invictus-bg-section);
-  border: 1px solid var(--invictus-border);
+#sidebar-tabs .item:hover {
+  background-color: rgba(196, 160, 53, 0.1);
+}
+
+#sidebar-tabs .item.active {
+  background: linear-gradient(to bottom, var(--inv-gold-light), var(--inv-gold-dark));
+  color: var(--inv-parchment);
+  border-bottom: 3px solid var(--inv-red-primary);
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ═══ NAVIGATION & CONTROLS ════════════════════════════════════════════ */
+#navigation {
+  background: linear-gradient(to right, var(--inv-stone-dark), var(--inv-stone-mid));
+  border-bottom: 4px solid var(--inv-gold-dark);
+  box-shadow: var(--inv-shadow-medium);
+}
+
+.nav-item {
+  color: var(--inv-parchment);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  border-right: 2px solid rgba(196, 160, 53, 0.3);
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  background-color: rgba(196, 160, 53, 0.2);
+}
+
+.nav-item.active {
+  background: var(--inv-gold-light);
+  color: var(--inv-ink-dark);
+  text-shadow: none;
+  border-bottom: 3px solid var(--inv-red-primary);
+}
+
+#controls {
+  background: linear-gradient(to bottom, var(--inv-stone-dark), #3A3A3A);
+  border-right: 4px solid var(--inv-gold-dark);
+  box-shadow: inset -2px 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.control-tool {
+  color: var(--inv-parchment);
+  border: 2px solid var(--inv-gold-dark);
   border-radius: 4px;
-  padding: 10px 14px;
-  margin-bottom: 10px;
+  margin: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
 }
 
-.invictus-section-title {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--invictus-red);
-  margin: 0 0 8px 0;
-  padding-bottom: 4px;
-  border-bottom: 2px solid var(--invictus-gold);
+.control-tool:hover {
+  background: rgba(196, 160, 53, 0.3);
+  border-color: var(--inv-gold-light);
+  text-shadow: 0 0 8px rgba(196, 160, 53, 0.6);
+}
+
+.control-tool.active {
+  background: var(--inv-gold-dark);
+  color: var(--inv-ink-dark);
+  box-shadow: 0 0 12px rgba(196, 160, 53, 0.8), inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ═══ HOTBAR ═══════════════════════════════════════════════════════════ */
+#hotbar {
+  background: linear-gradient(to bottom, var(--inv-stone-dark), var(--inv-stone-mid));
+  border-top: 4px solid var(--inv-gold-dark);
+  box-shadow: var(--inv-shadow-heavy);
+}
+
+.macro {
+  background: var(--inv-parchment-dark);
+  border: 3px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.macro:hover {
+  border-color: var(--inv-gold-light);
+  background: var(--inv-parchment);
+  box-shadow: 0 0 8px rgba(196, 160, 53, 0.5);
+}
+
+.macro.active {
+  background: var(--inv-gold-light);
+  color: var(--inv-ink-dark);
+  box-shadow: 0 0 12px rgba(196, 160, 53, 0.8);
+}
+
+/* ═══ PLAYERS LIST ═════════════════════════════════════════════════════ */
+#players {
+  background: var(--inv-parchment);
+  border-top: 3px solid var(--inv-gold-dark);
+}
+
+#players .player {
+  background: var(--inv-parchment-dark);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 4px 0;
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  transition: all 0.2s ease;
+}
+
+#players .player:hover {
+  background: var(--inv-parchment);
+  box-shadow: 0 2px 8px rgba(196, 160, 53, 0.3);
+}
+
+#players .player.active {
+  background: rgba(196, 160, 53, 0.2);
+  border-color: var(--inv-gold-light);
+}
+
+/* ═══ CHAT LOG ══════════════════════════════════════════════════════════ */
+#chat-log {
+  background: var(--inv-parchment);
+}
+
+.chat-message {
+  background: var(--inv-parchment-dark);
+  border-left: 5px solid var(--inv-gold-primary);
+  border-top: 1px solid rgba(196, 160, 53, 0.3);
+  border-bottom: 1px solid rgba(196, 160, 53, 0.3);
+  margin: 4px 0;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: var(--inv-ink-dark);
+}
+
+.chat-message:hover {
+  background: var(--inv-parchment);
+  box-shadow: 0 2px 8px rgba(196, 160, 53, 0.3);
+}
+
+.chat-message .message-sender {
+  color: var(--inv-red-primary);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+}
+
+.chat-message .message-content {
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+}
+
+/* ═══ CHAT FORM ════════════════════════════════════════════════════════ */
+#chat-form {
+  background: linear-gradient(to bottom, var(--inv-parchment), var(--inv-parchment-dark));
+  border-top: 3px solid var(--inv-gold-dark);
+  padding: 8px;
+}
+
+#chat-message {
+  background: var(--inv-parchment);
+  border: 2px solid var(--inv-gold-dark);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#chat-message:focus {
+  border-color: var(--inv-gold-light);
+  box-shadow: 0 0 8px rgba(196, 160, 53, 0.5);
+  outline: none;
+}
+
+/* ═══ APPLICATION WINDOWS ══════════════════════════════════════════════ */
+.app {
+  background: var(--inv-parchment);
+  border: 3px solid var(--inv-gold-dark);
+  border-radius: 6px;
+  box-shadow: var(--inv-shadow-heavy);
+}
+
+.app .window-header {
+  background: linear-gradient(to right, var(--inv-stone-dark), var(--inv-stone-mid));
+  border-bottom: 3px solid var(--inv-gold-dark);
+  color: var(--inv-gold-light);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.app .window-header .window-title {
+  color: var(--inv-gold-light);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.app .window-content {
+  background: var(--inv-parchment);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  padding: 12px;
+}
+
+.window-app {
+  background: var(--inv-parchment);
+}
+
+/* ═══ DIALOG BUTTONS ═══════════════════════════════════════════════════ */
+.dialog .dialog-button {
+  background: var(--inv-gold-dark);
+  color: var(--inv-parchment);
+  border: 2px solid var(--inv-gold-light);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-/* ═══ Fields ════════════════════════════════════════════════════════════ */
+.dialog .dialog-button:hover {
+  background: var(--inv-gold-light);
+  color: var(--inv-ink-dark);
+  box-shadow: 0 0 12px rgba(196, 160, 53, 0.6);
+}
+
+.dialog .dialog-button:active {
+  background: var(--inv-gold-dark);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+.btn {
+  background: var(--inv-gold-dark);
+  color: var(--inv-parchment);
+  border: 2px solid var(--inv-gold-light);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+.btn:hover {
+  background: var(--inv-gold-light);
+  color: var(--inv-ink-dark);
+  box-shadow: 0 0 10px rgba(196, 160, 53, 0.5);
+}
+
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+.btn:active {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ═══ FORM ELEMENTS ════════════════════════════════════════════════════ */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea,
+select {
+  background: var(--inv-parchment);
+  border: 2px solid var(--inv-gold-dark);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  padding: 6px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--inv-gold-light);
+  outline: none;
+  box-shadow: 0 0 8px rgba(139, 26, 26, 0.4), inset 0 0 4px rgba(196, 160, 53, 0.2);
+}
+
+textarea {
+  border: 2px solid var(--inv-gold-dark);
+  background: var(--inv-parchment);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  resize: vertical;
+}
+
+/* ═══ CHECKBOXES & RANGE SLIDERS ═══════════════════════════════════════ */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 2px;
+  background: var(--inv-parchment);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  accent-color: var(--inv-red-primary);
+}
+
+input[type="checkbox"]:hover {
+  border-color: var(--inv-gold-light);
+  box-shadow: 0 0 4px rgba(196, 160, 53, 0.3);
+}
+
+input[type="checkbox"]:checked {
+  background: var(--inv-gold-dark);
+  border-color: var(--inv-gold-light);
+}
+
+input[type="checkbox"]:checked::after {
+  content: '✓';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--inv-parchment);
+  font-weight: bold;
+}
+
+input[type="range"] {
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(to right, var(--inv-gold-dark), var(--inv-gold-light));
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--inv-gold-light);
+  border: 2px solid var(--inv-gold-dark);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: var(--inv-gold-dark);
+  box-shadow: 0 0 8px rgba(196, 160, 53, 0.6);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--inv-gold-light);
+  border: 2px solid var(--inv-gold-dark);
+  cursor: pointer;
+}
+
+/* ═══ COC7 CHARACTER SHEET STYLING ═════════════════════════════════════ */
+.coc7.sheet.actor {
+  background: var(--inv-parchment);
+  border: 4px solid var(--inv-gold-dark);
+  box-shadow: var(--inv-shadow-heavy);
+}
+
+.coc7.sheet.actor .window-header {
+  background: linear-gradient(to right, var(--inv-red-primary), var(--inv-red-dark));
+  border-bottom: 4px solid var(--inv-gold-dark);
+  color: var(--inv-gold-light);
+}
+
+.coc7.sheet.actor .window-title {
+  color: var(--inv-gold-light);
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.coc7.sheet.actor .sheet-tabs {
+  border-bottom: 3px solid var(--inv-gold-dark);
+  background: linear-gradient(to bottom, var(--inv-parchment), var(--inv-parchment-dark));
+}
+
+.coc7.sheet.actor .sheet-tabs .item {
+  color: var(--inv-ink-dark);
+  border: none;
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  transition: all 0.2s ease;
+}
+
+.coc7.sheet.actor .sheet-tabs .item:hover {
+  background: rgba(196, 160, 53, 0.15);
+}
+
+.coc7.sheet.actor .sheet-tabs .item.active {
+  background: var(--inv-gold-light);
+  color: var(--inv-ink-dark);
+  border-bottom: 3px solid var(--inv-red-primary);
+}
+
+.coc7.sheet.actor .sheet-content {
+  background: var(--inv-parchment);
+  color: var(--inv-ink-dark);
+}
+
+.coc7.sheet.actor .characteristic {
+  background: var(--inv-parchment-dark);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  padding: 8px;
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  transition: all 0.2s ease;
+}
+
+.coc7.sheet.actor .characteristic:hover {
+  background: var(--inv-parchment);
+  box-shadow: 0 2px 8px rgba(196, 160, 53, 0.3);
+}
+
+.coc7.sheet.actor .characteristic-box {
+  background: rgba(196, 160, 53, 0.1);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 3px;
+  padding: 6px;
+}
+
+.coc7.sheet.actor .skill-row {
+  background: var(--inv-parchment);
+  border-bottom: 1px solid var(--inv-gold-dark);
+  padding: 6px 4px;
+  color: var(--inv-ink-dark);
+  transition: all 0.2s ease;
+}
+
+.coc7.sheet.actor .skill-row:hover {
+  background: rgba(196, 160, 53, 0.1);
+}
+
+.coc7.sheet.actor .skill-name {
+  font-family: var(--inv-serif);
+  color: var(--inv-ink-dark);
+}
+
+.coc7.sheet.actor .skill-value {
+  background: var(--inv-parchment-dark);
+  border: 1px solid var(--inv-gold-dark);
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+.coc7.sheet.actor .combat-section {
+  background: rgba(139, 26, 26, 0.05);
+  border: 2px solid var(--inv-red-primary);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.coc7.sheet.actor .section-header {
+  background: linear-gradient(to right, var(--inv-stone-dark), var(--inv-stone-mid));
+  color: var(--inv-gold-light);
+  padding: 8px;
+  border-left: 4px solid var(--inv-gold-light);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 8px 0 4px 0;
+}
+
+.coc7.sheet.actor .item-row {
+  background: var(--inv-parchment);
+  border-bottom: 1px solid var(--inv-gold-dark);
+  padding: 6px 4px;
+  color: var(--inv-ink-dark);
+  transition: all 0.2s ease;
+}
+
+.coc7.sheet.actor .item-row:hover {
+  background: rgba(196, 160, 53, 0.1);
+}
+
+/* ═══ COMPENDIUM SIDEBAR ════════════════════════════════════════════════ */
+.compendium-sidebar {
+  background: var(--inv-parchment);
+}
+
+.compendium-pack {
+  background: var(--inv-parchment-dark);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  padding: 6px;
+  margin: 4px 0;
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  transition: all 0.2s ease;
+}
+
+.compendium-pack:hover {
+  background: var(--inv-parchment);
+  box-shadow: 0 2px 8px rgba(196, 160, 53, 0.3);
+}
+
+.compendium-pack.active {
+  background: rgba(196, 160, 53, 0.2);
+  border-color: var(--inv-gold-light);
+}
+
+/* ═══ INVICTUS MODULE SPECIFIC ═════════════════════════════════════════ */
+.invictus-tab {
+  padding: 8px 12px;
+  font-family: var(--inv-serif);
+  color: var(--inv-ink-dark);
+  background: var(--inv-parchment);
+}
+
+.invictus-section {
+  background: var(--inv-parchment-dark);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  padding: 10px 14px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.invictus-section-title {
+  background: linear-gradient(to right, var(--inv-stone-dark), var(--inv-stone-mid));
+  color: var(--inv-gold-light);
+  padding: 8px;
+  border-left: 4px solid var(--inv-gold-light);
+  font-family: var(--inv-serif);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: -10px -14px 8px -14px;
+  font-size: 14px;
+}
+
 .invictus-field {
   display: inline-flex;
   flex-direction: column;
@@ -57,7 +655,7 @@
 .invictus-field label {
   font-size: 11px;
   font-weight: 600;
-  color: var(--invictus-gold);
+  color: var(--inv-gold-dark);
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin-bottom: 2px;
@@ -66,12 +664,12 @@
 .invictus-field input[type="text"],
 .invictus-field input[type="number"],
 .invictus-field select {
-  border: 1px solid var(--invictus-border);
+  border: 1px solid var(--inv-gold-dark);
   border-radius: 3px;
   padding: 4px 6px;
-  font-family: var(--invictus-font-serif);
+  font-family: var(--inv-serif);
   font-size: 13px;
-  color: var(--invictus-ink);
+  color: var(--inv-ink-dark);
   background: #FFFEF8;
 }
 
@@ -79,7 +677,7 @@
 .invictus-field input[type="number"]:focus,
 .invictus-field select:focus {
   outline: none;
-  border-color: var(--invictus-red);
+  border-color: var(--inv-red-primary);
   box-shadow: 0 0 3px rgba(139, 26, 26, 0.3);
 }
 
@@ -91,17 +689,16 @@
 .invictus-field input[type="checkbox"] {
   width: 16px;
   height: 16px;
-  accent-color: var(--invictus-red);
+  accent-color: var(--inv-red-primary);
 }
 
 .invictus-derived {
   font-size: 13px;
   font-weight: 600;
-  color: var(--invictus-ink);
+  color: var(--inv-ink-dark);
   padding: 4px 0;
 }
 
-/* ═══ Roman Name Row ═══════════════════════════════════════════════════ */
 .invictus-name-fields {
   display: flex;
   flex-wrap: wrap;
@@ -118,7 +715,6 @@
   width: 100%;
 }
 
-/* ═══ Status Row ═══════════════════════════════════════════════════════ */
 .invictus-status-row {
   display: flex;
   align-items: flex-end;
@@ -131,11 +727,10 @@
   width: 55px;
   font-size: 18px;
   font-weight: 700;
-  color: var(--invictus-red);
+  color: var(--inv-red-primary);
   text-align: center;
 }
 
-/* ═══ Wealth Table ═════════════════════════════════════════════════════ */
 .invictus-wealth-table {
   width: 100%;
   border-collapse: collapse;
@@ -144,7 +739,7 @@
 }
 
 .invictus-wealth-table th {
-  background: var(--invictus-gold);
+  background: var(--inv-gold-dark);
   color: #FFF;
   padding: 4px 8px;
   text-align: left;
@@ -152,14 +747,19 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.3px;
+  border: 1px solid var(--inv-gold-light);
 }
 
 .invictus-wealth-table td {
   padding: 4px 8px;
   border-bottom: 1px solid rgba(196, 160, 53, 0.3);
+  background: var(--inv-parchment);
 }
 
-/* ═══ Faith Row ════════════════════════════════════════════════════════ */
+.invictus-wealth-table tr:nth-child(even) td {
+  background: var(--inv-parchment-dark);
+}
+
 .invictus-faith-row {
   display: flex;
   gap: 12px;
@@ -172,7 +772,6 @@
   margin: 6px 0 0 0;
 }
 
-/* ═══ Reference Table (collapsible) ═══════════════════════════════════ */
 .invictus-reference details {
   cursor: pointer;
 }
@@ -180,6 +779,8 @@
 .invictus-reference details summary {
   cursor: pointer;
   user-select: none;
+  font-weight: bold;
+  color: var(--inv-red-primary);
 }
 
 .invictus-reference-table {
@@ -190,30 +791,193 @@
 }
 
 .invictus-reference-table th {
-  background: var(--invictus-red);
+  background: var(--inv-red-primary);
   color: #FFF;
   padding: 3px 6px;
   text-align: left;
   font-size: 10px;
   text-transform: uppercase;
+  border: 1px solid var(--inv-red-dark);
 }
 
 .invictus-reference-table td {
   padding: 3px 6px;
   border-bottom: 1px solid rgba(196, 160, 53, 0.2);
+  background: var(--inv-parchment);
 }
 
-.invictus-reference-table tr:nth-child(even) {
+.invictus-reference-table tr:nth-child(even) td {
   background: rgba(245, 240, 225, 0.5);
 }
 
-/* ═══ Responsive ══════════════════════════════════════════════════════ */
-@media (max-width: 500px) {
+/* ═══ SCROLLBAR THEMING ════════════════════════════════════════════════ */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--inv-parchment-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--inv-gold-light), var(--inv-gold-dark));
+  border-radius: 6px;
+  border: 2px solid var(--inv-parchment);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--inv-gold-light);
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-color: var(--inv-gold-dark) var(--inv-parchment-dark);
+  scrollbar-width: thin;
+}
+
+/* ═══ TABLE ELEMENTS ═══════════════════════════════════════════════════ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: var(--inv-serif);
+}
+
+table th {
+  background: linear-gradient(to right, var(--inv-stone-dark), var(--inv-stone-mid));
+  color: var(--inv-gold-light);
+  border: 2px solid var(--inv-gold-dark);
+  padding: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+table td {
+  border: 1px solid var(--inv-gold-dark);
+  padding: 6px 8px;
+  color: var(--inv-ink-dark);
+  background: var(--inv-parchment);
+}
+
+table tr:nth-child(even) td {
+  background: var(--inv-parchment-dark);
+}
+
+table tr:hover td {
+  background: rgba(196, 160, 53, 0.1);
+}
+
+/* ═══ TOOLTIPS & POPOVERS ══════════════════════════════════════════════ */
+.tooltip {
+  background: var(--inv-stone-dark);
+  color: var(--inv-gold-light);
+  border: 2px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  padding: 8px;
+  font-family: var(--inv-serif);
+  box-shadow: var(--inv-shadow-medium);
+}
+
+.popover {
+  background: var(--inv-parchment);
+  border: 3px solid var(--inv-gold-dark);
+  border-radius: 6px;
+  padding: 12px;
+  box-shadow: var(--inv-shadow-heavy);
+  color: var(--inv-ink-dark);
+}
+
+/* ═══ HEADINGS ═════════════════════════════════════════════════════════ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--inv-ink-dark);
+  font-family: var(--inv-serif);
+  border-bottom: 2px solid var(--inv-gold-dark);
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2 {
+  color: var(--inv-red-primary);
+}
+
+/* ═══ UTILITY CLASSES ══════════════════════════════════════════════════ */
+.roman-border {
+  border: 3px solid var(--inv-gold-dark);
+  border-radius: 4px;
+  box-shadow: inset 0 0 4px rgba(196, 160, 53, 0.2);
+}
+
+.parchment-bg {
+  background: var(--inv-parchment);
+  color: var(--inv-ink-dark);
+}
+
+.stone-bg {
+  background: linear-gradient(to bottom, var(--inv-stone-dark), var(--inv-stone-mid));
+  color: var(--inv-gold-light);
+}
+
+.gold-accent {
+  color: var(--inv-gold-light);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.red-accent {
+  color: var(--inv-red-primary);
+}
+
+/* ═══ RESPONSIVE ADJUSTMENTS ═══════════════════════════════════════════ */
+@media (max-width: 768px) {
+  #sidebar {
+    border-left-width: 4px;
+  }
+
+  .app .window-header {
+    padding: 8px;
+  }
+
+  .control-tool {
+    margin: 4px;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 1em;
+  }
+
   .invictus-status-row {
     flex-direction: column;
     align-items: stretch;
   }
+
   .invictus-name-fields {
     flex-direction: column;
+  }
+}
+
+/* ═══ PRINT STYLES ═════════════════════════════════════════════════════ */
+@media print {
+  body {
+    background: white;
+  }
+
+  .app {
+    border: 1px solid #000;
+  }
+
+  .app .window-header {
+    background: #ccc;
+    color: #000;
   }
 }

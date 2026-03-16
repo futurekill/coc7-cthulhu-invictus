@@ -15,6 +15,7 @@ let registerSettings;
 let injectInvictusTab;
 let initInvictusData;
 let getInvictusData;
+let InvictusCharacterSheet;
 
 // Optional rule modules (loaded conditionally)
 let registerInfectionHooks;
@@ -28,12 +29,16 @@ let registerAuguryHooks;
 Hooks.once('init', async () => {
   console.log(`${MODULE_ID} | Initialising Cthulhu Invictus module`);
 
+  // ── Add body class for CSS theming ──────────────────────────────────────
+  document.body.classList.add('coc7-cthulhu-invictus-active');
+
   // Dynamic imports so the module tree is loaded only when Foundry is ready
   const settingsModule = await import('./settings.js');
   registerSettings = settingsModule.registerSettings;
 
   const sheetModule = await import('./sheets/InvictusCharacterSheet.js');
   injectInvictusTab = sheetModule.injectInvictusTab;
+  InvictusCharacterSheet = sheetModule.InvictusCharacterSheet;
 
   const dataModule = await import('./data/StatusModel.js');
   initInvictusData = dataModule.initInvictusData;
@@ -92,6 +97,36 @@ Hooks.once('ready', () => {
   }
 
   console.log(`${MODULE_ID} | CoC7 system detected — Cthulhu Invictus is active`);
+
+  // ── Register Sheet Extension ────────────────────────────────────────────
+  // Find the CoC7 character sheet class and register our subclass
+  try {
+    const characterSheets = CONFIG.Actor.sheetClasses?.character ?? {};
+    let coc7SheetClass = null;
+
+    // CONFIG.Actor.sheetClasses.character is an object keyed by "scope.ClassName"
+    for (const [key, entry] of Object.entries(characterSheets)) {
+      if (key.startsWith('CoC7') && entry.cls) {
+        coc7SheetClass = entry.cls;
+        console.log(`${MODULE_ID} | Found CoC7 sheet class: ${key}`);
+        break;
+      }
+    }
+
+    if (coc7SheetClass) {
+      const DynamicInvictusSheet = InvictusCharacterSheet(coc7SheetClass);
+      Actors.registerSheet(MODULE_ID, DynamicInvictusSheet, {
+        types: ['character'],
+        makeDefault: true,
+        label: 'Cthulhu Invictus Character Sheet'
+      });
+      console.log(`${MODULE_ID} | Registered InvictusCharacterSheet as default character sheet`);
+    } else {
+      console.warn(`${MODULE_ID} | Could not find CoC7 character sheet class, using tab injection fallback`);
+    }
+  } catch (e) {
+    console.error(`${MODULE_ID} | Failed to register sheet extension, using tab injection fallback:`, e);
+  }
 
   // ── Register Optional Rule Hooks ────────────────────────────────────
   // Each registration function checks its own setting before activating
@@ -159,10 +194,10 @@ Hooks.once('ready', () => {
 });
 
 // ═══════════════════════════════════════════════════════════════════════════
-//  SHEET INJECTION — add the Invictus tab to CoC7 character sheets
+//  SHEET INJECTION — add the Invictus tab to CoC7 character sheets (fallback)
 // ═══════════════════════════════════════════════════════════════════════════
 
-// Hook into legacy Application-based sheet rendering (current CoC7)
+// Hook into legacy Application-based sheet rendering (fallback for tab injection)
 Hooks.on('renderActorSheet', (app, html, data) => {
   if (!injectInvictusTab) return;
   const actor = app.actor ?? app.document;
@@ -170,7 +205,7 @@ Hooks.on('renderActorSheet', (app, html, data) => {
   injectInvictusTab(app, html, data);
 });
 
-// Also hook into ApplicationV2-based rendering (future-proofing)
+// Also hook into ApplicationV2-based rendering (fallback for tab injection)
 Hooks.on('renderDocumentSheetV2', (app, html, data) => {
   if (!injectInvictusTab) return;
   const actor = app.document;

@@ -57,6 +57,20 @@
       "label": "Invictus Weapons",
       "type": "Item",
       "system": "CoC7",
+      "path": "packs/weapons"
+    },
+    {
+      "name": "armor",
+      "label": "Invictus Armor",
+      "type": "Item",
+      "system": "CoC7",
+      "path": "packs/armor"
+    },
+    {
+      "name": "equipment",
+      "label": "Invictus Equipment & Services",
+      "type": "Item",
+      "system": "CoC7",
       "path": "packs/equipment"
     },
     {
@@ -95,9 +109,11 @@
       ],
       "folders": [
         {
-          "name": "Equipment",
+          "name": "Equipment & Arms",
           "packs": [
-            "weapons"
+            "weapons",
+            "armor",
+            "equipment"
           ]
         },
         {
