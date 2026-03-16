@@ -54,7 +54,11 @@ jobs:
               --type "Module" \
               --id "${{ steps.module.outputs.id }}" \
               --in "$pack_source" \
-              --out "$pack_dir"
+              --out "packs"
+          done
+          echo "Compiled pack contents:"
+          for pack_dir in packs/*/; do
+            echo "  $pack_dir: $(ls "$pack_dir" | grep -v _source | tr '\n' ' ')"
           done
 
       - name: Create release zip

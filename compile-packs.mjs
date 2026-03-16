@@ -49,7 +49,7 @@ for (const pack of packs) {
 
   try {
     execSync(
-      `npx fvtt package pack "${pack.name}" --type "Module" --id "${manifest.id}" --in "${sourcePath}" --out "${packPath}"`,
+      `npx fvtt package pack "${pack.name}" --type "Module" --id "${manifest.id}" --in "${sourcePath}" --out "${join(MODULE_DIR, "packs")}"`,
       { cwd: MODULE_DIR, stdio: "pipe" }
     );
     console.log(`  ✅ "${pack.label}" compiled successfully`);
