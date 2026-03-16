@@ -23,9 +23,9 @@
     },
     "range": {
       "normal": {
-        "value": 0,
+        "value": 5,
         "units": "",
-        "damage": ""
+        "damage": "0"
       },
       "long": {
         "value": 0,
@@ -38,18 +38,18 @@
         "damage": ""
       }
     },
-    "damage": "1D6+DB",
+    "damage": "0",
     "properties": {
       "melee": true,
       "rngd": false,
-      "thrown": false,
+      "thrown": true,
       "impl": false,
       "rare": false,
-      "ahdb": true,
-      "addb": true
+      "ahdb": false,
+      "addb": false
     },
     "usesPerRound": 1,
-    "hands": 1,
+    "hands": 2,
     "cost": {
       "value": 60,
       "unit": "sestertii"

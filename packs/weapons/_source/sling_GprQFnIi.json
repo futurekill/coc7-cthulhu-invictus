@@ -23,29 +23,29 @@
     },
     "range": {
       "normal": {
-        "value": 0,
+        "value": 30,
         "units": "",
-        "damage": ""
+        "damage": "1D8"
       },
       "long": {
-        "value": 0,
+        "value": 60,
         "units": "",
-        "damage": ""
+        "damage": "1D8"
       },
       "extreme": {
-        "value": 0,
+        "value": 100,
         "units": "",
-        "damage": ""
+        "damage": "1D8"
       }
     },
-    "damage": "1D4 (stone) / 1D4+1 (bullet)",
+    "damage": "1D8",
     "properties": {
       "melee": false,
       "rngd": true,
       "thrown": false,
       "impl": false,
       "rare": false,
-      "ahdb": false,
+      "ahdb": true,
       "addb": false
     },
     "usesPerRound": 1,

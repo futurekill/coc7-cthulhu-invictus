@@ -23,19 +23,19 @@
     },
     "range": {
       "normal": {
-        "value": 0,
+        "value": 30,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1"
       },
       "long": {
-        "value": 0,
+        "value": 60,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1"
       },
       "extreme": {
-        "value": 0,
+        "value": 100,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1"
       }
     },
     "damage": "1D8+1",
@@ -43,13 +43,13 @@
       "melee": false,
       "rngd": true,
       "thrown": false,
-      "impl": false,
+      "impl": true,
       "rare": false,
-      "ahdb": false,
+      "ahdb": true,
       "addb": false
     },
     "usesPerRound": 1,
-    "hands": 1,
+    "hands": 2,
     "cost": {
       "value": 120,
       "unit": "sestertii"

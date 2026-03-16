@@ -23,14 +23,14 @@
     },
     "range": {
       "normal": {
-        "value": 0,
+        "value": 15,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1+DB"
       },
       "long": {
-        "value": 0,
+        "value": 30,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1+DB"
       },
       "extreme": {
         "value": 0,
@@ -38,15 +38,15 @@
         "damage": ""
       }
     },
-    "damage": "1D6",
+    "damage": "1D8+1+DB",
     "properties": {
       "melee": true,
       "rngd": false,
       "thrown": true,
-      "impl": false,
+      "impl": true,
       "rare": false,
       "ahdb": false,
-      "addb": false
+      "addb": true
     },
     "usesPerRound": 1,
     "hands": 1,

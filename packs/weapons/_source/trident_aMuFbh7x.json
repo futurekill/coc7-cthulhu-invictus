@@ -23,9 +23,9 @@
     },
     "range": {
       "normal": {
-        "value": 0,
+        "value": 15,
         "units": "",
-        "damage": ""
+        "damage": "1D8+1+DB"
       },
       "long": {
         "value": 0,
@@ -38,14 +38,14 @@
         "damage": ""
       }
     },
-    "damage": "1D6+DB",
+    "damage": "1D8+1+DB",
     "properties": {
       "melee": true,
       "rngd": false,
-      "thrown": false,
-      "impl": false,
+      "thrown": true,
+      "impl": true,
       "rare": false,
-      "ahdb": true,
+      "ahdb": false,
       "addb": true
     },
     "usesPerRound": 1,
