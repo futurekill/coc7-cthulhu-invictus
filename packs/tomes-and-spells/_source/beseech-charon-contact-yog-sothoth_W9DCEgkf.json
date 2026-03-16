@@ -1,0 +1,38 @@
+{
+  "_id": "W9DCEgkfgvk7W7bY",
+  "name": "Beseech Charon (Contact Yog-Sothoth)",
+  "type": "spell",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Roman-appropriate contact spell; appears in The Book of Thoth tome</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>Grand Grimoire of Cthulhu Mythos Magic (page 38)</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-appropriate spell with Roman naming</td></tr>\n<tr><td><strong>Effect</strong></td><td>Contact with Yog-Sothoth through Charon aspect</td></tr>\n</table>",
+      "keeper": ""
+    },
+    "properties": {
+      "mythosSpell": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 104000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "spell",
+      "source": "Grand Grimoire of Cthulhu Mythos Magic (page 38)",
+      "origin": "Invictus-appropriate spell with Roman naming"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

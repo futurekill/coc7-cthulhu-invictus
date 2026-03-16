@@ -1,0 +1,37 @@
+{
+  "_id": "otjjMJqQweJTwl2D",
+  "name": "The Silks of Arachne",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Luxurious silk-like cloth woven from dark goddess' webs by cults of Atlach-Nacha. Technique began in Hyperborea, now practiced by cult of Arachne who secretly worship Atlach-Nacha. Fabric is incredibly durable, tough as hardened leather (difficult to tailor). A tunic, toga, or stolae/palla (women's dress and shawl) offers 3 points of protection. 85% of garments are women's clothing as cult is mostly matriarchal. When fabric is cut, nearly impossible to repair. After 20 points of cumulative cuts, loses all protective benefit. However, it can repair itself if soaked in freshly spilled blood and stored in complete darkness overnight. Creation is extremely difficult, requiring years of training, ritual summoning of Atlach-Nacha, and human sacrifice. Made only for senior cultists and passed as heirlooms. Non-worshippers gaining such garments bring immense shame and will be actively pursued and sacrificed by the cultist who lost it.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Protective Garment</td></tr>\n<tr><td><strong>Used By</strong></td><td>Human cultists of Atlach-Nacha</td></tr>\n<tr><td><strong>Effect</strong></td><td>3 points of protection; incredibly durable; repairs in freshly spilled blood stored in complete darkness; loses protective value after 20 points of cumulative cutting damage</td></tr>\n</table>",
+      "keeper": "<p><strong>Effect:</strong> 3 points of protection; incredibly durable; repairs in freshly spilled blood stored in complete darkness; loses protective value after 20 points of cumulative cutting damage</p>"
+    },
+    "properties": {
+      "special": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 207000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "artifact",
+      "artifactType": "Protective Garment"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "Mx9V1qVAphFOpfKG",
+  "name": "The Pnakotica (Greek Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A Greek version of the Pnakotic Fragments, said to have originated in the lost civilization of Lomar. Records mythic history detailing rise and fall of forgotten civilizations, with emphasis on northern lands\u2014Hyperborea and Lomar\u2014and prehuman legends.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+5/+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>45</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>52</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Contact Winged One (Contact Elder Thing)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 45</p>"
+    },
+    "language": "Greek",
+    "author": "Unknown",
+    "date": "Unknown",
+    "sanpiLoss": "2D8",
+    "mythosRating": 45,
+    "study": 52,
+    "spells": "Contact Winged One (Contact Elder Thing)",
+    "mythosGain": {
+      "initial": "5",
+      "full": "10 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 17000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 52,
+      "mythosRating": 45
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "XyuzhdIY9gsYsV61",
+  "name": "The First Scroll of Arax",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Compiled over many years by Arax (d. circa 42 A.D.), court sorcerer for Emperor Gaius Caligula. Comprises memorized extracts from and summaries of virtually all known Mythos tomes of antiquity, in Latin, with additional commentary from Arax. Arax vanished without trace on the day of Caligula's assassination, but was generally a good person. Guarded by the Christian Bishop of Rome since the days of Emperor Claudius, handed down from one Pope to the next.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Arax the Scythian</td></tr>\n<tr><td><strong>Date</strong></td><td>42 A.D.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>3D4</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+7 percentiles</td></tr>\n<tr><td><strong>Dream Lore</strong></td><td>+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>30</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>36</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Call/Dismiss The Bringer of Winter (Rlim Shaikorth)</li>\n<li>Bring Forth the Taker of Sacrifices (Contact Formless Spawn of Tsathoggua)</li>\n<li>Implore the Black Toad for Favor (Contact Tsathoggua)</li>\n<li>Make Way to Distant Place (Create Gate)</li>\n<li>Create Mist of Releh</li>\n<li>Deflect Harm</li>\n<li>Eibon's Wheel of Mist</li>\n<li>Enchant Brazier</li>\n<li>Enchant Knife</li>\n<li>Levitate</li>\n<li>Shrivelling</li>\n<li>Voorish Sign</li>\n<li>Wither Limb</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 30</p>"
+    },
+    "language": "Latin",
+    "author": "Arax the Scythian",
+    "date": "42 A.D.",
+    "sanpiLoss": "3D4",
+    "mythosRating": 30,
+    "study": 36,
+    "spells": "Call/Dismiss The Bringer of Winter (Rlim Shaikorth), Bring Forth the Taker of Sacrifices (Contact Formless Spawn of Tsathoggua), Implore the Black Toad for Favor (Contact Tsathoggua), Make Way to Distant Place (Create Gate), Create Mist of Releh, Deflect Harm, Eibon's Wheel of Mist, Enchant Brazier, Enchant Knife, Levitate, Shrivelling, Voorish Sign, Wither Limb",
+    "mythosGain": {
+      "initial": "3",
+      "full": "7 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 11000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 36,
+      "mythosRating": 30
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

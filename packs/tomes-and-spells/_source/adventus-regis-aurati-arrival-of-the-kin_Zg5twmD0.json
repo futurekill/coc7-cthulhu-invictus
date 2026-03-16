@@ -1,0 +1,49 @@
+{
+  "_id": "Zg5twmD0nIBsiRzD",
+  "name": "Adventus Regis Aurati (Arrival of the King in Yellow)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>The newer Latin version of the tale of a decadent royal family and the arrival of the god-king in tattered yellow robes. Written as a play script meant to be performed by a troupe of actors. Contains a strange yellow three-armed symbol representing the King in Yellow that requires a Sanity Check for 1/1D6 when viewed. Performances of this work are rumored to cause madness.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Livius Carbo</td></tr>\n<tr><td><strong>Date</strong></td><td>88 A.D.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+4 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>15</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>1</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Call/Dismiss Hastur</li>\n<li>Song of Hastur</li>\n<li>The Yellow Sign</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 15</p>"
+    },
+    "language": "Latin",
+    "author": "Livius Carbo",
+    "date": "88 A.D.",
+    "sanpiLoss": "1D6",
+    "mythosRating": 15,
+    "study": 1,
+    "spells": "Call/Dismiss Hastur, Song of Hastur, The Yellow Sign",
+    "mythosGain": {
+      "initial": "1",
+      "full": "4 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 2000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 1,
+      "mythosRating": 15
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

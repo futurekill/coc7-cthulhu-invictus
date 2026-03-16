@@ -1,0 +1,37 @@
+{
+  "_id": "JWiduvDM1fm5ZN8d",
+  "name": "Blood Blades",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Exceedingly rare weapons found mostly in Germania and Britannia. Can take any bladed weapon form, typically forged by powerful serpent folk sorcerers or humans who served them. Iron from human blood is extracted and processed to create a black metal with thirst for blood. Small knife requires 200 victims; sword requires 1000+. Blood must be harvested from victims, requiring their death. Each blade is crafted for a specific wielder and shatters if touched by another. Each wound does an additional 1D3 damage as blood is drawn into the weapon (1/1D3 SAN loss on first encounter). Wielders take half damage from non-magical weapons, regenerate 1 HP/round, are immune to shock/pain effects, don't age if used weekly, but drain 1D4 SAN per death. Most wielders go insane as the blade becomes sentient and forms telepathic bond, making wielders slaves to the blade's thirst for blood.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Enchanted Weapon</td></tr>\n<tr><td><strong>Used By</strong></td><td>Serpent people (primarily)</td></tr>\n<tr><td><strong>Effect</strong></td><td>Does normal weapon damage plus 1D3 additional damage; regenerates 1 HP/round for wielder; half damage from non-magical weapons; immunity to shock/pain; prevents aging if used regularly; telepathic bond with wielder; corrupts wielder with each kill</td></tr>\n</table>",
+      "keeper": "<p><strong>Effect:</strong> Does normal weapon damage plus 1D3 additional damage; regenerates 1 HP/round for wielder; half damage from non-magical weapons; immunity to shock/pain; prevents aging if used regularly; telepathic bond with wielder; corrupts wielder with each kill</p>"
+    },
+    "properties": {
+      "special": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 202000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "artifact",
+      "artifactType": "Enchanted Weapon"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "mD9uebUy9p8t85yf",
+  "name": "The Parchment of Pnom (Coptic Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A Coptic translation of the Parchments of Pnom with unknown date of creation. Less detailed than the Hyperborean original.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Coptic</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D10</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+2/+6 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>24</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>29</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Animate Mummy</li>\n<li>Augury</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 24</p>"
+    },
+    "language": "Coptic",
+    "author": "Unknown",
+    "date": "Unknown",
+    "sanpiLoss": "1D10",
+    "mythosRating": 24,
+    "study": 29,
+    "spells": "Animate Mummy, Augury",
+    "mythosGain": {
+      "initial": "2",
+      "full": "6 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 15000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 29,
+      "mythosRating": 24
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

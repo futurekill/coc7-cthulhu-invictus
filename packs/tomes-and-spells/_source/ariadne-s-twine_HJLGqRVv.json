@@ -1,0 +1,38 @@
+{
+  "_id": "HJLGqRVvgKpu2X7K",
+  "name": "Ariadne's Twine",
+  "type": "spell",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Referenced as period-appropriate for use in Cthulhu Invictus setting</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>Grand Grimoire of Cthulhu Mythos Magic (page 29)</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-appropriate spell</td></tr>\n</table>",
+      "keeper": ""
+    },
+    "properties": {
+      "mythosSpell": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 100000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "spell",
+      "source": "Grand Grimoire of Cthulhu Mythos Magic (page 29)",
+      "origin": "Invictus-appropriate spell"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

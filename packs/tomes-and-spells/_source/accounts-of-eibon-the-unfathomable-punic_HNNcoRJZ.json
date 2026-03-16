@@ -1,0 +1,49 @@
+{
+  "_id": "HNNcoRJZdoFUmVzs",
+  "name": "Accounts of Eibon, The Unfathomable (Punic & Greek Versions)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Later translations of Eibon's work in Punic and Greek. These versions are less complete but still dangerous than the Coptic original. Rumor exists of even older versions in Atlantean and original Hyperborean.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Punic & Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Eibon (translator unknown)</td></tr>\n<tr><td><strong>Date</strong></td><td>750 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+5/+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>45</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>40</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Call/Dismiss Abhoth</li>\n<li>Call/Dismiss Azathoth</li>\n<li>Call/Dismiss Rlim Shaikorth</li>\n<li>Call/Dismiss Zthothaqquah (Tsathoggua)</li>\n<li>Contact Child of Zthothaqquah (Child of Tsathoggua)</li>\n<li>Contact Formless Spawn of Zthothaqquah (Formless Spawn)</li>\n<li>Contact Deity/Kthulhut (Cthulhu)</li>\n<li>Contact Deity/Yok Zothoth (Yog-Sothoth)</li>\n<li>Create Barrier of Naach-Tith</li>\n<li>Create Gate</li>\n<li>Create Mist of R'Lyeh</li>\n<li>Eibon's Wheel of Mist</li>\n<li>Enchant Knife</li>\n<li>Green Decay</li>\n<li>Voorish Sign</li>\n<li>Wither Limb</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 45</p>"
+    },
+    "language": "Punic & Greek",
+    "author": "Eibon (translator unknown)",
+    "date": "750 B.C.",
+    "sanpiLoss": "2D6",
+    "mythosRating": 45,
+    "study": 40,
+    "spells": "Call/Dismiss Abhoth, Call/Dismiss Azathoth, Call/Dismiss Rlim Shaikorth, Call/Dismiss Zthothaqquah (Tsathoggua), Contact Child of Zthothaqquah (Child of Tsathoggua), Contact Formless Spawn of Zthothaqquah (Formless Spawn), Contact Deity/Kthulhut (Cthulhu), Contact Deity/Yok Zothoth (Yog-Sothoth), Create Barrier of Naach-Tith, Create Gate, Create Mist of R'Lyeh, Eibon's Wheel of Mist, Enchant Knife, Green Decay, Voorish Sign, Wither Limb",
+    "mythosGain": {
+      "initial": "5",
+      "full": "10 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 1000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 40,
+      "mythosRating": 45
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

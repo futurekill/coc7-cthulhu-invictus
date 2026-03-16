@@ -1,0 +1,49 @@
+{
+  "_id": "AwqAAy1udUAbUTOY",
+  "name": "The Writings of Dzyan of Atlantis (Greek Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A Greek translation of what claims to be the lost scriptures of an Atlantean sorcerer named Dzyan. Pasicles suggests the scriptures predate Dzyan and Atlantis itself, originating from an earlier 'lost time'. Focuses on means of communing with and even summoning otherworldly powers. This is the original and superior Greek translation, unfortunately mostly lost to history.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Pasicles of Rhodes</td></tr>\n<tr><td><strong>Date</strong></td><td>270 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+5/+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>45</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>18</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Rouse The Forest Shepherd (Summon/Bind Dark Young)</li>\n<li>Breath Of The Black Wind (Summon/Bind Byakhee)</li>\n<li>Call The Hidden Horror (Summon/Bind Dimensional Shambler)</li>\n<li>The Dreaming (Contact Deity/Cthulhu)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 45</p>"
+    },
+    "language": "Greek",
+    "author": "Pasicles of Rhodes",
+    "date": "270 B.C.",
+    "sanpiLoss": "2D6",
+    "mythosRating": 45,
+    "study": 18,
+    "spells": "Rouse The Forest Shepherd (Summon/Bind Dark Young), Breath Of The Black Wind (Summon/Bind Byakhee), Call The Hidden Horror (Summon/Bind Dimensional Shambler), The Dreaming (Contact Deity/Cthulhu)",
+    "mythosGain": {
+      "initial": "5",
+      "full": "10 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 7000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 18,
+      "mythosRating": 45
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

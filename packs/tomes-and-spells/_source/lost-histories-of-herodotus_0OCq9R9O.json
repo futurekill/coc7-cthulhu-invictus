@@ -1,0 +1,49 @@
+{
+  "_id": "0OCq9R9O0oSfuBG9",
+  "name": "Lost Histories of Herodotus",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>An unabridged version of Herodotus' famous Histories, including strange text beyond the known version. Written on papyrus scrolls in Greek, it describes lost cities in Arabia, the ancient civilization of the Izdonarii, and beings from the stars wielding unthinkable technologies. Could be a copy with expanded notes from an unnamed author, or research notes Herodotus found unfit to publish. The Izdonarii are actively hunting down and destroying every known copy and any human who might have absorbed its insights.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Herodotus or unknown author</td></tr>\n<tr><td><strong>Date</strong></td><td>440 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D6/1D10</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+10 percentiles</td></tr>\n<tr><td><strong>Occult</strong></td><td>+1/+4 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>36</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>48</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Mind Transfer</li>\n<li>Cloud Memory</li>\n<li>Appear Human</li>\n<li>Quell Suspicion</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 36</p>"
+    },
+    "language": "Greek",
+    "author": "Herodotus or unknown author",
+    "date": "440 B.C.",
+    "sanpiLoss": "1D6/1D10",
+    "mythosRating": 36,
+    "study": 48,
+    "spells": "Mind Transfer, Cloud Memory, Appear Human, Quell Suspicion",
+    "mythosGain": {
+      "initial": "3",
+      "full": "10 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 13000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 48,
+      "mythosRating": 36
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

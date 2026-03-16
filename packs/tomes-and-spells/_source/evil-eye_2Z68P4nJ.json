@@ -1,0 +1,38 @@
+{
+  "_id": "2Z68P4nJXCrOFlsu",
+  "name": "Evil Eye",
+  "type": "spell",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Invictus-appropriate flavored version of standard Mythos spell; presented with mechanical content</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>7th Edition Guide to Cthulhu Invictus</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-specific spell variant</td></tr>\n<tr><td><strong>Effect</strong></td><td>Curses target with harmful eye attack</td></tr>\n</table>",
+      "keeper": ""
+    },
+    "properties": {
+      "mythosSpell": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 112000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "spell",
+      "source": "7th Edition Guide to Cthulhu Invictus",
+      "origin": "Invictus-specific spell variant"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_id": "c0CDJMhmgNkRXU8G",
+  "name": "Tilsimati",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A very rare text of which only a few copies exist. The oldest is written on clay tablets in Sumerian, with later Aramaic and Greek copies on parchment scrolls. Describes powerful symbols and gives detailed instructions on inscribing them to form protective wards, glyphs, and amulets. Rare because most copies are deliberately destroyed by cult members seeking to limit defenses against their dark arts and dread masters.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Sumerian, Aramaic, and Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>4th millennium B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+2/+4 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>18</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>20</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Create Amulet</li>\n<li>Create Bulla</li>\n<li>Create Charm</li>\n<li>Create Sign of Barzai</li>\n<li>Elder Sign</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 18</p>"
+    },
+    "language": "Sumerian, Aramaic, and Greek",
+    "author": "Unknown",
+    "date": "4th millennium B.C.",
+    "sanpiLoss": "1D8",
+    "mythosRating": 18,
+    "study": 20,
+    "spells": "Create Amulet, Create Bulla, Create Charm, Create Sign of Barzai, Elder Sign",
+    "mythosGain": {
+      "initial": "2",
+      "full": "4 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 20000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 20,
+      "mythosRating": 18
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

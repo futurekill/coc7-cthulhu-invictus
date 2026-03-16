@@ -1,0 +1,49 @@
+{
+  "_id": "q0w19IATSFfwQaz4",
+  "name": "The Works of Dzyan (Latin Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A weaker Latin translation of Dzyan's work, created approximately 250 years after the Greek version. The translation mistakenly seeks to introduce a narrative element to Dzyan's work and thereby dilutes it. A few copies of this version are known to exist.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Aemilianus Cethegus</td></tr>\n<tr><td><strong>Date</strong></td><td>23 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+6 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>27</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>14</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Rouse The Forest Shepherd (Summon/Bind Dark Young)</li>\n<li>Breath Of The Black Wind (Summon/Bind Byakhee)</li>\n<li>Call The Hidden Horror (Summon/Bind Dimensional Shambler)</li>\n<li>The Dreaming (Contact Deity/Cthulhu)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 27</p>"
+    },
+    "language": "Latin",
+    "author": "Aemilianus Cethegus",
+    "date": "23 B.C.",
+    "sanpiLoss": "1D6",
+    "mythosRating": 27,
+    "study": 14,
+    "spells": "Rouse The Forest Shepherd (Summon/Bind Dark Young), Breath Of The Black Wind (Summon/Bind Byakhee), Call The Hidden Horror (Summon/Bind Dimensional Shambler), The Dreaming (Contact Deity/Cthulhu)",
+    "mythosGain": {
+      "initial": "3",
+      "full": "6 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 8000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 14,
+      "mythosRating": 27
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

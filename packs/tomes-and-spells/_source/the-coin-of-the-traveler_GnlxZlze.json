@@ -1,0 +1,37 @@
+{
+  "_id": "GnlxZlzeAmWRpW1L",
+  "name": "The Coin of the Traveler",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Magical coins from Britannia made of strange white gold (platinum), engraved with intricate knotwork and odd indecipherable writings. One side shows a strange-looking animal (lion, stag, wolf, boar, or dragon); other side shows a slender, beautiful crowned figure. Given as gifts from Sidhe nobles to humans who've done them favors. The Sidhe are a magical, immortal race from the Dreamlands who travel to the Waking World through weak points between realities located throughout Britannia. Coin must remain in contact with skin to function. Grants passive understanding of any language heard spoken, including non-verbal ones.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Magical Item</td></tr>\n<tr><td><strong>Used By</strong></td><td>Sidhe and humans who have done favors for them</td></tr>\n<tr><td><strong>Effect</strong></td><td>Grants ability to understand any spoken language; can understand non-verbal languages like deep one sign language; does not grant ability to speak learned languages</td></tr>\n</table>",
+      "keeper": "<p><strong>Effect:</strong> Grants ability to understand any spoken language; can understand non-verbal languages like deep one sign language; does not grant ability to speak learned languages</p>"
+    },
+    "properties": {
+      "special": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 203000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "artifact",
+      "artifactType": "Magical Item"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

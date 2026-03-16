@@ -1,0 +1,38 @@
+{
+  "_id": "SpMImNNlWr3r2Utj",
+  "name": "Augury",
+  "type": "spell",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Divination spell; referenced in Arcane Cylinders of Ashurbanipal</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>Grand Grimoire of Cthulhu Mythos Magic (page 30)</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-appropriate spell</td></tr>\n</table>",
+      "keeper": ""
+    },
+    "properties": {
+      "mythosSpell": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 101000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "spell",
+      "source": "Grand Grimoire of Cthulhu Mythos Magic (page 30)",
+      "origin": "Invictus-appropriate spell"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

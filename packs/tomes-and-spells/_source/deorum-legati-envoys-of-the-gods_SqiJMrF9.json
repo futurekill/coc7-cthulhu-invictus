@@ -1,0 +1,49 @@
+{
+  "_id": "SqiJMrF9OHdDb7GL",
+  "name": "Deorum Legati (Envoys of the Gods)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>An apparent translation of an ancient Egyptian text. A brief introduction reveals the text originates from hieroglyphics etched on clay tablets discovered near Aputhek, Egypt. Recounts stories of interactions between ancient magi and beings said to be able to traverse time and space by inhabiting the minds of the gods' chosen. The text is short but requires significant study to master the challenging translation.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Translator unknown (original by unknown Egyptian author)</td></tr>\n<tr><td><strong>Date</strong></td><td>72 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+8 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>33</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>6</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Song of the Envoy (Contact Yithian)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 33</p>"
+    },
+    "language": "Latin",
+    "author": "Translator unknown (original by unknown Egyptian author)",
+    "date": "72 B.C.",
+    "sanpiLoss": "1D8",
+    "mythosRating": 33,
+    "study": 6,
+    "spells": "Song of the Envoy (Contact Yithian)",
+    "mythosGain": {
+      "initial": "3",
+      "full": "8 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 9000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 6,
+      "mythosRating": 33
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

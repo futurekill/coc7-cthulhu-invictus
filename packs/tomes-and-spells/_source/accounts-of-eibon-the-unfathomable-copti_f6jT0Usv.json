@@ -1,0 +1,49 @@
+{
+  "_id": "f6jT0UsvS7PHyzSA",
+  "name": "Accounts of Eibon, The Unfathomable (Coptic Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A collection of scrolls, translations of an earlier text written by the ancient Hyperborean sorcerer Eibon. This version contains seventeen old scrolls giving detailed accounts of Formless Spawn and Serpent Men, as well as the Great Old Ones Abhoth, Atlach-Nacha, Rlim-Shaikorth, and especially Tsathoggua. This is the most complete and dangerous version of the three known versions.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Coptic</td></tr>\n<tr><td><strong>Author</strong></td><td>Eibon (Hyperborean sorcerer, translator unknown)</td></tr>\n<tr><td><strong>Date</strong></td><td>2800 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+6/+12 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>54</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>43</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Call/Dismiss Abhoth</li>\n<li>Call/Dismiss Azathoth</li>\n<li>Call/Dismiss Rlim Shaikorth</li>\n<li>Call/Dismiss Zthothaqquah (Tsathoggua)</li>\n<li>Contact Child of Zthothaqquah (Child of Tsathoggua)</li>\n<li>Contact Formless Spawn of Zthothaqquah (Formless Spawn)</li>\n<li>Contact Deity/Kthulhut (Cthulhu)</li>\n<li>Contact Deity/Yok Zothoth (Yog-Sothoth)</li>\n<li>Create Barrier of Naach-Tith</li>\n<li>Create Gate</li>\n<li>Create Mist of R'Lyeh</li>\n<li>Eibon's Wheel of Mist</li>\n<li>Enchant Knife</li>\n<li>Green Decay</li>\n<li>Voorish Sign</li>\n<li>Wither Limb</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 54</p>"
+    },
+    "language": "Coptic",
+    "author": "Eibon (Hyperborean sorcerer, translator unknown)",
+    "date": "2800 B.C.",
+    "sanpiLoss": "2D8",
+    "mythosRating": 54,
+    "study": 43,
+    "spells": "Call/Dismiss Abhoth, Call/Dismiss Azathoth, Call/Dismiss Rlim Shaikorth, Call/Dismiss Zthothaqquah (Tsathoggua), Contact Child of Zthothaqquah (Child of Tsathoggua), Contact Formless Spawn of Zthothaqquah (Formless Spawn), Contact Deity/Kthulhut (Cthulhu), Contact Deity/Yok Zothoth (Yog-Sothoth), Create Barrier of Naach-Tith, Create Gate, Create Mist of R'Lyeh, Eibon's Wheel of Mist, Enchant Knife, Green Decay, Voorish Sign, Wither Limb",
+    "mythosGain": {
+      "initial": "6",
+      "full": "12 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 43,
+      "mythosRating": 54
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

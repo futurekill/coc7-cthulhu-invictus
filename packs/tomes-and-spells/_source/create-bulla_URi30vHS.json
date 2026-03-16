@@ -1,0 +1,38 @@
+{
+  "_id": "URi30vHSmun1tg3T",
+  "name": "Create Bulla",
+  "type": "spell",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Invictus-specific spell creating Roman protective amulets; referenced in tomes</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>Grand Grimoire of Cthulhu Mythos Magic (page 83)</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-specific spell</td></tr>\n<tr><td><strong>Effect</strong></td><td>Creates magical protective bullas (Roman amulets)</td></tr>\n</table>",
+      "keeper": ""
+    },
+    "properties": {
+      "mythosSpell": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 108000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "spell",
+      "source": "Grand Grimoire of Cthulhu Mythos Magic (page 83)",
+      "origin": "Invictus-specific spell"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

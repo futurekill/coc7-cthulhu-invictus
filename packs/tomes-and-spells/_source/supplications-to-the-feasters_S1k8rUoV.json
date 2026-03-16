@@ -1,0 +1,49 @@
+{
+  "_id": "S1k8rUoVvG2VV4zp",
+  "name": "Supplications to the Feasters",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Only a single copy known to exist\u2014a set of fired clay tablets inscribed with Babylonian cuneiform. Legend claims the text, a copy and translation of an older Sumerian text, was found engraved on a large and hideous idol taken as plunder by Sargon of Akkad during the Elamite Conquest. Identified as prayers and supplications to supernatural allies, Sargon ordered it translated and spells cast. Afterward, he ordered the idol smashed and the translating magi executed. How this copy survived is unknown.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Babylonian cuneiform</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown (possibly translated from older Sumerian text)</td></tr>\n<tr><td><strong>Date</strong></td><td>Ancient origin</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+2 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>9</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>8</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Entreat the Eaters of Carrion (Contact Ghoul)</li>\n<li>Entreat Those Who Hide Within the Storm (Contact Sand-Dweller)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 9</p>"
+    },
+    "language": "Babylonian cuneiform",
+    "author": "Unknown (possibly translated from older Sumerian text)",
+    "date": "Ancient origin",
+    "sanpiLoss": "1D6",
+    "mythosRating": 9,
+    "study": 8,
+    "spells": "Entreat the Eaters of Carrion (Contact Ghoul), Entreat Those Who Hide Within the Storm (Contact Sand-Dweller)",
+    "mythosGain": {
+      "initial": "1",
+      "full": "2 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 18000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 8,
+      "mythosRating": 9
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

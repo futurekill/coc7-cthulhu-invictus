@@ -1,0 +1,49 @@
+{
+  "_id": "NgXVZ5WGPdxzTdmo",
+  "name": "The Parchments of Pnom (Hyperborean Version)",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Enigmatic scrolls with runes scribed in bloodred ink. Some claim the Parchments were preserved by the same cult that saved the Accounts of Eibon when the great ice sheet ground Hyperborea beneath it; others suggest they are a fragment of Eibon's work. Regardless, they form an elaborate genealogy of the Great Old Ones\u2014gods or titans that predated Earth's creation. Details their origins in vast space or distant worlds, interactions with each other, and eventual arrival on Earth. Emphasis is given to the lineage of the toad-like Tsathoggua.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Hyperborean</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>Ancient origin</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+8 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>33</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>31</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Animate Mummy</li>\n<li>Augury</li>\n<li>Spirit Summoning</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 33</p>"
+    },
+    "language": "Hyperborean",
+    "author": "Unknown",
+    "date": "Ancient origin",
+    "sanpiLoss": "2D6",
+    "mythosRating": 33,
+    "study": 31,
+    "spells": "Animate Mummy, Augury, Spirit Summoning",
+    "mythosGain": {
+      "initial": "3",
+      "full": "8 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 14000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 31,
+      "mythosRating": 33
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "6zMIFVozmHnN3pc8",
+  "name": "Eye of the Kyklops",
+  "type": "item",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>One-of-a-kind artifact of polished pink and translucent quartz, roughly hand-sized. Center cluster of pink quartz (1+ inches diameter) deepens from light pink to deep orchid. True origin unknown. Fell into Roman hands after fall of Carthage (185 B.C.); vanished after Scipio's death in 129 B.C.; rumored sightings in Hadrumetum (114 B.C.) and Hippo Regius (78 B.C.). Requires 24 hours to attune to new host. Grants 360-degree passive vision (+1 die to Spot Hidden), cannot be surprised awake, perceives invisible beings as ghostly pink. Initially causes 1/1D2 SAN loss and 1D4 days of severe headaches, nausea, dizziness (-2 dice to movement). First invisible/non-corporeal encounter requires 1/1D6 SAN check; subsequent encounters require 0/1 SAN check, risking eventual madness.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Magical Artifact</td></tr>\n<tr><td><strong>Used By</strong></td><td>Anyone</td></tr>\n<tr><td><strong>Effect</strong></td><td>360-degree vision; +1 bonus die to Spot Hidden; cannot be surprised while awake; see invisible/non-corporeal beings as ghostly pink forms; causes disorientation and acclimatization penalties; eventual madness risk from continued use</td></tr>\n</table>",
+      "keeper": "<p><strong>Effect:</strong> 360-degree vision; +1 bonus die to Spot Hidden; cannot be surprised while awake; see invisible/non-corporeal beings as ghostly pink forms; causes disorientation and acclimatization penalties; eventual madness risk from continued use</p>"
+    },
+    "properties": {
+      "special": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 204000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "artifact",
+      "artifactType": "Magical Artifact"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

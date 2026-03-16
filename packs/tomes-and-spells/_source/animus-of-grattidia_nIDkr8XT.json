@@ -1,0 +1,49 @@
+{
+  "_id": "nIDkr8XTwzRINcSm",
+  "name": "Animus of Grattidia",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A book of potions, poisons, and instructions for revenge written by the Neapolitan sorceress Grattidia. Explicitly intended to help practitioners of dark arts mete justice against those who executed thousands of accused witches and Dionysians around 180 B.C. The book invokes Hermes Trismegistus (Nyogtha), includes incantations, recipes for charms and curses, and a detailed pharmacopeia of hazardous plants and their deadly effects. Horace immortalized Grattidia in his poetry, renaming her Canida. The Animus is dedicated to him.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Grattidia of Naples</td></tr>\n<tr><td><strong>Date</strong></td><td>35 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2/1D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+6 percentiles</td></tr>\n<tr><td><strong>Occult</strong></td><td>+5 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>27</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>36</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Contact Hermes Trismegistus (Thoth)</li>\n<li>Create Curse Tablet</li>\n<li>Evil Eye</li>\n<li>Hex of the Aether (Breath of Pazuzu)</li>\n<li>Hunger of Limos (Wasting Curse)</li>\n<li>Touch of Pestis (Maggots)</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 27</p>"
+    },
+    "language": "Greek",
+    "author": "Grattidia of Naples",
+    "date": "35 B.C.",
+    "sanpiLoss": "2/1D8",
+    "mythosRating": 27,
+    "study": 36,
+    "spells": "Contact Hermes Trismegistus (Thoth), Create Curse Tablet, Evil Eye, Hex of the Aether (Breath of Pazuzu), Hunger of Limos (Wasting Curse), Touch of Pestis (Maggots)",
+    "mythosGain": {
+      "initial": "3",
+      "full": "6 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 4000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 36,
+      "mythosRating": 27
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

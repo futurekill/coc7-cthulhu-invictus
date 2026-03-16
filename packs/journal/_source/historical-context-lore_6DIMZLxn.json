@@ -1,0 +1,61 @@
+{
+  "_id": "6DIMZLxnPgSygDWE",
+  "name": "Historical Context & Lore",
+  "pages": [
+    {
+      "_id": "dQ4so6FqyaU11Qbh",
+      "name": "Historical Context & Lore",
+      "type": "text",
+      "text": {
+        "content": "<p><em>Historical background and context for the Antonine period (reign of Antoninus Pius and the era of Marcus Aurelius), including major historical events, figures, and cultural developments that affect the game world.</em></p><p><em>Refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13",
+        "systemId": "CoC7",
+        "systemVersion": "0.10.0",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      }
+    }
+  ],
+  "folder": null,
+  "sort": 8000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "gm-reference"
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}

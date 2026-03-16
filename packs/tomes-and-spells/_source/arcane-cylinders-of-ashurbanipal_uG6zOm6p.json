@@ -1,0 +1,49 @@
+{
+  "_id": "uG6zOm6pHQRBOa9I",
+  "name": "Arcane Cylinders of Ashurbanipal",
+  "type": "book",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Four barrel-shaped clay cylinders inscribed with astronomical measurements and omens interpreting celestial phenomena. Created under command of Neo-Assyrian King Ashurbanipal, who sent royal explorer-scribes to gather information from across Mesopotamia. These tablets summarize myths and legends surrounding the Izdonarii, a non-human civilization that lives invisibly alongside humans, as well as mostly ineffective incantations and folk wisdom about resisting their powers.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Assyrian</td></tr>\n<tr><td><strong>Author</strong></td><td>Unnamed scribes</td></tr>\n<tr><td><strong>Date</strong></td><td>620 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D4/1D10</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+7 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>30</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>12</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Augury</li>\n<li>Identify Spirit</li>\n<li>Imprison Mind</li>\n<li>Telepathy</li>\n</ul>",
+      "keeper": "<p><strong>Mythos Rating:</strong> 30</p>"
+    },
+    "language": "Assyrian",
+    "author": "Unnamed scribes",
+    "date": "620 B.C.",
+    "sanpiLoss": "1D4/1D10",
+    "mythosRating": 30,
+    "study": 12,
+    "spells": "Augury, Identify Spirit, Imprison Mind, Telepathy",
+    "mythosGain": {
+      "initial": "3",
+      "full": "7 percentiles"
+    },
+    "properties": {
+      "mythosTome": true
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 5000,
+  "flags": {
+    "coc7-cthulhu-invictus": {
+      "category": "tome",
+      "studyWeeks": 12,
+      "mythosRating": 30
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13",
+    "systemId": "CoC7",
+    "systemVersion": "0.10.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  }
+}
