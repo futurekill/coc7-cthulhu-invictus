@@ -15,7 +15,8 @@
       "text": "Parent, stepparent, patron, former master (freedmen only)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.OfsqyI7Bi63b006r"
     },
     {
       "_id": "tzcSwOTNHarodFk7",
@@ -26,7 +27,8 @@
       "text": "Sibling or extended family member (cousins, aunts/uncles, or grandparents)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.tzcSwOTNHarodFk7"
     },
     {
       "_id": "VMEWTppT9x0hAzIq",
@@ -37,7 +39,8 @@
       "text": "Child (son or daughter)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.VMEWTppT9x0hAzIq"
     },
     {
       "_id": "Vb4bbck2dJT3ljOV",
@@ -48,7 +51,8 @@
       "text": "Partner (spouse or lover)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.Vb4bbck2dJT3ljOV"
     },
     {
       "_id": "vi3Eu3kLivJ9yJAu",
@@ -59,7 +63,8 @@
       "text": "Favored slave (a personal confidant, possibly known since childhood)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.vi3Eu3kLivJ9yJAu"
     },
     {
       "_id": "DadO0rtvx6mv24de",
@@ -70,7 +75,8 @@
       "text": "Close friend (childhood friend, fellow veteran, slave, freedmen, neighbor)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.DadO0rtvx6mv24de"
     },
     {
       "_id": "1rIovwpkkN0UmCM1",
@@ -81,7 +87,8 @@
       "text": "Fellow investigator (player's choice)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.1rIovwpkkN0UmCM1"
     },
     {
       "_id": "xI5WeLDsyTGqqo26",
@@ -92,7 +99,8 @@
       "text": "A famous person whom you idolize and hope one day to meet in person (an actor, author, chariot racer, gladiator, general, or political figure)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.xI5WeLDsyTGqqo26"
     },
     {
       "_id": "6NHvpwFC2AhioM0Y",
@@ -103,7 +111,8 @@
       "text": "A mentor or teacher (possibly drill sergeant, trade guild master, or private tutor)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.6NHvpwFC2AhioM0Y"
     },
     {
       "_id": "u86Co3y7zLYwOOut",
@@ -114,7 +123,8 @@
       "text": "A non-player character in the game (Keeper's choice)",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!cYTVc6ZbzQ9JSzkY.u86Co3y7zLYwOOut"
     }
   ],
   "folder": null,

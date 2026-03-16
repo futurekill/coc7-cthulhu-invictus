@@ -15,7 +15,8 @@
       "text": "The death mask of your most famous ancestor.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.SNXwKJl1z2yBTlDB"
     },
     {
       "_id": "jqC7UH0aIXSsacsf",
@@ -26,7 +27,8 @@
       "text": "An item essential to your profession (trusty shield, perfectly balanced smithy hammer, or most impressive formal toga).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.jqC7UH0aIXSsacsf"
     },
     {
       "_id": "WDYY5bApnzLTw0OC",
@@ -37,7 +39,8 @@
       "text": "A memento from your childhood or a departed loved one.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.WDYY5bApnzLTw0OC"
     },
     {
       "_id": "Jsh6wJTmUTwE06CO",
@@ -48,7 +51,8 @@
       "text": "A gift from someone you respect/admire.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.Jsh6wJTmUTwE06CO"
     },
     {
       "_id": "O4DtQpW1UQP1Bszk",
@@ -59,7 +63,8 @@
       "text": "A good luck charm or symbol of your religious devotion.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.O4DtQpW1UQP1Bszk"
     },
     {
       "_id": "EeFFO26HF7YPRM1H",
@@ -70,7 +75,8 @@
       "text": "A loyal pet, mount, or beast of burden.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.EeFFO26HF7YPRM1H"
     },
     {
       "_id": "30ufayLrXd5ABh4Z",
@@ -81,7 +87,8 @@
       "text": "A small plot of fertile land in the outer provinces, which has been in your family for generations.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.30ufayLrXd5ABh4Z"
     },
     {
       "_id": "FCH0mC66RFIS8yNt",
@@ -92,7 +99,8 @@
       "text": "A weapon (given to you by your father or mentor on a momentous occasion, which saved your life, or was specifically crafted for you).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.FCH0mC66RFIS8yNt"
     },
     {
       "_id": "jTlMjTR2jT3wfWO2",
@@ -103,7 +111,8 @@
       "text": "A family heirloom which commemorated the greatest achievement of your most respected ancestor.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.jTlMjTR2jT3wfWO2"
     },
     {
       "_id": "9FiclpWllrwt10E5",
@@ -114,7 +123,8 @@
       "text": "Your family's collection of Lares statues (small figures that represent the deities, ancestors, and benevolent spirits which protect your family).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!mzOydFe9f14ZCBdv.9FiclpWllrwt10E5"
     }
   ],
   "folder": null,

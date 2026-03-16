@@ -15,7 +15,8 @@
       "text": "Your home city, town, or village.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.srbKXgHXaIeMiq96"
     },
     {
       "_id": "hKujZgRNabHboXHN",
@@ -26,7 +27,8 @@
       "text": "The place you met your first true love.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.hKujZgRNabHboXHN"
     },
     {
       "_id": "KmQi9yxyrMmIzHfu",
@@ -37,7 +39,8 @@
       "text": "The local bathhouse.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.KmQi9yxyrMmIzHfu"
     },
     {
       "_id": "7aSMCZySqg6V6cpH",
@@ -48,7 +51,8 @@
       "text": "The grave of a departed loved one.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.7aSMCZySqg6V6cpH"
     },
     {
       "_id": "VHww4pxNmMReLGz3",
@@ -59,7 +63,8 @@
       "text": "The temple or shrine dedicated to a higher power you worship.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.VHww4pxNmMReLGz3"
     },
     {
       "_id": "xdOguk5EWKoKhYld",
@@ -70,7 +75,8 @@
       "text": "The home you grew up in or now live in, or a vacation home.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.xdOguk5EWKoKhYld"
     },
     {
       "_id": "84VnxSZkHt2E7end",
@@ -81,7 +87,8 @@
       "text": "A place of entertainment (local hippodrome, gladiatorial arena, theater).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.84VnxSZkHt2E7end"
     },
     {
       "_id": "hYTTl28EmjifSf1q",
@@ -92,7 +99,8 @@
       "text": "The place where you practice your trade.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.hYTTl28EmjifSf1q"
     },
     {
       "_id": "5X76cNty9NxXScVt",
@@ -103,7 +111,8 @@
       "text": "The place where you enjoyed your happiest moment.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.5X76cNty9NxXScVt"
     },
     {
       "_id": "DhNy5LZBuQ2GI1yd",
@@ -114,7 +123,8 @@
       "text": "The place where you suffered your greatest loss.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!Ali3Aj5r8SoVSn0z.DhNy5LZBuQ2GI1yd"
     }
   ],
   "folder": null,

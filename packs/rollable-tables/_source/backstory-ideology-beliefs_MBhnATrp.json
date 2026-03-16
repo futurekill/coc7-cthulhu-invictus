@@ -15,7 +15,8 @@
       "text": "The gods see all, guide all, and can be cruel when displeased. One must not only lead a good life, but also pay tribute to them in order to lead a secure life.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.uM1KpIAph81wLPWB"
     },
     {
       "_id": "Vxwg77HtlajQO2aC",
@@ -26,7 +27,8 @@
       "text": "A single god reigns supreme, and all other gods are merely aspects of the one true god.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.Vxwg77HtlajQO2aC"
     },
     {
       "_id": "vJDywevir9RSXX8w",
@@ -37,7 +39,8 @@
       "text": "If the gods exist, they care little for the affairs of men, which is why a person must lead a life according to the rules of the philosophy that best suits their nature.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.vJDywevir9RSXX8w"
     },
     {
       "_id": "yKPzuE4srIK6t2WF",
@@ -48,7 +51,8 @@
       "text": "All happens according to the will of the gods; all transpires as it is fated to.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.yKPzuE4srIK6t2WF"
     },
     {
       "_id": "Vm6WY9BHxfHT9T6j",
@@ -59,7 +63,8 @@
       "text": "You are a member of an organization (trade guild, racing fan club, community group).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.Vm6WY9BHxfHT9T6j"
     },
     {
       "_id": "7P8QyFV9cr1oZhBO",
@@ -70,7 +75,8 @@
       "text": "Immoral behavior is the reason why there is suffering in the world. If people led virtuous lives, the gods would protect mankind from every misfortune.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.7P8QyFV9cr1oZhBO"
     },
     {
       "_id": "V5QTShMZbDWceXmS",
@@ -81,7 +87,8 @@
       "text": "Astrologers, seers, and augurs should be consulted before every major undertaking to ensure the greatest possibility for success.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.V5QTShMZbDWceXmS"
     },
     {
       "_id": "4mCciIWs9Kv16B4Z",
@@ -92,7 +99,8 @@
       "text": "You have strong political feelings (in support of/against) concerning the current emperor, sitting senators, or local governor.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.4mCciIWs9Kv16B4Z"
     },
     {
       "_id": "nhHzZTYp5s7Sq4sx",
@@ -103,7 +111,8 @@
       "text": "Life is too short to let coins slip through your fingers. They must be gathered with vigor for they are the only true power in this world.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.nhHzZTYp5s7Sq4sx"
     },
     {
       "_id": "80P31YxTIrqtAVV3",
@@ -114,7 +123,8 @@
       "text": "You argue for and support an underrepresented group in the empire (slaves, foreigners, persecuted religious groups, women).",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!DPOjDZ0OX1x5TTyw.80P31YxTIrqtAVV3"
     }
   ],
   "folder": null,

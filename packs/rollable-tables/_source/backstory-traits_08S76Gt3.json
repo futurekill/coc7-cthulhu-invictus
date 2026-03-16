@@ -15,7 +15,8 @@
       "text": "Generous: You enjoy paying for others' drinks, giving gifts, supplying food, etc.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.Afz4IrKYq8CgKB4n"
     },
     {
       "_id": "yNvGDehU3qYzEWHN",
@@ -26,7 +27,8 @@
       "text": "Stoic: You endure what life sends your way because to complain about it changes nothing. Best to live as best you can on the course the fates chose for you.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.yNvGDehU3qYzEWHN"
     },
     {
       "_id": "S4Qqt5gxoEMy9Nax",
@@ -37,7 +39,8 @@
       "text": "Thinker: You enjoy contemplating the complexities of nature, man, the gods, and all the mysteries of the universe.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.S4Qqt5gxoEMy9Nax"
     },
     {
       "_id": "PaaoyNQVxrf8mwgd",
@@ -48,7 +51,8 @@
       "text": "Risk Taker: Fortune favors the bold, you only live once, make it count, seize the day.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.PaaoyNQVxrf8mwgd"
     },
     {
       "_id": "ysxmq6PGY9zIBel4",
@@ -59,7 +63,8 @@
       "text": "Hedonist: The world is filled with good food, sweet wine, and the smiling faces of willing lovers. Sample the pleasures of life because, in the end, what else matters?",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.ysxmq6PGY9zIBel4"
     },
     {
       "_id": "s1EWK1UTkJfiYOc6",
@@ -70,7 +75,8 @@
       "text": "Ambitious: The only pursuit in life worth striving for is the betterment of one's position, so your descendants have it easier, or wield more power than you do now.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.s1EWK1UTkJfiYOc6"
     },
     {
       "_id": "PO519S3X2x3F1FG5",
@@ -81,7 +87,8 @@
       "text": "Virtuous: In the end, we are judged by the gods, history, and those who remember us by how we lead our lives. Best to lead an honorable life of which one can be proud.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.PO519S3X2x3F1FG5"
     },
     {
       "_id": "ZwOzPz1JTN7j2dwE",
@@ -92,7 +99,8 @@
       "text": "Fatalistic: All that happens is fated by the gods; our victories, defeats, and the day of our passing are all established on the day of our birth. There is no use in worrying about it.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.ZwOzPz1JTN7j2dwE"
     },
     {
       "_id": "AqFL6vrOPyOEXkyG",
@@ -103,7 +111,8 @@
       "text": "Refined: Life is too short to drink bad wine, eat sour cheese or stale bread, or wear itchy clothing or ill-fitting sandals. It's the best you can afford, or better, or nothing at all.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.AqFL6vrOPyOEXkyG"
     },
     {
       "_id": "MAW0qEI1BtlZKf71",
@@ -114,7 +123,8 @@
       "text": "Crass: You speak your mind, laugh with all of your heart, and love with wild abandon. Those who judge you be damned; this is your life and you'll live it as you choose.",
       "type": 0,
       "weight": 1,
-      "drawn": false
+      "drawn": false,
+      "_key": "!tables.results!XMnqaUburnZazjG4.MAW0qEI1BtlZKf71"
     }
   ],
   "folder": null,
