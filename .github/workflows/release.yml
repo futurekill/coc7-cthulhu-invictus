@@ -1,0 +1,80 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Foundry CLI
+        run: npm install @foundryvtt/foundryvtt-cli
+
+      - name: Extract module info
+        id: module
+        run: |
+          MODULE_ID=$(jq -r '.id' module.json)
+          echo "id=$MODULE_ID" >> "$GITHUB_OUTPUT"
+          echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          # Strip leading 'v' from tag for the version number
+          echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Update module.json version and download URL
+        run: |
+          # Set version from the git tag and update the download URL to match
+          jq \
+            --arg ver "${{ steps.module.outputs.version }}" \
+            --arg dl "https://github.com/${{ github.repository }}/releases/download/${{ steps.module.outputs.tag }}/${{ steps.module.outputs.id }}.zip" \
+            '.version = $ver | .download = $dl' \
+            module.json > module.json.tmp && mv module.json.tmp module.json
+          echo "Updated module.json:"
+          jq '{version, download, manifest}' module.json
+
+      - name: Compile compendium packs
+        run: |
+          for pack_source in packs/*/_source; do
+            pack_dir=$(dirname "$pack_source")
+            pack_name=$(basename "$pack_dir")
+            echo "Compiling pack: $pack_name"
+            npx fvtt package pack "$pack_name" \
+              --type "Module" \
+              --id "${{ steps.module.outputs.id }}" \
+              --in "$pack_source" \
+              --out "$pack_dir"
+          done
+
+      - name: Create release zip
+        run: |
+          zip -r "${{ steps.module.outputs.id }}.zip" \
+            module.json \
+            scripts/ \
+            styles/ \
+            templates/ \
+            lang/ \
+            packs/ \
+            README.md \
+            LICENSE \
+            -x "packs/*/_source/*" \
+            -x "packs/*/_source"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ steps.module.outputs.id }}.zip
+            module.json
+          generate_release_notes: true
