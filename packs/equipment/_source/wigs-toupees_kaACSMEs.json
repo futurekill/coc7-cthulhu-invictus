@@ -3,11 +3,13 @@
   "_key": "!items!kaACSMEscosTsS3D",
   "name": "Wigs/Toupees",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/clothing.svg",
   "system": {
     "description": {
       "value": "<p>Hair pieces in various colors and styles</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 15,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

@@ -3,7 +3,7 @@
   "_key": "!actors!KzTOAshzb9ukZ8ND",
   "name": "Satyrs",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>urges and become somewhat civilized. Such creatures are exceedingly rare, but often become talented musicians, storytellers, and augurs. Immortal: Onc</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of thick hairy hide.",
       "attacks": [
-        "Fighting 45% — See Full Entry"
+        "Fighting 45% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

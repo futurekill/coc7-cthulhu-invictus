@@ -3,7 +3,7 @@
   "_key": "!actors!uhaFVBliyIToGJ1Q",
   "name": "Nemesis",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>mortal followers of Nemesis whose consciousness journeyed to the Dreamlands after their death in the Waking World. Divine Judgment: Nemesis can always</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "4 points of lightning fast evasion. Also,",
       "attacks": [
-        "Fighting 100% — See Full Entry"
+        "Fighting 100% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

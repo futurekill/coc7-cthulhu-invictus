@@ -3,11 +3,13 @@
   "_key": "!items!sb1QzraK3RXVd6MV",
   "name": "Riding Gear",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/camping.svg",
   "system": {
     "description": {
       "value": "<p>Basic saddle, saddle blanket, and bridle</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 20,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

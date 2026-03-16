@@ -3,11 +3,13 @@
   "_key": "!items!WSlmnVErULWHMsg1",
   "name": "Paenula",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/clothing.svg",
   "system": {
     "description": {
       "value": "<p>Simple hooded cloak</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 35,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

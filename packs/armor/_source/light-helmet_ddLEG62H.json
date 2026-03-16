@@ -3,11 +3,13 @@
   "_key": "!items!ddLEG62Hkd9Gf2le",
   "name": "Light Helmet",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/light-helmet.svg",
   "system": {
     "description": {
       "value": "<p>Leather, quilting, and padding construction</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "+1",
     "armorType": "helmet",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

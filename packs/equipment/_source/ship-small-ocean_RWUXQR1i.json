@@ -3,11 +3,13 @@
   "_key": "!items!RWUXQR1iOg5OPctY",
   "name": "Ship, Small Ocean",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/transport.svg",
   "system": {
     "description": {
       "value": "<p>Small sailing ship sturdy enough for open ocean</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 8000,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

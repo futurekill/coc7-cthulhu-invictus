@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Small round shield (parma) -->
+    <circle cx="0" cy="0" r="42" fill="#8B1A1A" stroke="#C4A035" stroke-width="3"/>
+    <!-- Boss -->
+    <circle cx="0" cy="0" r="12" fill="#C4A035" stroke="#8B7534" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="#8B7534"/>
+    <!-- Simple decoration -->
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#C4A035" stroke-width="1.5"/>
+  </g>
+</svg>

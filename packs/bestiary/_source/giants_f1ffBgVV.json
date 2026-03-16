@@ -3,7 +3,7 @@
   "_key": "!actors!f1ffBgVVxZiJdL9J",
   "name": "Giants",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>Regionally, giants tend to be about the same size, indicating possi\u0002ble subspecies. For example, the giants of the Caledonian highlands have red hair </p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of thick skin, rarely augmented",
       "attacks": [
-        "Fighting 50% — See Full Entry"
+        "Fighting 50% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

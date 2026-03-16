@@ -3,11 +3,13 @@
   "_key": "!items!pUAFJWpSEPTFCYbf",
   "name": "Wine, Good, 1 Urna (3.5 gal)",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/food.svg",
   "system": {
     "description": {
       "value": "<p>Quality wine for special occasions</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 50,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

@@ -3,7 +3,7 @@
   "_key": "!actors!eECXxGLgCGo8NcUY",
   "name": "Cerberus Hounds",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>secrets. The greatest prize of all would be a newborn Cerberus Pup, as it could then be trained to serve whatever master raises it. Resistant Hide: Ce</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of fur and gristle, half damage",
       "attacks": [
-        "Fighting 50% — See Full Entry"
+        "Fighting 50% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

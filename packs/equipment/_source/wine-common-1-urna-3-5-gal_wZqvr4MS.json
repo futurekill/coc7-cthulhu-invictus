@@ -3,11 +3,13 @@
   "_key": "!items!wZqvr4MS4rJaH8mf",
   "name": "Wine, Common, 1 Urna (3.5 gal)",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/food.svg",
   "system": {
     "description": {
       "value": "<p>Common wine for everyday use</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 5,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Net mesh pattern -->
+    <path d="M-50,-40 L-30,-10 L-10,-40 L10,-10 L30,-40 L50,-10" fill="none" stroke="#E8DCC8" stroke-width="2.5"/>
+    <path d="M-50,-10 L-30,20 L-10,-10 L10,20 L30,-10 L50,20" fill="none" stroke="#E8DCC8" stroke-width="2.5"/>
+    <path d="M-50,20 L-30,50 L-10,20 L10,50 L30,20 L50,50" fill="none" stroke="#E8DCC8" stroke-width="2.5"/>
+    <!-- Weights -->
+    <circle cx="-50" cy="50" r="5" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+    <circle cx="-10" cy="50" r="5" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+    <circle cx="30" cy="50" r="5" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+    <!-- Rope at top -->
+    <path d="M-10,-60 Q0,-50 -10,-40" fill="none" stroke="#E8DCC8" stroke-width="3"/>
+  </g>
+</svg>

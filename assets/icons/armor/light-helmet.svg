@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Simple helmet dome -->
+    <path d="M-35,15 Q-40,-25 0,-50 Q40,-25 35,15 Z" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <!-- Cheek guards -->
+    <path d="M-35,15 L-30,35" fill="none" stroke="#8899AA" stroke-width="8" stroke-linecap="round"/>
+    <path d="M35,15 L30,35" fill="none" stroke="#8899AA" stroke-width="8" stroke-linecap="round"/>
+    <!-- Brow ridge -->
+    <path d="M-35,10 Q0,20 35,10" fill="none" stroke="#667788" stroke-width="3"/>
+  </g>
+</svg>

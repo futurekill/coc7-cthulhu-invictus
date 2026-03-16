@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Wine amphora -->
+    <path d="M-15,-50 Q-20,-45 -20,-35 L-25,5 Q-30,30 -20,40 Q0,50 20,40 Q30,30 25,5 L20,-35 Q20,-45 15,-50 Z"
+          fill="#C4A035" stroke="#8B7534" stroke-width="2"/>
+    <!-- Neck -->
+    <rect x="-10" y="-55" width="20" height="10" rx="3" fill="#C4A035" stroke="#8B7534" stroke-width="2"/>
+    <!-- Handles -->
+    <path d="M-15,-45 Q-35,-40 -25,-20" fill="none" stroke="#C4A035" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15,-45 Q35,-40 25,-20" fill="none" stroke="#C4A035" stroke-width="4" stroke-linecap="round"/>
+    <!-- Rim -->
+    <ellipse cx="0" cy="-55" rx="12" ry="4" fill="#8B7534" stroke="#8B7534" stroke-width="1"/>
+  </g>
+</svg>

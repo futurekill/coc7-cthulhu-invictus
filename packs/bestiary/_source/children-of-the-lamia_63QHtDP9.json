@@ -3,7 +3,7 @@
   "_key": "!actors!63QHtDP9bdE2zBRg",
   "name": "Children of the Lamia",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>others flock to the cult of sun gods, such as Ra and Apollo. Invulnerability: Children of the Lamia are immune to non-magical attacks. Spells: 80% cha</p>",
@@ -65,8 +65,8 @@
       "source": "invictus-bestiary",
       "armorValue": "None, but immune to non-magical attacks.",
       "attacks": [
-        "Fighting 45% — See Full Entry",
-        "Breath Weapon 25% — Special"
+        "Fighting 45% \u2014 See Full Entry",
+        "Breath Weapon 25% \u2014 Special"
       ],
       "specialAbilities": [],
       "skills": []

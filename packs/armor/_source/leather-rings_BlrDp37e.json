@@ -3,11 +3,13 @@
   "_key": "!items!BlrDp37eCZ32JgdP",
   "name": "Leather & Rings",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/leather-rings.svg",
   "system": {
     "description": {
       "value": "<p>Hardened leather reinforced with metal rings</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D4+1",
     "armorType": "body",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

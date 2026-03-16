@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Toga/tunic -->
+    <path d="M-30,-50 L-40,10 L-35,45 L35,45 L40,10 L30,-50 Z" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <!-- Draped fabric -->
+    <path d="M-25,-50 Q-10,-30 -20,0 Q-30,25 -20,45" fill="none" stroke="#8B7534" stroke-width="1.5" opacity="0.5"/>
+    <path d="M15,-50 Q25,-20 15,10 Q10,30 15,45" fill="none" stroke="#8B7534" stroke-width="1.5" opacity="0.5"/>
+    <!-- Neckline -->
+    <path d="M-15,-50 Q0,-42 15,-50" fill="none" stroke="#8B7534" stroke-width="2"/>
+    <!-- Belt/fibula -->
+    <circle cx="10" cy="-40" r="5" fill="#C4A035" stroke="#8B7534" stroke-width="1.5"/>
+  </g>
+</svg>

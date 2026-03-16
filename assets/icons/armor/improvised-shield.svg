@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Rough wooden shield -->
+    <rect x="-40" y="-50" width="80" height="100" rx="8" fill="#8B6914" stroke="#5C4033" stroke-width="3"/>
+    <!-- Wood planks -->
+    <line x1="-15" y1="-50" x2="-15" y2="50" stroke="#5C4033" stroke-width="1.5" opacity="0.5"/>
+    <line x1="15" y1="-50" x2="15" y2="50" stroke="#5C4033" stroke-width="1.5" opacity="0.5"/>
+    <!-- Boss (center) -->
+    <circle cx="0" cy="0" r="12" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="#667788"/>
+    <!-- Damage marks -->
+    <path d="M20,-30 L30,-25" fill="none" stroke="#5C4033" stroke-width="2"/>
+    <path d="M-25,20 L-20,30" fill="none" stroke="#5C4033" stroke-width="2"/>
+  </g>
+</svg>

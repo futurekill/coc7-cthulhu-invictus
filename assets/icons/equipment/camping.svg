@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Tent -->
+    <path d="M0,-55 L-50,40 L50,40 Z" fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Tent pole line -->
+    <line x1="0" y1="-55" x2="0" y2="40" stroke="#8B6914" stroke-width="2" opacity="0.5"/>
+    <!-- Tent opening -->
+    <path d="M-8,40 L0,5 L8,40" fill="#1A0E08" opacity="0.6"/>
+    <!-- Stakes -->
+    <line x1="-50" y1="40" x2="-55" y2="50" stroke="#8B6914" stroke-width="2"/>
+    <line x1="50" y1="40" x2="55" y2="50" stroke="#8B6914" stroke-width="2"/>
+  </g>
+</svg>

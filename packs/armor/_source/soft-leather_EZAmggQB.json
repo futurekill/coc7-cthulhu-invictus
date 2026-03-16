@@ -3,11 +3,13 @@
   "_key": "!items!EZAmggQBwBAD3UdR",
   "name": "Soft Leather",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/soft-leather.svg",
   "system": {
     "description": {
       "value": "<p>Supple leather covering torso, shoulders, arms, waist</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D3",
     "armorType": "body",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

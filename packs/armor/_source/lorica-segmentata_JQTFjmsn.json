@@ -3,11 +3,13 @@
   "_key": "!items!JQTFjmsn9dLVIdVu",
   "name": "Lorica Segmentata",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/lorica-segmentata.svg",
   "system": {
     "description": {
       "value": "<p>Curved metal semicircular strips on leather straps</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D8+2",
     "armorType": "body",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

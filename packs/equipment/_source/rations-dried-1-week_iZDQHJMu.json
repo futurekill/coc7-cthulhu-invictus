@@ -3,11 +3,13 @@
   "_key": "!items!iZDQHJMu8W5CN0U5",
   "name": "Rations, Dried, 1 week",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/camping.svg",
   "system": {
     "description": {
       "value": "<p>Dried meat, fruit, travel biscuits</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 5,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

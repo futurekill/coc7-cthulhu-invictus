@@ -3,7 +3,7 @@
   "_key": "!actors!HnyADvkxtUuX8KMf",
   "name": "Lamias",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>for examples.) Lamias who know 5 or fewer spells always have weapons and often (50%) wear some form of armor. (Typically, the fewer spells a lamia kno</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of scaly hide and immune to",
       "attacks": [
-        "Fighting 60% — See Full Entry"
+        "Fighting 60% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

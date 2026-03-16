@@ -3,11 +3,13 @@
   "_key": "!items!IcNepOR6soVfBgWO",
   "name": "Carriage, Small",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/transport.svg",
   "system": {
     "description": {
-      "value": "<p>Four-wheeled carriage for 1–4 passengers</p>",
-      "keeper": ""
+      "value": "<p>Four-wheeled carriage for 1\u20134 passengers</p>",
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 300,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

@@ -3,7 +3,7 @@
   "_key": "!actors!ArnWGhwBhsRRLFHQ",
   "name": "Mermaids",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>Breathe Underwater: Mermaids can breathe perfectly well underwater, and can breathe on dry land for up for three hours before needing to return to the</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of leathery hide",
       "attacks": [
-        "Fighting 45% — See Full Entry"
+        "Fighting 45% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

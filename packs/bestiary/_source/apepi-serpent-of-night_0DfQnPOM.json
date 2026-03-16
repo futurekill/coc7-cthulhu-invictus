@@ -3,7 +3,7 @@
   "_key": "!actors!0DfQnPOMbdYvpiYK",
   "name": "Apepi, Serpent of Night",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>twitches, swishing about, and cracking loudly like a whip. Cult: This avatar of Yig is worshipped across the ancient world under various different nam</p>",
@@ -65,9 +65,9 @@
       "source": "invictus-bestiary",
       "armorValue": "6-point scales.",
       "attacks": [
-        "Fighting 85% — See Full Entry",
-        "Venom Spit 100% — See Full Entry",
-        "Gaze 50% — Special"
+        "Fighting 85% \u2014 See Full Entry",
+        "Venom Spit 100% \u2014 See Full Entry",
+        "Gaze 50% \u2014 Special"
       ],
       "specialAbilities": [],
       "skills": []

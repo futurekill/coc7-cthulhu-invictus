@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Horse head silhouette -->
+    <path d="M-10,-55 Q-30,-50 -35,-30 Q-38,-10 -30,5 Q-25,15 -20,20 L-15,40 L-5,40 L-5,20
+             Q5,15 10,0 Q15,-20 10,-40 Q5,-55 -10,-55 Z"
+          fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Ear -->
+    <path d="M-10,-55 L-5,-68 L5,-55" fill="#8B6914" stroke="#6B4F12" stroke-width="1.5"/>
+    <!-- Eye -->
+    <circle cx="-15" cy="-30" r="3" fill="#2C1810"/>
+    <!-- Mane -->
+    <path d="M-5,-55 Q10,-45 5,-30 Q10,-20 5,-10" fill="none" stroke="#6B4F12" stroke-width="3"/>
+  </g>
+</svg>

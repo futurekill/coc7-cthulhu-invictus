@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Leather pouch/bag -->
+    <path d="M-30,-20 Q-35,10 -25,35 Q0,50 25,35 Q35,10 30,-20 Z" fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Drawstring -->
+    <path d="M-30,-20 Q-15,-30 0,-25 Q15,-30 30,-20" fill="none" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Tied top -->
+    <path d="M-10,-25 Q-5,-40 0,-35 Q5,-40 10,-25" fill="none" stroke="#6B4F12" stroke-width="2.5"/>
+    <!-- Strap -->
+    <line x1="-25" y1="-15" x2="-35" y2="-40" stroke="#6B4F12" stroke-width="3"/>
+    <line x1="25" y1="-15" x2="35" y2="-40" stroke="#6B4F12" stroke-width="3"/>
+  </g>
+</svg>

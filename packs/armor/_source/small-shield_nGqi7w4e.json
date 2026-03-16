@@ -3,11 +3,13 @@
   "_key": "!items!nGqi7w4e4pxskC1I",
   "name": "Small Shield",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/small-shield.svg",
   "system": {
     "description": {
       "value": "<p></p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D3",
     "armorType": "shield",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

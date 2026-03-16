@@ -3,7 +3,7 @@
   "_key": "!actors!Zwez3VcBbD6e3uKB",
   "name": "Pegasi",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>The most favored prey of pegasi is human, as they are plentiful and easy to catch (because most animals flee as soon as a shadow passes over them, whi</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "6 points of muscular hide.",
       "attacks": [
-        "See Full Entry 50% — "
+        "See Full Entry 50% \u2014 "
       ],
       "specialAbilities": [],
       "skills": []

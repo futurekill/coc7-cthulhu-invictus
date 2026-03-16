@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <path d="M-30,-45 L-35,-10 L-35,40 L35,40 L35,-10 L30,-45 Z" fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Stitching -->
+    <path d="M-20,-40 L-20,35" fill="none" stroke="#5C4033" stroke-width="1" stroke-dasharray="4,4"/>
+    <path d="M20,-40 L20,35" fill="none" stroke="#5C4033" stroke-width="1" stroke-dasharray="4,4"/>
+    <!-- Neck opening -->
+    <path d="M-12,-45 Q0,-38 12,-45" fill="none" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Belt -->
+    <rect x="-35" y="15" width="70" height="8" rx="2" fill="#6B4F12" stroke="#5C4033" stroke-width="1"/>
+    <circle cx="0" cy="19" r="4" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+  </g>
+</svg>

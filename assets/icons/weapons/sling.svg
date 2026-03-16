@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Sling cords -->
+    <path d="M-50,10 Q-20,-20 0,-10" fill="none" stroke="#8B6914" stroke-width="3"/>
+    <path d="M50,10 Q20,-20 0,-10" fill="none" stroke="#8B6914" stroke-width="3"/>
+    <!-- Pouch -->
+    <ellipse cx="0" cy="-5" rx="20" ry="12" fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Stone -->
+    <circle cx="0" cy="-5" r="8" fill="#777" stroke="#555" stroke-width="1.5"/>
+    <!-- Motion lines -->
+    <path d="M-55,20 Q-40,40 -20,45" fill="none" stroke="#C4A035" stroke-width="1.5" opacity="0.5"/>
+    <path d="M55,20 Q40,40 20,45" fill="none" stroke="#C4A035" stroke-width="1.5" opacity="0.5"/>
+  </g>
+</svg>

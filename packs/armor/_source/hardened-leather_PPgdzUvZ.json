@@ -3,11 +3,13 @@
   "_key": "!items!PPgdzUvZ3gpmmICi",
   "name": "Hardened Leather",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/hardened-leather.svg",
   "system": {
     "description": {
       "value": "<p>Thicker hardened-by-boiling leather</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D4",
     "armorType": "body",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

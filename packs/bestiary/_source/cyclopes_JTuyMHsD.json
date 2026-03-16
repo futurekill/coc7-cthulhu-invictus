@@ -3,10 +3,10 @@
   "_key": "!actors!JTuyMHsDGMBgYSh2",
   "name": "Cyclopes",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
-      "value": "<p>Most cyclopes still practice the dark religions of K’n-yan, wor\u0002shipping Cthulhu, Ghatanothoa, Hastur, Nug and Yeb, Tsathoggua, and Yig, A few have ad</p>",
+      "value": "<p>Most cyclopes still practice the dark religions of K\u2019n-yan, wor\u0002shipping Cthulhu, Ghatanothoa, Hastur, Nug and Yeb, Tsathoggua, and Yig, A few have ad</p>",
       "keeper": ""
     },
     "characteristics": {
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "1 point of thick skin, sometimes augmented",
       "attacks": [
-        "Fighting 50% — See Full Entry"
+        "Fighting 50% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

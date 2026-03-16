@@ -3,11 +3,13 @@
   "_key": "!items!ecQoXsf2o3gyrDO1",
   "name": "Knife, small",
   "type": "weapon",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/weapons/knife-small.svg",
   "system": {
     "description": {
       "value": "<p>Small utility blade</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "skill": {
       "main": {
@@ -22,15 +24,18 @@
     "range": {
       "normal": {
         "value": 0,
-        "units": ""
+        "units": "",
+        "damage": ""
       },
       "long": {
         "value": 0,
-        "units": ""
+        "units": "",
+        "damage": ""
       },
       "extreme": {
         "value": 0,
-        "units": ""
+        "units": "",
+        "damage": ""
       }
     },
     "damage": "1D4+DB",
@@ -49,7 +54,13 @@
       "value": 10,
       "unit": "sestertii"
     },
-    "isEquipped": false
+    "isEquipped": false,
+    "wpnType": "",
+    "bullets": null,
+    "ammo": 0,
+    "malfunction": null,
+    "blastRadius": null,
+    "price": {}
   },
   "effects": [],
   "folder": null,
@@ -72,6 +83,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

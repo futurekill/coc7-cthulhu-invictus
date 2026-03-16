@@ -3,7 +3,7 @@
   "_key": "!actors!FT6Ce5fuMjeirNOL",
   "name": "Chimera",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>\"Tail\" Attack: An attack from the rear head does 1D3 points of damage plus an additional 1D6 points of Moderate damage, as this head is always venomou</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of muscular hide and heals 1 HP",
       "attacks": [
-        "Fighting 45% — See Full Entry"
+        "Fighting 45% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

@@ -3,7 +3,7 @@
   "_key": "!actors!WWPel8XOFDWKWLCR",
   "name": "Mi-Go",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>Fungoid crustacean beings from Yuggoth that mine rare minerals and use brain cylinders.</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None",
       "attacks": [
-        "Nippers 40% — 1D6"
+        "Nippers 40% \u2014 1D6"
       ],
       "specialAbilities": [
         "Flight",

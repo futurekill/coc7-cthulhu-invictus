@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Helmet dome -->
+    <path d="M-40,10 Q-45,-30 0,-55 Q45,-30 40,10 Z" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <!-- Face guard -->
+    <path d="M-30,10 L-35,35 Q0,45 35,35 L30,10" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <!-- Eye slits -->
+    <rect x="-22" y="15" width="15" height="5" rx="2" fill="#1A0E08"/>
+    <rect x="7" y="15" width="15" height="5" rx="2" fill="#1A0E08"/>
+    <!-- Crest -->
+    <path d="M0,-55 Q-5,-65 0,-70 Q5,-65 0,-55" fill="#8B1A1A" stroke="#8B1A1A" stroke-width="2"/>
+    <path d="M0,-70 L0,-55" fill="none" stroke="#8B1A1A" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <!-- Plume -->
+    <path d="M0,-70 Q15,-75 10,-55 Q5,-45 0,-55" fill="#8B1A1A" opacity="0.7"/>
+    <!-- Nose guard -->
+    <line x1="0" y1="5" x2="0" y2="30" stroke="#667788" stroke-width="3"/>
+  </g>
+</svg>

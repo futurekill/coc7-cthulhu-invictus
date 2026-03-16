@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Bow body - recurve shape -->
+    <path d="M-20,-70 Q-50,-35 -30,0 Q-50,35 -20,70" fill="none" stroke="#8B6914" stroke-width="8" stroke-linecap="round"/>
+    <!-- Recurve tips -->
+    <path d="M-20,-70 Q-10,-75 -5,-65" fill="none" stroke="#8B6914" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-20,70 Q-10,75 -5,65" fill="none" stroke="#8B6914" stroke-width="6" stroke-linecap="round"/>
+    <!-- String -->
+    <line x1="-5" y1="-65" x2="-5" y2="65" stroke="#E8DCC8" stroke-width="1.5"/>
+    <!-- Arrow -->
+    <line x1="-5" y1="0" x2="60" y2="0" stroke="#8B6914" stroke-width="3"/>
+    <polygon points="60,0 50,-6 50,6" fill="#8899AA"/>
+  </g>
+</svg>

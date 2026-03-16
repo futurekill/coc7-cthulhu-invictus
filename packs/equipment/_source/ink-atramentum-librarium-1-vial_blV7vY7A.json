@@ -3,11 +3,13 @@
   "_key": "!items!blV7vY7AZQ3VZprk",
   "name": "Ink (Atramentum Librarium), 1 vial",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/writing.svg",
   "system": {
     "description": {
       "value": "<p>For writing messages on papyrus</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "cost": {
       "value": 50,
@@ -32,6 +34,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

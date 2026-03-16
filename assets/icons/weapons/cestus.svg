@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Fist outline -->
+    <path d="M-25,20 Q-30,0 -20,-25 Q-10,-40 10,-35 Q30,-30 35,-10 Q40,10 30,25 Q20,35 0,30 Z" fill="#8B6914" stroke="#6B4F12" stroke-width="2"/>
+    <!-- Leather wraps -->
+    <path d="M-15,-20 L25,-15" fill="none" stroke="#6B4F12" stroke-width="3"/>
+    <path d="M-20,-10 L30,-5" fill="none" stroke="#6B4F12" stroke-width="3"/>
+    <path d="M-22,0 L32,5" fill="none" stroke="#6B4F12" stroke-width="3"/>
+    <path d="M-20,10 L28,15" fill="none" stroke="#6B4F12" stroke-width="3"/>
+    <!-- Metal studs -->
+    <circle cx="5" cy="-25" r="4" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+    <circle cx="20" cy="-20" r="4" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+    <circle cx="30" cy="-5" r="4" fill="#8899AA" stroke="#667788" stroke-width="1"/>
+  </g>
+</svg>

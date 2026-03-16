@@ -3,7 +3,7 @@
   "_key": "!actors!74KPONu3OujCeECO",
   "name": "Serpent People",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>Degenerate descendants of the serpent folk of Valusia who can disguise themselves as human.</p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "1 point scales",
       "attacks": [
-        "Bite 50% — 1D8+poison"
+        "Bite 50% \u2014 1D8+poison"
       ],
       "specialAbilities": [
         "Disguise as human",

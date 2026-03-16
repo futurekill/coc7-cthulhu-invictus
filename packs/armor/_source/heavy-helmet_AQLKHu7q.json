@@ -3,11 +3,13 @@
   "_key": "!items!AQLKHu7qnQTupqzi",
   "name": "Heavy Helmet",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/heavy-helmet.svg",
   "system": {
     "description": {
       "value": "<p>Completely encloses face, impairs vision and hearing</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "+2",
     "armorType": "helmet",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

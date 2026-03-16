@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100) rotate(-20)">
+    <!-- Shaft -->
+    <rect x="-4" y="-35" width="8" height="120" rx="3" fill="#8B6914" stroke="#5C4033" stroke-width="2"/>
+    <!-- Center prong -->
+    <rect x="-2" y="-65" width="4" height="35" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+    <polygon points="0,-72 -5,-65 5,-65" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+    <!-- Left prong -->
+    <path d="M-2,-35 L-18,-55 L-18,-65" fill="none" stroke="#C4A035" stroke-width="4"/>
+    <polygon points="-18,-72 -23,-65 -13,-65" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+    <!-- Right prong -->
+    <path d="M2,-35 L18,-55 L18,-65" fill="none" stroke="#C4A035" stroke-width="4"/>
+    <polygon points="18,-72 13,-65 23,-65" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+  </g>
+</svg>

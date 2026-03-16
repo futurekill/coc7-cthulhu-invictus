@@ -3,11 +3,13 @@
   "_key": "!items!I1af7W2pkAFEn3z5",
   "name": "Leather Scales",
   "type": "armor",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/armor/leather-scales.svg",
   "system": {
     "description": {
       "value": "<p>Overlapping hardened leather panels sewn on fabric</p>",
-      "keeper": ""
+      "keeper": "",
+      "chat": "",
+      "special": ""
     },
     "armor": "1D6",
     "armorType": "body",
@@ -40,6 +42,7 @@
     "systemVersion": "0.10.0",
     "createdTime": null,
     "modifiedTime": null,
-    "lastModifiedBy": null
+    "lastModifiedBy": null,
+    "exportSource": null
   }
 }

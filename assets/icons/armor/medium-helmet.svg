@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Imperial Gallic helmet -->
+    <path d="M-38,10 Q-42,-25 0,-52 Q42,-25 38,10 Z" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <!-- Neck guard -->
+    <path d="M-35,10 Q-40,20 -30,25 Q0,30 30,25 Q40,20 35,10" fill="#8899AA" stroke="#667788" stroke-width="2"/>
+    <!-- Cheek guards -->
+    <path d="M-38,10 L-32,35" fill="none" stroke="#8899AA" stroke-width="7" stroke-linecap="round"/>
+    <path d="M38,10 L32,35" fill="none" stroke="#8899AA" stroke-width="7" stroke-linecap="round"/>
+    <!-- Brow ridge -->
+    <path d="M-35,5 Q0,15 35,5" fill="none" stroke="#667788" stroke-width="3"/>
+    <!-- Crest holder -->
+    <rect x="-3" y="-55" width="6" height="8" rx="1" fill="#C4A035" stroke="#8B7534" stroke-width="1"/>
+  </g>
+</svg>

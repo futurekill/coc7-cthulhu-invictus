@@ -3,7 +3,7 @@
   "_key": "!actors!4djkWNdRfrCQBFMC",
   "name": "Manticores",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>Immortal: Manticores are immortal unless slain, and heal 1 HP per hour. This power works even after death; the manticore returns to life after 24 hour</p>",
@@ -65,9 +65,9 @@
       "source": "invictus-bestiary",
       "armorValue": "Manticores take half damage from non\u0002magical weapons due to their enchanted hides.",
       "attacks": [
-        "Fighting 50% — See Full Entry",
-        "Sting 40% — See Full Entry",
-        "Breath Weapon 25% — Special"
+        "Fighting 50% \u2014 See Full Entry",
+        "Sting 40% \u2014 See Full Entry",
+        "Breath Weapon 25% \u2014 Special"
       ],
       "specialAbilities": [],
       "skills": [

@@ -3,7 +3,7 @@
   "_key": "!actors!1S6xfB2gpBLzHfz3",
   "name": "Sirens",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
   "system": {
     "description": {
       "value": "<p>months to heal) are completely deafened and immune to the effects. Due to a quirk of human physiology, female humans and boys who have yet to undergo </p>",
@@ -65,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "3 points of tough alien hide.",
       "attacks": [
-        "Fighting 45% — See Full Entry"
+        "Fighting 45% \u2014 See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []
