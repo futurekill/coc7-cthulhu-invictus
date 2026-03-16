@@ -3,7 +3,7 @@
   "_key": "!items!x8ZS0HQx2UXvCNOS",
   "name": "Read/Write Language",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/readwrite-language.svg",
   "system": {
     "description": {
       "value": "<p>Ability to read and write in a specific language.</p>",

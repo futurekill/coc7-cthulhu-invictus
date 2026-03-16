@@ -3,7 +3,7 @@
   "_key": "!actors!WWPel8XOFDWKWLCR",
   "name": "Mi-Go",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/mi-go.svg",
   "system": {
     "description": {
       "value": "<p>Fungoid crustacean beings from Yuggoth that mine rare minerals and use brain cylinders.</p>",

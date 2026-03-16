@@ -3,7 +3,7 @@
   "_key": "!items!OJXR6GXsHGu0Hofz",
   "name": "Somnia Elixir",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/artifact.svg",
   "system": {
     "description": {
       "value": "<p><em>Viscid, faintly red liquid with unpleasantly pasty and earthy taste. Powerful hallucinogen and depressant. Five or six drops produces potent effect; dipping forefinger to first knuckle provides helpful field measurement. When imbibed, puts subject into dreamlike state while retaining normal capabilities. Hallucinogenic/depressant powers activate during high stress and potential Sanity loss. Subjects under effect suffer half normal Sanity loss from successful or failed SAN checks. Outright horror is lessened and perceived as dream. Continued exposure to same horrors counteracts effect as mind can no longer rationalize fear away. Overdose requires Extreme CON roll or subject enters catatonia for 1D3 days (double dose) or 1D6 days (triple dose).</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Potion/Drug</td></tr>\n<tr><td><strong>Used By</strong></td><td>Anyone</td></tr>\n<tr><td><strong>Effect</strong></td><td>Halves Sanity loss from SAN checks; subjects perceive horror as dreamlike; counteracted by repeated same horror exposure; overdose causes catatonia</td></tr>\n</table>",

@@ -3,7 +3,7 @@
   "_key": "!items!fLeYyVK5phlTiKrW",
   "name": "Overseer",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>Manage slave labor to ensure work gets done; read body language, detect lies, motivate through carrot, stick, or fear; prevent insurrections.</p>",

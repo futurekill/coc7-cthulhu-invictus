@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <circle cx="0" cy="-25" r="15" fill="#E8DCC8" stroke="#C4A035" stroke-width="2"/>
+    <path d="M-12,-8 L-10,40 L10,40 L12,-8" fill="#3A6A9B" stroke="#2A4A6B" stroke-width="2" opacity="0.7"/>
+    <circle cx="-5" cy="-28" r="3" fill="#2A4A6B" opacity="0.7"/>
+    <circle cx="5" cy="-28" r="3" fill="#2A4A6B" opacity="0.7"/>
+    <path d="M-15,-30 Q-10,-38 -5,-33" fill="#E8DCC8" stroke="#C4A035" stroke-width="1" opacity="0.6"/>
+    <path d="M15,-30 Q10,-38 5,-33" fill="#E8DCC8" stroke="#C4A035" stroke-width="1" opacity="0.6"/>
+    <path d="M-12,-5 Q-30,-10 -40,5 Q-35,15 -25,10" fill="none" stroke="#3A6A9B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <path d="M12,-5 Q30,-10 40,5 Q35,15 25,10" fill="none" stroke="#3A6A9B" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <g fill="#C4A035" opacity="0.4">
+      <circle cx="-25" cy="5" r="2"/><circle cx="25" cy="5" r="2"/>
+      <circle cx="-15" cy="15" r="1.5"/><circle cx="15" cy="15" r="1.5"/>
+    </g>
+  </g>
+</svg>

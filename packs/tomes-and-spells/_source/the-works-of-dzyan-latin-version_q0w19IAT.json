@@ -3,7 +3,7 @@
   "_key": "!items!q0w19IATSFfwQaz4",
   "name": "The Works of Dzyan (Latin Version)",
   "type": "book",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/book.svg",
   "system": {
     "description": {
       "value": "<p><em>A weaker Latin translation of Dzyan's work, created approximately 250 years after the Greek version. The translation mistakenly seeks to introduce a narrative element to Dzyan's work and thereby dilutes it. A few copies of this version are known to exist.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Aemilianus Cethegus</td></tr>\n<tr><td><strong>Date</strong></td><td>23 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+3/+6 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>27</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>14</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Rouse The Forest Shepherd (Summon/Bind Dark Young)</li>\n<li>Breath Of The Black Wind (Summon/Bind Byakhee)</li>\n<li>Call The Hidden Horror (Summon/Bind Dimensional Shambler)</li>\n<li>The Dreaming (Contact Deity/Cthulhu)</li>\n</ul>",

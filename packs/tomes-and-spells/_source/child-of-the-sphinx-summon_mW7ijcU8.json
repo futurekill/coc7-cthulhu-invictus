@@ -3,7 +3,7 @@
   "_key": "!items!mW7ijcU8cVIoQEno",
   "name": "Child of the Sphinx (Summon)",
   "type": "spell",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/spell.svg",
   "system": {
     "description": {
       "value": "<p><em>Referenced as Create on page 83; period-appropriate</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>Grand Grimoire of Cthulhu Mythos Magic (page 83)</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-appropriate spell</td></tr>\n</table>",

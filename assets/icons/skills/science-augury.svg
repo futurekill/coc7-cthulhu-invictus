@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- All-seeing eye -->
+    <path d="M-50,0 Q-25,-35 0,-40 Q25,-35 50,0 Q25,35 0,40 Q-25,35 -50,0 Z" fill="none" stroke="#C4A035" stroke-width="2.5"/>
+    <!-- Iris -->
+    <circle cx="0" cy="0" r="20" fill="#4A2066" stroke="#C4A035" stroke-width="1.5" opacity="0.8"/>
+    <!-- Pupil -->
+    <circle cx="0" cy="0" r="10" fill="#2C1810"/>
+    <!-- Highlight -->
+    <circle cx="-5" cy="-5" r="4" fill="white" opacity="0.3"/>
+    <!-- Rays -->
+    <g stroke="#C4A035" stroke-width="1.5" opacity="0.3">
+      <line x1="0" y1="-50" x2="0" y2="-60"/>
+      <line x1="-15" y1="-48" x2="-20" y2="-58"/>
+      <line x1="15" y1="-48" x2="20" y2="-58"/>
+      <line x1="0" y1="50" x2="0" y2="60"/>
+      <line x1="-15" y1="48" x2="-20" y2="58"/>
+      <line x1="15" y1="48" x2="20" y2="58"/>
+    </g>
+  </g>
+</svg>

@@ -3,7 +3,7 @@
   "_key": "!items!wTerPmwoLitix059",
   "name": "Status / Infamy",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/status-infamy.svg",
   "system": {
     "description": {
       "value": "<p>Your standing and reputation within Roman society or notoriety for misdeeds.</p>",

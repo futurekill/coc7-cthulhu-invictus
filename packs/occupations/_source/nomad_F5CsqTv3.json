@@ -3,7 +3,7 @@
   "_key": "!items!DY3atre3UWEV9bqP",
   "name": "Nomad",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/travel.svg",
   "system": {
     "description": {
       "value": "<p>From wastes or wilds, never stay anywhere long; exploit opportunities like lightly defended caravans; make friends for wise investments.</p>",

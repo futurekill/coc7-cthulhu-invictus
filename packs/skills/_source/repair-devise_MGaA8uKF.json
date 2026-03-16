@@ -3,7 +3,7 @@
   "_key": "!items!a7pUnfE3QFWbkg8s",
   "name": "Repair / Devise",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/repair-devise.svg",
   "system": {
     "description": {
       "value": "<p>Repair mechanical and electrical devices, and devise solutions to problems.</p>",

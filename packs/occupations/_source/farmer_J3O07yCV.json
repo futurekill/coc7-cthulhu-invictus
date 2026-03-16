@@ -3,7 +3,7 @@
   "_key": "!items!n1e0MOcyCj7sSyVZ",
   "name": "Farmer",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/trade.svg",
   "system": {
     "description": {
       "value": "<p>Till earth, plant seeds, harvest crops that feed empire; work with wheat, olives, grapes, and orchards; noble and honorable calling.</p>",

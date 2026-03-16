@@ -3,7 +3,7 @@
   "_key": "!items!sg1vKV7E1JIMDR28",
   "name": "Scholar",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Guardian of wisdom in large libraries and centers of learning, preserving humanity&#x27;s greatest achievements; may stumble upon dangerous mystic tomes.</p>",

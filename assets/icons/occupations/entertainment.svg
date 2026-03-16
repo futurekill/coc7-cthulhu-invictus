@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Comedy/tragedy masks -->
+    <!-- Happy mask -->
+    <path d="M-40,-40 Q-50,-15 -40,5 Q-25,15 -10,5 Q0,-15 -10,-40 Z" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <circle cx="-32" cy="-22" r="4" fill="#2C1810"/>
+    <circle cx="-18" cy="-22" r="4" fill="#2C1810"/>
+    <path d="M-35,-5 Q-25,8 -15,-5" fill="none" stroke="#2C1810" stroke-width="2"/>
+    <!-- Sad mask -->
+    <path d="M10,-40 Q0,-15 10,5 Q25,15 40,5 Q50,-15 40,-40 Z" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <circle cx="18" cy="-22" r="4" fill="#2C1810"/>
+    <circle cx="32" cy="-22" r="4" fill="#2C1810"/>
+    <path d="M15,2 Q25,-8 35,2" fill="none" stroke="#2C1810" stroke-width="2"/>
+    <!-- Ribbon -->
+    <path d="M-25,10 Q0,30 25,10" fill="none" stroke="#8B1A1A" stroke-width="3"/>
+    <path d="M-25,10 L-35,35" fill="none" stroke="#8B1A1A" stroke-width="3"/>
+    <path d="M25,10 L35,35" fill="none" stroke="#8B1A1A" stroke-width="3"/>
+  </g>
+</svg>

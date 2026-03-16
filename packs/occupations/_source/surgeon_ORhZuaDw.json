@@ -3,7 +3,7 @@
   "_key": "!items!YHE7HH57hAWk1EqG",
   "name": "Surgeon",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Embrace new methods cutting into body to repair damage; most call you butcher; develop new methods while saving lives.</p>",

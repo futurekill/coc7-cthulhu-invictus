@@ -3,7 +3,7 @@
   "_key": "!items!QcYRe419f4WpePdH",
   "name": "Doctrinam De Tenebris (Doctrine of the Dark)",
   "type": "book",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/book.svg",
   "system": {
     "description": {
       "value": "<p><em>A series of weathered vellum scrolls containing handwritten testimonies of at least 25 authors, possibly many more. Initial testimonies report successful experiments in contacting and commanding 'immania' (monstrous things). Further testimonies corroborate findings and include vital information for casting success. Virtually every testimony contains dire warnings, though they are seldom heeded. The last known copy is thought to have traveled to Britannia and may have inspired Theophilus Wenn's 17th century collection, True Magick.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown (compiled from 25+ authors)</td></tr>\n<tr><td><strong>Date</strong></td><td>50 A.D.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+2/+4 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>18</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>24</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Summon Aerial Demon (Summon/Bind Star Vampire)</li>\n<li>Call the Dark Player (Summon/Bind Servitor of the Outer Gods)</li>\n<li>Command the Winged Steed (Summon/Bind Byakhee)</li>\n<li>Commune with the Shapeless One (Contact Deity/Nyogtha)</li>\n</ul>",

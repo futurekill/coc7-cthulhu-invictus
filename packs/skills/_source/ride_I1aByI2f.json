@@ -3,7 +3,7 @@
   "_key": "!items!u8yXXELrSUaP20Hu",
   "name": "Ride",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/ride.svg",
   "system": {
     "description": {
       "value": "<p>Ride horses and other animals.</p>",

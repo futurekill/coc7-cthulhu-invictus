@@ -3,7 +3,7 @@
   "_key": "!items!c6p231Z2ktr5zrBp",
   "name": "Horse Breeder/Trainer",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>Care for, breed, and train magnificent horses for racing, military, or labor; sell to customers based on matching person to perfect mount.</p>",

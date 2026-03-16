@@ -3,7 +3,7 @@
   "_key": "!items!Wiuj2HN1yzLtoH7J",
   "name": "Patrician",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/noble.svg",
   "system": {
     "description": {
       "value": "<p>Member of ruling class enjoying immense wealth, lavish parties, plays, games, and races; concern is status and gossip among noble families.</p>",

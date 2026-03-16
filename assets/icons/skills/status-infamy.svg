@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Roman coin -->
+    <circle cx="0" cy="0" r="45" fill="#C4A035" stroke="#8B7534" stroke-width="3"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#8B7534" stroke-width="1.5"/>
+    <!-- Profile silhouette -->
+    <path d="M-5,-25 Q-18,-18 -18,-5 Q-18,8 -8,15 Q0,20 5,15 Q12,8 10,-5 Q10,-15 2,-25 Z"
+          fill="#8B7534" opacity="0.5"/>
+    <!-- Laurel detail -->
+    <path d="M-2,-25 Q-8,-30 -5,-35 Q0,-30 -2,-25" fill="#8B7534" opacity="0.4"/>
+    <!-- Text -->
+    <text x="0" y="38" text-anchor="middle" font-size="9" fill="#8B7534" font-family="serif">INVICTVS</text>
+  </g>
+</svg>

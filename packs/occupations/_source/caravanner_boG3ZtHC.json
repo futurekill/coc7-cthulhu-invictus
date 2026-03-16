@@ -3,7 +3,7 @@
   "_key": "!items!56sbYUm8qTNcWaJg",
   "name": "Caravanner",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/travel.svg",
   "system": {
     "description": {
       "value": "<p>Organize and lead caravans transporting goods across empire&#x27;s roads, negotiate prices, manage pack animals, and defend against bandits.</p>",

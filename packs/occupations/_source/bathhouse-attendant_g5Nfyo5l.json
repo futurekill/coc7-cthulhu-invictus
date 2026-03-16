@@ -3,7 +3,7 @@
   "_key": "!items!cTXbEnZ9P4HPbZeN",
   "name": "Bathhouse Attendant",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/entertainment.svg",
   "system": {
     "description": {
       "value": "<p>Employee of bathhouse handling towels, massages, oils, perfumes, and overhearing conversations from relaxing patrons.</p>",
@@ -25,7 +25,7 @@
   "flags": {
     "coc7-cthulhu-invictus": {
       "infamy": true,
-      "specialNotes": "+15 to Swim, +15 APP, –20 to their EDU"
+      "specialNotes": "+15 to Swim, +15 APP, \u201320 to their EDU"
     }
   },
   "folder": null,

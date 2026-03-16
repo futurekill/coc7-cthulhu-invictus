@@ -3,7 +3,7 @@
   "_key": "!actors!zAUguBuQqx9jR7Ee",
   "name": "The Furies",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/the-furies.svg",
   "system": {
     "description": {
       "value": "<p>unaffected by liquids, which vaporize before reaching them. A fury standing in the rain or immersed in water appears to be a cloud or bubble of steam </p>",

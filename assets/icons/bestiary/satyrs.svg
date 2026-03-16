@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <path d="M-15,-10 Q-20,10 -12,35 L-5,55 L5,55 L12,35 Q20,10 15,-10 Z" fill="#8B6914" stroke="#5C4033" stroke-width="2"/>
+    <circle cx="0" cy="-22" r="15" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <path d="M-12,-30 Q-15,-42 -20,-45" fill="none" stroke="#8B7534" stroke-width="3" stroke-linecap="round"/>
+    <path d="M12,-30 Q15,-42 20,-45" fill="none" stroke="#8B7534" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-5" cy="-24" r="2.5" fill="#2C1810"/><circle cx="5" cy="-24" r="2.5" fill="#2C1810"/>
+    <path d="M-4,-14 Q0,-10 4,-14" fill="none" stroke="#2C1810" stroke-width="1.5"/>
+    <path d="M-12,35 Q-10,50 -15,55 M12,35 Q10,50 15,55" fill="none" stroke="#8B6914" stroke-width="4" stroke-linecap="round"/>
+    <line x1="18" y1="-15" x2="40" y2="-25" stroke="#8B6914" stroke-width="3"/>
+  </g>
+</svg>

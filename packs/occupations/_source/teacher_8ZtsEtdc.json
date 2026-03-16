@@ -3,7 +3,7 @@
   "_key": "!items!qD1cu1qwabF4kb5U",
   "name": "Teacher",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Teach children fundamentals of reading, writing, and math in public place, or privately instruct wealthy household in basics and fine arts.</p>",

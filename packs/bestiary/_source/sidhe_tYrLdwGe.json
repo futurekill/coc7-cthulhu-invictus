@@ -3,7 +3,7 @@
   "_key": "!actors!tYrLdwGetDCcdx1s",
   "name": "Sidhe",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/sidhe.svg",
   "system": {
     "description": {
       "value": "<p>Fey beings from the Dreamlands, beautiful and dangerous, with glamour that enchants mortals.</p>",

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <circle cx="0" cy="-15" r="18" fill="#3D2820" stroke="#2C1810" stroke-width="2"/>
+    <ellipse cx="0" cy="15" rx="15" ry="20" fill="#3D2820" stroke="#2C1810" stroke-width="2"/>
+    <circle cx="-8" cy="-18" r="7" fill="#FFD700" stroke="#8B7534" stroke-width="1.5"/>
+    <circle cx="8" cy="-18" r="7" fill="#FFD700" stroke="#8B7534" stroke-width="1.5"/>
+    <circle cx="-8" cy="-18" r="3.5" fill="#2C1810"/><circle cx="8" cy="-18" r="3.5" fill="#2C1810"/>
+    <polygon points="0,-8 -3,-3 3,-3" fill="#8B7534"/>
+    <path d="M-15,5 Q-40,-5 -50,-25" fill="none" stroke="#3D2820" stroke-width="6" stroke-linecap="round"/>
+    <path d="M15,5 Q40,-5 50,-25" fill="none" stroke="#3D2820" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-12,-28 Q-8,-35 -4,-28" fill="#3D2820" stroke="#2C1810" stroke-width="1"/>
+    <path d="M4,-28 Q8,-35 12,-28" fill="#3D2820" stroke="#2C1810" stroke-width="1"/>
+  </g>
+</svg>

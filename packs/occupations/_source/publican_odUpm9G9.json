@@ -3,7 +3,7 @@
   "_key": "!items!qqQ7SXx7QUBRh0LK",
   "name": "Publican",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/trade.svg",
   "system": {
     "description": {
       "value": "<p>Oversee public works or military logistics, collect taxes by bidding on contracts; balance collecting taxes without over-taxing people.</p>",

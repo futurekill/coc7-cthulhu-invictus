@@ -3,7 +3,7 @@
   "_key": "!items!qt18BY7lTtcoaHt7",
   "name": "Advocate/Jurisconsults",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>Interpret laws, advise people on legal matters, and defend or prosecute cases before judges in service to senators and other wealthy clients.</p>",

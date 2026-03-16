@@ -3,7 +3,7 @@
   "_key": "!items!3tPwcGrWxcI0A72D",
   "name": "Newsreader",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>Shout latest news to gathered citizens several times daily; announce military victories, elections, and merchant advertisements; develop reflexes.</p>",

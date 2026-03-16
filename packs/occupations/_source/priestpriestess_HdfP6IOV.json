@@ -3,7 +3,7 @@
   "_key": "!items!8nZ6V5KlgDV2DJ00",
   "name": "Priest/Priestess",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/religious.svg",
   "system": {
     "description": {
       "value": "<p>Serve divine powers in grand temples or small shrines; serve Roman pantheon, Emperor worship, or absorbed foreign faiths.</p>",

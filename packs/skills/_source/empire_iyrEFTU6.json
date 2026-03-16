@@ -3,7 +3,7 @@
   "_key": "!items!5NJpk14KWAw682A4",
   "name": "Empire",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/empire.svg",
   "system": {
     "description": {
       "value": "<p>Understanding of Roman imperial politics, history, and structure. Roman citizens know 25%, non-citizens 15%, foreigners 1%.</p>",

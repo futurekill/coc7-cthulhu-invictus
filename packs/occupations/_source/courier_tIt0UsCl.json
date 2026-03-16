@@ -3,7 +3,7 @@
   "_key": "!items!eRBPp5jdYajBqqRH",
   "name": "Courier",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/travel.svg",
   "system": {
     "description": {
       "value": "<p>Deliver messages across empire on horseback, covering 40-65 miles per day using relay stations, with proper license (diploma) or skilled forgery.</p>",

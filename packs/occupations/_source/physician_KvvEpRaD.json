@@ -3,7 +3,7 @@
   "_key": "!items!5ftGmedvQBWSCNNL",
   "name": "Physician",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Follow Greek and Babylonian teachings treating illnesses and injuries with salves, tonics, ointments, and diets; save lives without cutting.</p>",

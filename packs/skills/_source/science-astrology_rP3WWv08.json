@@ -3,7 +3,7 @@
   "_key": "!items!75eCknvinBSjQtaK",
   "name": "Science (Astrology)",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/science-astrology.svg",
   "system": {
     "description": {
       "value": "<p>Understanding of astrology and reading celestial omens.</p>",

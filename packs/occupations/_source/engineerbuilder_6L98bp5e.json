@@ -3,7 +3,7 @@
   "_key": "!items!1Gy6G0WUaCHsUIsV",
   "name": "Engineer/Builder",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/trade.svg",
   "system": {
     "description": {
       "value": "<p>Design and construct Roman infrastructure including roads, aqueducts, sewers, temples, baths, arenas, bridges, fortifications, and siege weapons.</p>",

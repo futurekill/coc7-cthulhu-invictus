@@ -3,7 +3,7 @@
   "_key": "!items!VsF5gxEbkwXyPEZK",
   "name": "Thief",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/underworld.svg",
   "system": {
     "description": {
       "value": "<p>Steal from others using pickpocketing, purse-cutting, sneaking, or direct methods; get arrested if caught; more honest than many.</p>",

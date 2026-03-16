@@ -3,7 +3,7 @@
   "_key": "!items!Sn8Gbt1tgmKfu8rU",
   "name": "Senator",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/noble.svg",
   "system": {
     "description": {
       "value": "<p>Elite one of empire&#x27;s ruling body, speaking for people; may be incorruptible or corrupt selling favor to highest bidder.</p>",

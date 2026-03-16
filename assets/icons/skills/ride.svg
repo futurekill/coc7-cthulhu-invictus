@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Horse head profile -->
+    <path d="M-15,-55 Q-30,-45 -35,-25 Q-38,-5 -30,10 Q-25,20 -15,25 L-10,45 L0,45 L0,25
+             Q10,20 18,5 Q25,-15 20,-35 Q15,-50 -5,-55 Z"
+          fill="#8B6914" stroke="#8B6914" stroke-width="2"/>
+    <!-- Ear -->
+    <path d="M-10,-55 L-3,-70 L5,-55" fill="#8B6914" stroke="#5C4033" stroke-width="1.5"/>
+    <!-- Eye -->
+    <circle cx="-15" cy="-28" r="4" fill="#2C1810"/>
+    <circle cx="-14" cy="-29" r="1.5" fill="white" opacity="0.4"/>
+    <!-- Mane -->
+    <path d="M0,-55 Q15,-45 12,-30 Q18,-18 12,-5" fill="none" stroke="#5C4033" stroke-width="4"/>
+    <!-- Bridle -->
+    <path d="M-30,-20 L-10,-15 L-15,10" fill="none" stroke="#C4A035" stroke-width="2"/>
+    <circle cx="-15" cy="-15" r="3" fill="#C4A035"/>
+  </g>
+</svg>

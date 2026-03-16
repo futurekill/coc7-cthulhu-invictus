@@ -3,7 +3,7 @@
   "_key": "!actors!ne1WJnLn03ovXjY5",
   "name": "Basilisk",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/basilisk.svg",
   "system": {
     "description": {
       "value": "<p>are successfully treated with a successful Medicine roll and receive constant medical care, which includes force feeding the victims fluids to keep th</p>",

@@ -3,7 +3,7 @@
   "_key": "!items!V5VryApxOzktFY65",
   "name": "Apothecary",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/trade.svg",
   "system": {
     "description": {
       "value": "<p>Create drugs and potions from plants and mushrooms for healing and recreational use, managing a shop or conducting house calls to wealthy patrons.</p>",

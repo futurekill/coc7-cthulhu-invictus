@@ -3,7 +3,7 @@
   "_key": "!items!DMGlgBhDr3xEFQsW",
   "name": "Pilot Boat",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/pilot-boat.svg",
   "system": {
     "description": {
       "value": "<p>Operate small boats and vessels.</p>",

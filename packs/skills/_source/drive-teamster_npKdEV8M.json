@@ -3,7 +3,7 @@
   "_key": "!items!ZPawmLAjL75hMGsF",
   "name": "Drive / Teamster",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/drive-teamster.svg",
   "system": {
     "description": {
       "value": "<p>Operate vehicles and teams of animals for transportation purposes.</p>",

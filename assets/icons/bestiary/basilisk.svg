@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <path d="M-20,30 Q-30,10 -20,-10 Q-10,-25 5,-30 Q20,-35 25,-20 L30,-15" fill="none" stroke="#2E5A2E" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="30" cy="-15" r="10" fill="#2E5A2E" stroke="#1A3A1A" stroke-width="2"/>
+    <circle cx="27" cy="-18" r="3" fill="#FFD700"/>
+    <circle cx="33" cy="-18" r="3" fill="#FFD700"/>
+    <path d="M25,-30 L30,-40 L35,-30" fill="#8B1A1A" stroke="#8B1A1A" stroke-width="1"/>
+    <path d="M15,-25 Q10,-35 5,-25" fill="#2E5A2E" opacity="0.5"/>
+    <path d="M25,-25 Q30,-35 35,-25" fill="#2E5A2E" opacity="0.5"/>
+  </g>
+</svg>

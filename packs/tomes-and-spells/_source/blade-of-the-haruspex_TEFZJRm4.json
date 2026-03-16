@@ -3,7 +3,7 @@
   "_key": "!items!TEFZJRm4q33cwzfK",
   "name": "Blade of the Haruspex",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/artifact.svg",
   "system": {
     "description": {
       "value": "<p><em>A handful of broad, triangular, double-edged silver blades found with Etruscan lettering incised along both edges. The enchantments render the normally soft silver as hard as steel. If used to cut out the liver of a still-living human while casting a Contact (Deity) spell, the 5 POW required is taken from the sacrifice instead of the caster. Doubles the duration of the spell, allowing longer communion with the contacted god. Rumored that certain dark gods (Pazuzu and Pharol frequently named) answer such sacrifices more swiftly, but unsubstantiated.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Enchanted Weapon</td></tr>\n<tr><td><strong>Used By</strong></td><td>Anyone</td></tr>\n<tr><td><strong>Effect</strong></td><td>Can be used to perform sacrifice for Contact (Deity) spells, transferring POW cost to sacrifice; doubles spell duration; enchanted weapon against creatures immune to mundane weapons; silver material hardened to steel through enchantment</td></tr>\n</table>",

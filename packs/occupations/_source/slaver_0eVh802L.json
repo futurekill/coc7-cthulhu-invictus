@@ -3,7 +3,7 @@
   "_key": "!items!Pz4iW4i2kz8bLrno",
   "name": "Slaver",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/underworld.svg",
   "system": {
     "description": {
       "value": "<p>Capture slaves or purchase prisoners, care for and train them for value, bargain with buyers, broker sales, take wares to auction.</p>",

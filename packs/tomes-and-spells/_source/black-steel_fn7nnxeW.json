@@ -3,7 +3,7 @@
   "_key": "!items!fn7nnxeWj6yensm5",
   "name": "Black Steel",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/artifact.svg",
   "system": {
     "description": {
       "value": "<p><em>Not actually metal, but a hardened ceramic made from clay and other materials. Technique originated with high-ranking agents of the Great Race of Yith, but also learned by mi-go agents, serpent people, and several cults in Greece and Asia Minor. Black steel weapons are only useful as bladed weapons; their lighter weight makes them ineffective as bludgeons. While not dealing additional damage, the superior edge allows penetration of armor, negating 3 points of protection from standard armor.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Weapon Material</td></tr>\n<tr><td><strong>Used By</strong></td><td>Anyone</td></tr>\n<tr><td><strong>Effect</strong></td><td>Ignores 3 points of standard armor; bladed weapons only; extremely light (half normal weight); never dulls or rusts; not considered enchanted against creatures needing magical weapons</td></tr>\n</table>",

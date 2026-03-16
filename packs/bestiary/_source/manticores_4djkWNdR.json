@@ -3,7 +3,7 @@
   "_key": "!actors!4djkWNdRfrCQBFMC",
   "name": "Manticores",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/manticores.svg",
   "system": {
     "description": {
       "value": "<p>Immortal: Manticores are immortal unless slain, and heal 1 HP per hour. This power works even after death; the manticore returns to life after 24 hour</p>",

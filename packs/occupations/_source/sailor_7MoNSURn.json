@@ -3,7 +3,7 @@
   "_key": "!items!Jsu49QYDVnT8rDpk",
   "name": "Sailor",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/travel.svg",
   "system": {
     "description": {
       "value": "<p>Crew on merchant vessel or naval warship transporting goods or legions across Mediterranean; more at home on deck than paved road.</p>",

@@ -3,7 +3,7 @@
   "_key": "!actors!wwU90P0jpgjqmlMj",
   "name": "Lemures (Ghost)",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/lemures-ghost.svg",
   "system": {
     "description": {
       "value": "<p>Incorporeal spirits of the restless dead that haunt the living with an aura of dread.</p>",

@@ -3,7 +3,7 @@
   "_key": "!items!oZod2fiKYsWsB2q1",
   "name": "Barbarian",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>From lands beyond the empire, learning Roman culture and military tactics while harboring resentment for Roman oppression of your people.</p>",

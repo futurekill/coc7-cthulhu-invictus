@@ -3,7 +3,7 @@
   "_key": "!items!LgY3pYRsqfzBEDIh",
   "name": "A King in Yellow Rises",
   "type": "book",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/book.svg",
   "system": {
     "description": {
       "value": "<p><em>The earlier version of the King in Yellow tale, written by the Syrian poetess Fairuza of Tyre. Takes the form of an epic poem set to music and meant to be sung. Tells of a decadent royal family and the arrival of a god-king in tattered yellow robes with a pallid mask who usurps their throne.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Aramaic</td></tr>\n<tr><td><strong>Author</strong></td><td>Fairuza of Tyre</td></tr>\n<tr><td><strong>Date</strong></td><td>420 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D6</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+4 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>15</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>2</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Call/Dismiss Hastur</li>\n<li>Song of Hastur</li>\n<li>The Yellow Sign</li>\n</ul>",

@@ -3,15 +3,15 @@
   "_key": "!items!MT1iuTDV8SKS5gcX",
   "name": "The Second Scroll of Arax",
   "type": "book",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/book.svg",
   "system": {
     "description": {
-      "value": "<p><em>A running compendium of notes, field reports, rumors, and research conducted since Arax's time by those who held the scroll. Discusses the true manner of Caligula's death (assassinated by angry cats), warnings never to eat cats, differences between types of dreams and prophecy, details of battles against ancient demons across the Empire, investigations of stepped pyramids around the Danube, and conflicts with cults worshipping Summanus, Tyrian Melqart, and heretics of the Magna Mater. Guarded by the Vestal Virgins of the Temple of Vesta.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Various authors (compiled 42 A.D.–present)</td></tr>\n<tr><td><strong>Date</strong></td><td>42 A.D.–present</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D4</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+4 percentiles</td></tr>\n<tr><td><strong>Dream Lore</strong></td><td>+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>15</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>12</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Create Sign of Ancient Hyperborea (Elder Sign)</li>\n<li>Eibon's Wheel of Mist</li>\n<li>Enchant Knife</li>\n</ul>",
+      "value": "<p><em>A running compendium of notes, field reports, rumors, and research conducted since Arax's time by those who held the scroll. Discusses the true manner of Caligula's death (assassinated by angry cats), warnings never to eat cats, differences between types of dreams and prophecy, details of battles against ancient demons across the Empire, investigations of stepped pyramids around the Danube, and conflicts with cults worshipping Summanus, Tyrian Melqart, and heretics of the Magna Mater. Guarded by the Vestal Virgins of the Temple of Vesta.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Latin</td></tr>\n<tr><td><strong>Author</strong></td><td>Various authors (compiled 42 A.D.\u2013present)</td></tr>\n<tr><td><strong>Date</strong></td><td>42 A.D.\u2013present</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D4</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+4 percentiles</td></tr>\n<tr><td><strong>Dream Lore</strong></td><td>+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>15</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>12</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Create Sign of Ancient Hyperborea (Elder Sign)</li>\n<li>Eibon's Wheel of Mist</li>\n<li>Enchant Knife</li>\n</ul>",
       "keeper": "<p><strong>Mythos Rating:</strong> 15</p>"
     },
     "language": "Latin",
-    "author": "Various authors (compiled 42 A.D.–present)",
-    "date": "42 A.D.–present",
+    "author": "Various authors (compiled 42 A.D.\u2013present)",
+    "date": "42 A.D.\u2013present",
     "sanpiLoss": "2D4",
     "mythosRating": 15,
     "study": 12,

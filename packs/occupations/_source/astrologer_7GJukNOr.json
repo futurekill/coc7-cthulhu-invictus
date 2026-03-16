@@ -3,7 +3,7 @@
   "_key": "!items!Jq6lVIaOfa08UOTf",
   "name": "Astrologer",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Divine and predict people&#x27;s futures by studying the stars, moon, and planets using charts and maps of the heavens.</p>",

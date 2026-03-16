@@ -3,7 +3,7 @@
   "_key": "!actors!PJbM7Q1SrblrSWt6",
   "name": "Hydrae",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/hydrae.svg",
   "system": {
     "description": {
       "value": "<p>the rate of 1 HP per combat round, so long as it is living. It can heal from any sort of damage, including wounds suffered from fire, acid, or poison.</p>",

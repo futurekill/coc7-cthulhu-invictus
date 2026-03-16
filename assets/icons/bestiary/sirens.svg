@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <circle cx="0" cy="-30" r="14" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <path d="M-12,-15 L-10,25 L10,25 L12,-15" fill="#E8DCC8" stroke="#8B7534" stroke-width="2"/>
+    <circle cx="-4" cy="-32" r="2.5" fill="#2A4A6B"/><circle cx="4" cy="-32" r="2.5" fill="#2A4A6B"/>
+    <ellipse cx="0" cy="-22" rx="3" ry="4" fill="#2C1810" opacity="0.5"/>
+    <path d="M-12,-10 Q-30,-20 -45,-10 Q-35,0 -25,-5" fill="none" stroke="#5C5040" stroke-width="5" stroke-linecap="round"/>
+    <path d="M12,-10 Q30,-20 45,-10 Q35,0 25,-5" fill="none" stroke="#5C5040" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="#C4A035" stroke-width="1.5" fill="none" opacity="0.5">
+      <path d="M-8,-22 Q-18,-30 -15,-40"/><path d="M8,-22 Q18,-30 15,-40"/>
+      <path d="M-12,-25 Q-25,-30 -22,-42"/><path d="M12,-25 Q25,-30 22,-42"/>
+    </g>
+  </g>
+</svg>

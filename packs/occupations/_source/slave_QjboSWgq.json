@@ -3,7 +3,7 @@
   "_key": "!items!N7BRBxnr0BsPUwJs",
   "name": "Slave",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/civic.svg",
   "system": {
     "description": {
       "value": "<p>Life not your own, belonging to master or mistress; work their behalf dreaming of freedom; earn coin toward manumission if allowed.</p>",

@@ -3,7 +3,7 @@
   "_key": "!items!fZyzZ3tFjEwM3P6P",
   "name": "Centurion/Legionary",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/military.svg",
   "system": {
     "description": {
       "value": "<p>Power and glory of Rome; well-trained soldier in legions drilling and guarding borders. Centurion commands ~100 men; Legionary is rank and file.</p>",

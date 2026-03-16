@@ -3,7 +3,7 @@
   "_key": "!items!maA2kDawIVmtxbVU",
   "name": "Create Curse Tablet",
   "type": "spell",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/spells/default-spell.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/spell.svg",
   "system": {
     "description": {
       "value": "<p><em>One of two spells unique to the 7th Edition Guide; Invictus-specific mechanical form</em></p>\n<hr/>\n<table>\n<tr><td><strong>Source</strong></td><td>7th Edition Guide to Cthulhu Invictus</td></tr>\n<tr><td><strong>Origin</strong></td><td>Invictus-specific spell (new item document)</td></tr>\n<tr><td><strong>Effect</strong></td><td>Creates binding curse tablets for Roman magical practice</td></tr>\n</table>",

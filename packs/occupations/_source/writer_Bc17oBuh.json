@@ -3,7 +3,7 @@
   "_key": "!items!J4tvzMDY7SU5dDs5",
   "name": "Writer",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/scholarly.svg",
   "system": {
     "description": {
       "value": "<p>Write poetry, politics, histories, fiction sold throughout empire; read publicly to generate interest; attract wealthy patrons for support.</p>",

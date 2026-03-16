@@ -3,7 +3,7 @@
   "_key": "!actors!74KPONu3OujCeECO",
   "name": "Serpent People",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/serpent-people.svg",
   "system": {
     "description": {
       "value": "<p>Degenerate descendants of the serpent folk of Valusia who can disguise themselves as human.</p>",

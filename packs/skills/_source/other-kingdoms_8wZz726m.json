@@ -3,7 +3,7 @@
   "_key": "!items!e0BXAMpvqbHMxQXR",
   "name": "Other Kingdoms",
   "type": "skill",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/skills/other-kingdoms.svg",
   "system": {
     "description": {
       "value": "<p>Knowledge of kingdoms and nations beyond Rome&#x27;s borders.</p>",

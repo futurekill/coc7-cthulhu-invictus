@@ -3,7 +3,7 @@
   "_key": "!items!KpDNzhm2mFSnYD6m",
   "name": "The Book of Thoth",
   "type": "book",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/book.svg",
   "system": {
     "description": {
       "value": "<p><em>Written by the sorcerer Thoth-Amon of pre-Egyptian Stygia, discussing at length the entity known as The Prolonged of Life, a possible synonym for Charon, the ferryman of the river of Styx. This entity appears as a large, hooded giant draped in cloth and will later be known as Tawil al-'Umr, an avatar of Yog-Sothoth. Includes spells for communing with gods and speaking with animals, as well as more destructive flavors of Mythos magic.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Stygian and ancient Egyptian</td></tr>\n<tr><td><strong>Author</strong></td><td>Thoth-Amon</td></tr>\n<tr><td><strong>Date</strong></td><td>10,000 B.C.</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>1D3/1D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+1/+8 percentiles</td></tr>\n<tr><td><strong>Occult</strong></td><td>+5 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>27</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>32</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Apportion Ka</li>\n<li>Beseech Charon (Contact Yog-Sothoth)</li>\n<li>Chant of Thoth</li>\n<li>Command Animal</li>\n<li>Contact Tomb-Herd</li>\n</ul>",

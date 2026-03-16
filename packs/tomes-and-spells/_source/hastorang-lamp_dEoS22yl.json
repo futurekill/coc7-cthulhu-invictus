@@ -3,7 +3,7 @@
   "_key": "!items!dEoS22ylN15Qe7X8",
   "name": "Hastorang Lamp",
   "type": "item",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/artifacts/default-artifact.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/artifact.svg",
   "system": {
     "description": {
       "value": "<p><em>Red-glazed ceramic lamp that burns continuously without requiring oil or wicks, producing steady orange flame. Appears unadorned but closer inspection reveals: (1) symbols incised around wick hole identifiable as binding ritual via Cthulhu Mythos roll; (2) dots and lines inscribed on underside identifiable as star chart via Astronomy or INT roll, with central point being Os Piscis Meridiani (Hastorang to Persian magi). While sturdy, 30 points of damage breaks the lamp and releases the bound Fire Vampire inside. Such creatures are seldom grateful for their release.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Type</strong></td><td>Magical Item</td></tr>\n<tr><td><strong>Used By</strong></td><td>Anyone</td></tr>\n<tr><td><strong>Effect</strong></td><td>Burns continuously without oil or wicks; contains bound Fire Vampire; breaking lamp releases the trapped creature</td></tr>\n</table>",

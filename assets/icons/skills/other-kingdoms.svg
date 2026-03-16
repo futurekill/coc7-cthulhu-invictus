@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3D2B1F"/>
+      <stop offset="100%" stop-color="#1A0E08"/>
+    </radialGradient>
+  </defs>
+  <rect width="200" height="200" rx="16" fill="url(#bg)"/>
+  
+  <g transform="translate(100,100)">
+    <!-- Globe/world -->
+    <circle cx="0" cy="0" r="45" fill="#2A4A6B" stroke="#C4A035" stroke-width="2.5" opacity="0.7"/>
+    <!-- Land masses -->
+    <path d="M-20,-30 Q-10,-35 5,-25 Q15,-20 10,-10 Q0,-5 -15,-10 Q-25,-20 -20,-30 Z" fill="#2E5A2E" opacity="0.6"/>
+    <path d="M15,5 Q25,0 30,10 Q25,25 15,20 Q10,15 15,5 Z" fill="#2E5A2E" opacity="0.6"/>
+    <path d="M-30,10 Q-20,5 -15,15 Q-20,25 -30,20 Z" fill="#2E5A2E" opacity="0.6"/>
+    <!-- Grid lines -->
+    <ellipse cx="0" cy="0" rx="45" ry="20" fill="none" stroke="#C4A035" stroke-width="0.8" opacity="0.3"/>
+    <ellipse cx="0" cy="0" rx="20" ry="45" fill="none" stroke="#C4A035" stroke-width="0.8" opacity="0.3"/>
+    <line x1="-45" y1="0" x2="45" y2="0" stroke="#C4A035" stroke-width="0.8" opacity="0.3"/>
+  </g>
+</svg>

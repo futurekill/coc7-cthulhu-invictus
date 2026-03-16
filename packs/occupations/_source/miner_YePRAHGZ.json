@@ -3,7 +3,7 @@
   "_key": "!items!OYpYrIIHDI7dafTK",
   "name": "Miner",
   "type": "occupation",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/default.webp",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/occupations/trade.svg",
   "system": {
     "description": {
       "value": "<p>Extract precious metals and gemstones from deep earth; reinforce tunnels, vent foul air, face deadly risks; profession takes physical toll.</p>",

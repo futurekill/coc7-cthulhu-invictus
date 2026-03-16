@@ -3,7 +3,7 @@
   "_key": "!actors!FT6Ce5fuMjeirNOL",
   "name": "Chimera",
   "type": "creature",
-  "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/animal.svg",
+  "img": "modules/coc7-cthulhu-invictus/assets/icons/bestiary/chimera.svg",
   "system": {
     "description": {
       "value": "<p>\"Tail\" Attack: An attack from the rear head does 1D3 points of damage plus an additional 1D6 points of Moderate damage, as this head is always venomou</p>",
