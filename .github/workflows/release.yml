@@ -65,6 +65,7 @@ jobs:
         run: |
           zip -r "${{ steps.module.outputs.id }}.zip" \
             module.json \
+            assets/ \
             scripts/ \
             styles/ \
             templates/ \
