@@ -105,36 +105,14 @@
       "name": "Cthulhu Invictus",
       "packs": [
         "occupations",
-        "skills"
-      ],
-      "folders": [
-        {
-          "name": "Equipment & Arms",
-          "packs": [
-            "weapons",
-            "armor",
-            "equipment"
-          ]
-        },
-        {
-          "name": "Creatures & NPCs",
-          "packs": [
-            "bestiary"
-          ]
-        },
-        {
-          "name": "Magic",
-          "packs": [
-            "tomes-and-spells"
-          ]
-        },
-        {
-          "name": "Tables & Lore",
-          "packs": [
-            "rollable-tables",
-            "journal"
-          ]
-        }
+        "skills",
+        "weapons",
+        "armor",
+        "equipment",
+        "bestiary",
+        "tomes-and-spells",
+        "rollable-tables",
+        "journal"
       ]
     }
   ],
