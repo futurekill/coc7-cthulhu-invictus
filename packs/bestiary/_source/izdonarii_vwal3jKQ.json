@@ -1,11 +1,12 @@
 {
   "_id": "vwal3jKQzejVObfV",
+  "_key": "!actors!vwal3jKQzejVObfV",
   "name": "Izdonarii",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
   "system": {
     "description": {
-      "value": "<p>while sorcerers and priests/priestesses know on average 8\u201314 (1D8+6) spells. Izdonarii favor spells that kill opponents horribly, cloud the mind of se</p>",
+      "value": "<p>while sorcerers and priests/priestesses know on average 8–14 (1D8+6) spells. Izdonarii favor spells that kill opponents horribly, cloud the mind of se</p>",
       "keeper": ""
     },
     "characteristics": {
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry"
+        "Fighting 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": [

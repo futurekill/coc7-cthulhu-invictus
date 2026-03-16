@@ -1,5 +1,6 @@
 {
   "_id": "zAUguBuQqx9jR7Ee",
+  "_key": "!actors!zAUguBuQqx9jR7Ee",
   "name": "The Furies",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None, but attacks from non\u0002magical weapons do half damage.",
       "attacks": [
-        "Fighting 45% \u2014 See Full Entry"
+        "Fighting 45% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": [

@@ -1,5 +1,6 @@
 {
   "_id": "JxhWrKoZB2JX0NNR",
+  "_key": "!actors!JxhWrKoZB2JX0NNR",
   "name": "Harpies",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of thick hide and filthy feathers.",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry"
+        "Fighting 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

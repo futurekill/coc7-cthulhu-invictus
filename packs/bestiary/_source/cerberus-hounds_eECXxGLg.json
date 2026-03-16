@@ -1,5 +1,6 @@
 {
   "_id": "eECXxGLgCGo8NcUY",
+  "_key": "!actors!eECXxGLgCGo8NcUY",
   "name": "Cerberus Hounds",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of fur and gristle, half damage",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry"
+        "Fighting 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

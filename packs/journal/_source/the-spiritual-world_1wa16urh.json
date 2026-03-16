@@ -1,5 +1,6 @@
 {
   "_id": "1wa16urhMBtN98eq",
+  "_key": "!journal!1wa16urhMBtN98eq",
   "name": "The Spiritual World",
   "pages": [
     {
@@ -7,7 +8,7 @@
       "name": "Romans and the Otherworld",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Romans and the Otherworld \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Romans and the Otherworld — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -42,7 +43,7 @@
       "name": "Religions",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Religions \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Religions — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -77,7 +78,7 @@
       "name": "Philosophical Disciplines",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Philosophical Disciplines \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Philosophical Disciplines — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -112,7 +113,7 @@
       "name": "Insanity in the Empire",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Insanity in the Empire \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Insanity in the Empire — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },

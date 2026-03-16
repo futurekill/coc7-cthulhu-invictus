@@ -1,11 +1,12 @@
 {
   "_id": "RpF6LjoDOqDqQa5Z",
+  "_key": "!items!RpF6LjoDOqDqQa5Z",
   "name": "Chariot, Light",
   "type": "item",
   "img": "modules/coc7-cthulhu-invictus/assets/icons/equipment/default.webp",
   "system": {
     "description": {
-      "value": "<p>Fast two-wheeled platform for 1\u20132 passengers</p>",
+      "value": "<p>Fast two-wheeled platform for 1–2 passengers</p>",
       "keeper": ""
     },
     "cost": {

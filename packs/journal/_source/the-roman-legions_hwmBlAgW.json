@@ -1,5 +1,6 @@
 {
   "_id": "hwmBlAgWWHyU4cjd",
+  "_key": "!journal!hwmBlAgWWHyU4cjd",
   "name": "The Roman Legions",
   "pages": [
     {
@@ -7,7 +8,7 @@
       "name": "History",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for History \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for History — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -42,7 +43,7 @@
       "name": "Training",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Training \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Training — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -77,7 +78,7 @@
       "name": "Ranks",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Ranks \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Ranks — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -112,7 +113,7 @@
       "name": "Equipment",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Equipment \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Equipment — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -147,7 +148,7 @@
       "name": "Siege Weapons",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Siege Weapons \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Siege Weapons — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -182,7 +183,7 @@
       "name": "Legions of the Empire",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Legions of the Empire \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Legions of the Empire — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },

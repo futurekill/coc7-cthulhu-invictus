@@ -1,5 +1,6 @@
 {
   "_id": "4djkWNdRfrCQBFMC",
+  "_key": "!actors!4djkWNdRfrCQBFMC",
   "name": "Manticores",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,9 +65,9 @@
       "source": "invictus-bestiary",
       "armorValue": "Manticores take half damage from non\u0002magical weapons due to their enchanted hides.",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry",
-        "Sting 40% \u2014 See Full Entry",
-        "Breath Weapon 25% \u2014 Special"
+        "Fighting 50% — See Full Entry",
+        "Sting 40% — See Full Entry",
+        "Breath Weapon 25% — Special"
       ],
       "specialAbilities": [],
       "skills": [

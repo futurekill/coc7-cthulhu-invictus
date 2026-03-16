@@ -1,5 +1,6 @@
 {
   "_id": "dD03mWdPgXD9BAv3",
+  "_key": "!journal!dD03mWdPgXD9BAv3",
   "name": "Setting Overview",
   "pages": [
     {
@@ -7,7 +8,7 @@
       "name": "What is Cthulhu Invictus",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for What is Cthulhu Invictus \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for What is Cthulhu Invictus — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -42,7 +43,7 @@
       "name": "The Shadow War",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for The Shadow War \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for The Shadow War — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -77,7 +78,7 @@
       "name": "A World of Belief",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for A World of Belief \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for A World of Belief — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -112,7 +113,7 @@
       "name": "A Very Brief Timeline",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for A Very Brief Timeline \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for A Very Brief Timeline — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },

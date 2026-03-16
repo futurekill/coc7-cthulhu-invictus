@@ -1,5 +1,6 @@
 {
   "_id": "sMtwgKGnjQEo2gw2",
+  "_key": "!actors!sMtwgKGnjQEo2gw2",
   "name": "Griffons",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "Because of their mix of Dreamlands",
       "attacks": [
-        "Fighting 60% \u2014 See Full Entry"
+        "Fighting 60% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

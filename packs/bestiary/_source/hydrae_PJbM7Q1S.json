@@ -1,5 +1,6 @@
 {
   "_id": "PJbM7Q1SrblrSWt6",
+  "_key": "!actors!PJbM7Q1SrblrSWt6",
   "name": "Hydrae",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "5 points of very thick scaly hide. Also, while",
       "attacks": [
-        "Fighting, bite 50% \u2014 See Full Entry"
+        "Fighting, bite 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": [

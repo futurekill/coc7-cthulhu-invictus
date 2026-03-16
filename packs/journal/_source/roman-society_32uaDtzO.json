@@ -1,5 +1,6 @@
 {
   "_id": "32uaDtzOUodnqnyt",
+  "_key": "!journal!32uaDtzOUodnqnyt",
   "name": "Roman Society",
   "pages": [
     {
@@ -7,7 +8,7 @@
       "name": "A Roman Miscellany",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for A Roman Miscellany \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for A Roman Miscellany — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -42,7 +43,7 @@
       "name": "Roman Naming Conventions",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Roman Naming Conventions \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Roman Naming Conventions — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },
@@ -77,7 +78,7 @@
       "name": "Status system reference",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for Status system reference \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for Status system reference — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },

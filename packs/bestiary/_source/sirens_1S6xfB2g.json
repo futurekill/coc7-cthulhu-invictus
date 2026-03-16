@@ -1,5 +1,6 @@
 {
   "_id": "1S6xfB2gpBLzHfz3",
+  "_key": "!actors!1S6xfB2gpBLzHfz3",
   "name": "Sirens",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "3 points of tough alien hide.",
       "attacks": [
-        "Fighting 45% \u2014 See Full Entry"
+        "Fighting 45% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

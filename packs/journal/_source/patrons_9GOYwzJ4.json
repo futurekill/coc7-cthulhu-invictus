@@ -1,5 +1,6 @@
 {
   "_id": "9GOYwzJ4HrFfB6rs",
+  "_key": "!journal!9GOYwzJ4HrFfB6rs",
   "name": "Patrons",
   "pages": [
     {
@@ -7,7 +8,7 @@
       "name": "All patron types from Chapter 9",
       "type": "text",
       "text": {
-        "content": "<p><em>Content for All patron types from Chapter 9 \u2014 refer to the Cthulhu Invictus rulebook for full details.</em></p>",
+        "content": "<p><em>Content for All patron types from Chapter 9 — refer to the Cthulhu Invictus rulebook for full details.</em></p>",
         "format": 1,
         "markdown": ""
       },

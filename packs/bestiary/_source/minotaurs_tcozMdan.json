@@ -1,5 +1,6 @@
 {
   "_id": "tcozMdant8nXiWqs",
+  "_key": "!actors!tcozMdant8nXiWqs",
   "name": "Minotaurs",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "6 points of thick hide and muscle. In addition, about",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry"
+        "Fighting 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

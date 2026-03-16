@@ -1,5 +1,6 @@
 {
   "_id": "0DfQnPOMbdYvpiYK",
+  "_key": "!actors!0DfQnPOMbdYvpiYK",
   "name": "Apepi, Serpent of Night",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,9 +65,9 @@
       "source": "invictus-bestiary",
       "armorValue": "6-point scales.",
       "attacks": [
-        "Fighting 85% \u2014 See Full Entry",
-        "Venom Spit 100% \u2014 See Full Entry",
-        "Gaze 50% \u2014 Special"
+        "Fighting 85% — See Full Entry",
+        "Venom Spit 100% — See Full Entry",
+        "Gaze 50% — Special"
       ],
       "specialAbilities": [],
       "skills": []

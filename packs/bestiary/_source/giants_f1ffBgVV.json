@@ -1,5 +1,6 @@
 {
   "_id": "f1ffBgVVxZiJdL9J",
+  "_key": "!actors!f1ffBgVVxZiJdL9J",
   "name": "Giants",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of thick skin, rarely augmented",
       "attacks": [
-        "Fighting 50% \u2014 See Full Entry"
+        "Fighting 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

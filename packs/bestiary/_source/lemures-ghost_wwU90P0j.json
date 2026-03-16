@@ -1,5 +1,6 @@
 {
   "_id": "wwU90P0jpgjqmlMj",
+  "_key": "!actors!wwU90P0jpgjqmlMj",
   "name": "Lemures (Ghost)",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,8 +65,8 @@
       "source": "invictus-bestiary",
       "armorValue": "Immune to physical weapons",
       "attacks": [
-        "Fear Aura 0% \u2014 POW vs POW or flee",
-        "Haunt 0% \u2014 1D3 SAN/round"
+        "Fear Aura 0% — POW vs POW or flee",
+        "Haunt 0% — 1D3 SAN/round"
       ],
       "specialAbilities": [
         "Incorporeal",

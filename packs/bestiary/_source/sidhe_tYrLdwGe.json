@@ -1,5 +1,6 @@
 {
   "_id": "tYrLdwGetDCcdx1s",
+  "_key": "!actors!tYrLdwGetDCcdx1s",
   "name": "Sidhe",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None (iron vulnerability)",
       "attacks": [
-        "Sidhe Blade 60% \u2014 1D8+1"
+        "Sidhe Blade 60% — 1D8+1"
       ],
       "specialAbilities": [
         "Glamour",

@@ -1,11 +1,12 @@
 {
   "_id": "JvQhAw3Q8WB36Ud9",
+  "_key": "!actors!JvQhAw3Q8WB36Ud9",
   "name": "Gorgons",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
   "system": {
     "description": {
-      "value": "<p>from the gorgon\u2019s gaze attack. As little as a few drops of a gorgon\u2019s sticky black drool is enough to permit a First Aid or Medicine check on a calcif</p>",
+      "value": "<p>from the gorgon’s gaze attack. As little as a few drops of a gorgon’s sticky black drool is enough to permit a First Aid or Medicine check on a calcif</p>",
       "keeper": ""
     },
     "characteristics": {
@@ -64,9 +65,9 @@
       "source": "invictus-bestiary",
       "armorValue": "4 points of thick rubbery hide. In addition, some",
       "attacks": [
-        "Fighting, Claws 35% \u2014 See Full Entry",
-        "DB\nFighting, Tail 35% \u2014 See Full Entry",
-        "DB\nWeapon Attacks 50% \u2014 See Full Entry"
+        "Fighting, Claws 35% — See Full Entry",
+        "DB\nFighting, Tail 35% — See Full Entry",
+        "DB\nWeapon Attacks 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": [

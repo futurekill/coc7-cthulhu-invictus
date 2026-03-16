@@ -1,5 +1,6 @@
 {
   "_id": "Zwez3VcBbD6e3uKB",
+  "_key": "!actors!Zwez3VcBbD6e3uKB",
   "name": "Pegasi",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "6 points of muscular hide.",
       "attacks": [
-        "See Full Entry 50% \u2014 "
+        "See Full Entry 50% — "
       ],
       "specialAbilities": [],
       "skills": []

@@ -1,11 +1,12 @@
 {
   "_id": "Mx9V1qVAphFOpfKG",
+  "_key": "!items!Mx9V1qVAphFOpfKG",
   "name": "The Pnakotica (Greek Version)",
   "type": "book",
   "img": "modules/coc7-cthulhu-invictus/assets/icons/tomes/default-tome.webp",
   "system": {
     "description": {
-      "value": "<p><em>A Greek version of the Pnakotic Fragments, said to have originated in the lost civilization of Lomar. Records mythic history detailing rise and fall of forgotten civilizations, with emphasis on northern lands\u2014Hyperborea and Lomar\u2014and prehuman legends.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+5/+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>45</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>52</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Contact Winged One (Contact Elder Thing)</li>\n</ul>",
+      "value": "<p><em>A Greek version of the Pnakotic Fragments, said to have originated in the lost civilization of Lomar. Records mythic history detailing rise and fall of forgotten civilizations, with emphasis on northern lands—Hyperborea and Lomar—and prehuman legends.</em></p>\n<hr/>\n<table>\n<tr><td><strong>Language</strong></td><td>Greek</td></tr>\n<tr><td><strong>Author</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Date</strong></td><td>Unknown</td></tr>\n<tr><td><strong>Sanity Loss</strong></td><td>2D8</td></tr>\n<tr><td><strong>Cthulhu Mythos</strong></td><td>+5/+10 percentiles</td></tr>\n<tr><td><strong>Mythos Rating</strong></td><td>45</td></tr>\n<tr><td><strong>Study (weeks)</strong></td><td>52</td></tr>\n</table>\n<h3>Spells Contained</h3><ul>\n<li>Contact Winged One (Contact Elder Thing)</li>\n</ul>",
       "keeper": "<p><strong>Mythos Rating:</strong> 45</p>"
     },
     "language": "Greek",

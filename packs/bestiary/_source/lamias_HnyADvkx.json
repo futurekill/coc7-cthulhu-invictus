@@ -1,5 +1,6 @@
 {
   "_id": "HnyADvkxtUuX8KMf",
+  "_key": "!actors!HnyADvkxtUuX8KMf",
   "name": "Lamias",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of scaly hide and immune to",
       "attacks": [
-        "Fighting 60% \u2014 See Full Entry"
+        "Fighting 60% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

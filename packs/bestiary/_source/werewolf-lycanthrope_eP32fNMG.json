@@ -1,5 +1,6 @@
 {
   "_id": "eP32fNMGyDLJ9YV5",
+  "_key": "!actors!eP32fNMGyDLJ9YV5",
   "name": "Werewolf / Lycanthrope",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,8 +65,8 @@
       "source": "invictus-bestiary",
       "armorValue": "3 (immune to non-silver)",
       "attacks": [
-        "Bite 55% \u2014 1D8+DB",
-        "Claws 50% \u2014 1D6+DB"
+        "Bite 55% — 1D8+DB",
+        "Claws 50% — 1D6+DB"
       ],
       "specialAbilities": [
         "Immune to non-silver/magical",

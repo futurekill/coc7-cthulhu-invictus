@@ -1,5 +1,6 @@
 {
   "_id": "WWPel8XOFDWKWLCR",
+  "_key": "!actors!WWPel8XOFDWKWLCR",
   "name": "Mi-Go",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None",
       "attacks": [
-        "Nippers 40% \u2014 1D6"
+        "Nippers 40% — 1D6"
       ],
       "specialAbilities": [
         "Flight",

@@ -1,11 +1,12 @@
 {
   "_id": "PP4XJU3nBC4oAv0D",
+  "_key": "!actors!PP4XJU3nBC4oAv0D",
   "name": "Dryads",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
   "system": {
     "description": {
-      "value": "<p>and have perfect memories; these can offer secrets to the investi\u0002gators in return for their lives. or be forced to embrace the dryad\u2019s simulacrum. Th</p>",
+      "value": "<p>and have perfect memories; these can offer secrets to the investi\u0002gators in return for their lives. or be forced to embrace the dryad’s simulacrum. Th</p>",
       "keeper": ""
     },
     "characteristics": {
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None.",
       "attacks": [
-        "Fighting 25% \u2014 See Full Entry"
+        "Fighting 25% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

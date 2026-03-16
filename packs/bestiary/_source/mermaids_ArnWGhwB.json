@@ -1,5 +1,6 @@
 {
   "_id": "ArnWGhwBhsRRLFHQ",
+  "_key": "!actors!ArnWGhwBhsRRLFHQ",
   "name": "Mermaids",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "2 points of leathery hide",
       "attacks": [
-        "Fighting 45% \u2014 See Full Entry"
+        "Fighting 45% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

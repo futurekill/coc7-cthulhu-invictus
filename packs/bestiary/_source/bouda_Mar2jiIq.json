@@ -1,5 +1,6 @@
 {
   "_id": "Mar2jiIqZlhQ3bia",
+  "_key": "!actors!Mar2jiIqZlhQ3bia",
   "name": "Bouda",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,8 +65,8 @@
       "source": "invictus-bestiary",
       "armorValue": "May wear any armor in human form (often chain",
       "attacks": [
-        "Bouda have the usual range of unarmed \nattacks open to humanoids and may use any weapon \nin human form, and bite when in hyena form\nFighting (as Human) 50% \u2014 See Full Entry",
-        "Fighting (as Hyena) 50% \u2014 See Full Entry"
+        "Bouda have the usual range of unarmed \nattacks open to humanoids and may use any weapon \nin human form, and bite when in hyena form\nFighting (as Human) 50% — See Full Entry",
+        "Fighting (as Hyena) 50% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

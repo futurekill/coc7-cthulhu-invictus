@@ -1,5 +1,6 @@
 {
   "_id": "tVvovXkeGOhHGm5X",
+  "_key": "!actors!tVvovXkeGOhHGm5X",
   "name": "Striges",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "None, but striges are immune to non\u0002magical attacks unless attacked with an",
       "attacks": [
-        "Bite or Talons\nFighting 45% \u2014 See Full Entry"
+        "Bite or Talons\nFighting 45% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []

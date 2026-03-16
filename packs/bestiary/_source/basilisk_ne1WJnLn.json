@@ -1,5 +1,6 @@
 {
   "_id": "ne1WJnLn03ovXjY5",
+  "_key": "!actors!ne1WJnLn03ovXjY5",
   "name": "Basilisk",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
@@ -64,8 +65,8 @@
       "source": "invictus-bestiary",
       "armorValue": "Non-magical weapons do only half damage because",
       "attacks": [
-        "Fighting, Sharp Talons 35% \u2014 See Full Entry",
-        "Gaze 50% \u2014 Special"
+        "Fighting, Sharp Talons 35% — See Full Entry",
+        "Gaze 50% — Special"
       ],
       "specialAbilities": [],
       "skills": []

@@ -1,11 +1,12 @@
 {
   "_id": "wYYpLublqdiVAHhV",
+  "_key": "!actors!wYYpLublqdiVAHhV",
   "name": "Centaurs",
   "type": "creature",
   "img": "modules/coc7-cthulhu-invictus/assets/tokens/bestiary/default.webp",
   "system": {
     "description": {
-      "value": "<p>wheeled vehicles. The centaurs who remain are descendants of escaped slaves from the Izdonar Empire. Most are unaware of their race\u2019s origins, and eac</p>",
+      "value": "<p>wheeled vehicles. The centaurs who remain are descendants of escaped slaves from the Izdonar Empire. Most are unaware of their race’s origins, and eac</p>",
       "keeper": ""
     },
     "characteristics": {
@@ -64,7 +65,7 @@
       "source": "invictus-bestiary",
       "armorValue": "1 point of hide, but may be enhanced with",
       "attacks": [
-        "Fighting 40% \u2014 See Full Entry"
+        "Fighting 40% — See Full Entry"
       ],
       "specialAbilities": [],
       "skills": []
