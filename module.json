@@ -2,7 +2,7 @@
   "id": "coc7-cthulhu-invictus",
   "title": "Cthulhu Invictus",
   "description": "Brings the Cthulhu Invictus setting to Foundry VTT, extending the Call of Cthulhu 7th Edition (CoC7) system with Roman Empire-era rules, occupations, skills, equipment, bestiary, spells, tomes, artifacts, and setting lore. Requires the CoC7 system by the Miskatonic Investigative Society.",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
