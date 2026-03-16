@@ -122,9 +122,9 @@
       ]
     }
   ],
-  "url": "https://github.com/your-org/coc7-cthulhu-invictus",
-  "manifest": "https://github.com/your-org/coc7-cthulhu-invictus/releases/latest/download/module.json",
-  "download": "https://github.com/your-org/coc7-cthulhu-invictus/releases/download/v0.1.0/coc7-cthulhu-invictus.zip",
+  "url": "https://github.com/futurekill/coc7-cthulhu-invictus",
+  "manifest": "https://github.com/futurekill/coc7-cthulhu-invictus/coc7-cthulhu-invictus/releases/latest/download/module.json",
+  "download": "https://github.com/futurekill/coc7-cthulhu-invictus/coc7-cthulhu-invictus/releases/download/v0.1.0/coc7-cthulhu-invictus.zip",
   "license": "LICENSE",
   "readme": "README.md"
 }
